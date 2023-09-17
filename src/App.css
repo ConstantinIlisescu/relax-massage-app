@@ -13,3 +13,10 @@ a {
   color: unset;
   text-decoration: none;
 }
+
+.gradient__dark-text {
+  background: var(--gradient-dark-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

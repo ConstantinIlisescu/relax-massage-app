@@ -1,5 +1,5 @@
 import React from "react";
-import NoPage from "./NoPage.css";
+import "./NoPage.css";
 
 function NoPage() {
   return <div>NoPage</div>;

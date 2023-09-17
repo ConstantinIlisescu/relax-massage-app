@@ -1,5 +1,5 @@
 import React from "react";
-import AboutMe from "./AboutMe.css";
+import "./AboutMe.css";
 
 function AboutMe() {
   return <div>AboutMe</div>;
