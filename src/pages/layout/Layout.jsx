@@ -4,11 +4,11 @@ import { Navbar, Footer } from "../../components";
 
 function Layout() {
   return (
-    <>
+    <div className="container">
       <Navbar />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }
 
