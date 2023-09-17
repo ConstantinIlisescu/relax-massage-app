@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --font-family: "Manrope", sans-serif;
+
+  --gradient-dark-text: radial-gradient(
+    circle at 15% 0%,
+    rgba(28, 90, 124, 1) 0%,
+    rgba(51, 152, 157, 1) 100%
+  );
+  --gradient-light-text: radial-gradient(
+    circle at 8% 9%,
+    rgba(245, 245, 245, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  --white: #fff;
+  --grey: #f5f5f5;
+  --tale: #33989d;
+  --blue: #1c5a7c;
+  --dark-grey: #40514e;
+}
