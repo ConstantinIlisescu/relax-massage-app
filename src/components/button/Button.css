@@ -1,0 +1,28 @@
+.btn--primary {
+  background-color: var(--tale);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn--primary:hover {
+  background-color: var(--blue);
+}
+/* .btn--outline {
+}
+.btn--small--round {
+}
+.btn--small--back {
+} */
+
+.btn-small-round-up {
+  position: fixed;
+  color: var(--white);
+  background-color: var(--tale);
+  padding: 0.3rem;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}

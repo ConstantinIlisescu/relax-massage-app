@@ -1,0 +1,124 @@
+.navbar {
+  position: fixed;
+  width: 100vw;
+  margin-top: -120px;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0.5rem;
+  background-color: var(--white);
+  border-radius: 40px;
+  margin-top: 0.8rem;
+  z-index: 1;
+}
+
+.navbar-links-logo {
+  width: 130px;
+  border-radius: 20px;
+}
+
+.navbar-links-container {
+  display: none;
+}
+
+.navbar-links-container .item {
+  margin: 0 1rem;
+}
+
+.navbar-links-container a {
+  color: var(--tale);
+}
+
+.navbar-links-container a:hover,
+.navbar-links-menu .item:hover {
+  color: var(--blue);
+}
+
+.navbar-links-menu .nav-button {
+  color: var(--tale);
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}
+
+.navbar-links-menu-container .item {
+  color: var(--tale);
+  cursor: pointer;
+  padding: 1rem 0;
+}
+
+.navbar-links-menu-container {
+  margin-top: 0.8rem;
+  position: absolute;
+  top: 0;
+  right: -100vw;
+  z-index: -1;
+  width: 100vw;
+  background: var(--white);
+  padding: 7rem 8vw;
+  max-height: 95vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-gutter: stable;
+}
+
+.navbar-links-menu-container .item {
+  width: 85vw;
+  border-top: 1px solid var(--tale);
+}
+
+.navbar-links-menu-container .last {
+  border-bottom: 1px solid var(--tale);
+  margin-bottom: 3rem;
+}
+
+.navbar-links-menu-container .item .item-services {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-center;
+}
+
+.item-services-menu div {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-services-menu .service-item:first-child {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.item-services-menu .service-item {
+  padding: 0.5rem 0;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-links-menu {
+    display: none;
+  }
+
+  .item-services-menu div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    min-width: 300px;
+    min-height: auto;
+    max-height: 80vh;
+    background-color: var(--white);
+    overflow: scroll;
+  }
+  .item-services-menu .service-item {
+    padding-left: 15px;
+  }
+}
