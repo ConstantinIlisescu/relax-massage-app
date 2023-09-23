@@ -26,10 +26,11 @@
 
 .navbar-links-container .item {
   margin: 0 1rem;
+  color: var(--tale);
 }
 
-.navbar-links-container a {
-  color: var(--tale);
+.navbar-links-container .btn {
+  color: var(--white);
 }
 
 .navbar-links-container a:hover,

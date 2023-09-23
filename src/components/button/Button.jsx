@@ -29,7 +29,9 @@ function Button({
       type={type}
       style={{ display: isVisible ? "block" : "none" }}
     >
-      <Link to={`${linkTo}`}>{children}</Link>
+      <Link to={`${linkTo}`} className="btn">
+        {children}
+      </Link>
     </button>
   );
 }
