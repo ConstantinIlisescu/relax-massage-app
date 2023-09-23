@@ -60,7 +60,7 @@ function Navbar() {
   const Menu = () => (
     <>
       <li className="item">
-        <Link to="" className="item-services" onClick={handleServiceMenu}>
+        <Link className="item-services" onClick={handleServiceMenu}>
           <span>Services List</span>
           <span>{toggleServiceMenu ? <BiCaretUp /> : <BiCaretDown />}</span>
         </Link>

@@ -20,6 +20,7 @@ ul {
 
 a {
   color: unset;
+  display: block;
   text-decoration: none;
 }
 

@@ -29,6 +29,10 @@
   color: var(--tale);
 }
 
+.item-link {
+  width: 100%;
+}
+
 .navbar-links-container .btn {
   color: var(--white);
 }
