@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  font-family: var(--font-family);
+  font-family: var(--Lato);
 }
 
 body {
@@ -12,6 +12,7 @@ body {
 
 html {
   position: relative;
+  font-size: 18px;
 }
 
 ul {
@@ -34,22 +35,32 @@ button {
   outline: inherit;
 }
 
-.container {
-  margin: 0 1vw;
-}
-
-.gradient__dark-text {
+.gradient-dark-text {
   background: var(--gradient-dark-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.gradient__dark-light {
+.gradient-light-text {
   background: var(--gradient-light-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.container {
+  margin: 0 3vw;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.6rem;
+}
+
+.page-padding {
+  padding: 130px 0;
 }
 
 @media screen and (min-width: 576px) {
@@ -59,6 +70,12 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .section-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
   .container {
     margin: 0 3vw;
   }
@@ -72,15 +89,12 @@ button {
 
 @media screen and (min-width: 1200px) {
   .container {
-    margin: 0 5vw;
+    max-width: 1150px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
 }
 
 /* ----------------------------------------------

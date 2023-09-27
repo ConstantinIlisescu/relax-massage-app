@@ -9,12 +9,17 @@
 .btn--primary:hover {
   background-color: var(--blue);
 }
-/* .btn--outline {
+.btn--outline {
+  border: 1px solid var(--grey);
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  color: var(--grey);
 }
 .btn--small--round {
 }
 .btn--small--back {
-} */
+}
 
 .btn-small-round-up {
   position: fixed;
@@ -25,4 +30,5 @@
   bottom: 20px;
   right: 20px;
   cursor: pointer;
+  border: 1px solid var(--grey);
 }
