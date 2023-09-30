@@ -8,7 +8,7 @@ function HomeAboutMe() {
     <div id="home-about-me" className="home-about-me page-padding">
       <div className="section-container container">
         <div className="home-about-me-img">
-          <img src={AboutMeImg} alt="..." className="shadow" />
+          <img src={AboutMeImg} alt="Women doing massage" className="shadow" />
         </div>
         <div>
           <h2 className="gradient-light-text ">About Me</h2>
