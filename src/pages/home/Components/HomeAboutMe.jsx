@@ -2,7 +2,6 @@ import React from "react";
 import AboutMeImg from "../../../images/about-me-massage.jpg";
 import "./HomeAboutMe.css";
 import Button from "../../../components/button/Button";
-import { BiRightArrowCircle } from "react-icons/bi";
 
 function HomeAboutMe() {
   return (
