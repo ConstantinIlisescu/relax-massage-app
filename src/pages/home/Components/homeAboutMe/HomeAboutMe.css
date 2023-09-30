@@ -1,7 +1,5 @@
 #home-about-me {
-  background: var(--gradient-bg-about-me);
-  -webkit-clip-path: polygon(100% 0, 100% 0, 100% 90%, 0 100%, 0 10%);
-  clip-path: polygon(100% 0, 100% 0, 100% 90%, 0 100%, 0 10%);
+  background: var(--gradient-bg-dark);
   position: relative;
   z-index: -1;
 }
@@ -13,7 +11,7 @@
 
 .home-about-me-img img {
   border-radius: 50% 100% 50% 100%;
-  -webkit-box-shadow: 100px 49px 46px -24px var(--white);
+  -webkit-box-shadow: 100px -89px 100px -24px var(--white);
   box-shadow: 100px -89px 100px -24px var(--white);
   width: 100%;
 }

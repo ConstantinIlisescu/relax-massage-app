@@ -5,7 +5,10 @@ import Button from "../../../../components/button/Button";
 
 function HomeAboutMe() {
   return (
-    <section id="home-about-me" className="home-about-me page-padding">
+    <section
+      id="home-about-me"
+      className="home-about-me page-padding clip-path-polygon"
+    >
       <div className="section-container container">
         <div className="home-about-me-img">
           <img src={AboutMeImg} alt="Women doing massage" className="shadow" />
