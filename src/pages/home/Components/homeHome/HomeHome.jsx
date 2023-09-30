@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomeHome.css";
-import mainImg from "../../../images/main-img.jpg";
-import secondImg from "../../../images/second-img.jpg";
+import mainImg from "../../../../images/main-img.jpg";
+import secondImg from "../../../../images/second-img.jpg";
 import { AiOutlinePhone } from "react-icons/ai";
 import { BiMap } from "react-icons/bi";
 

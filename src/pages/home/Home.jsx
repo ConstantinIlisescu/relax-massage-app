@@ -1,7 +1,7 @@
 import React from "react";
-import HomeHome from "./Components/HomeHome";
-import HomeAboutMe from "./Components/HomeAboutMe";
-import HomeServices from "./Components/HomeServices";
+import HomeHome from "./Components/homeHome/HomeHome";
+import HomeAboutMe from "./Components/homeAboutMe/HomeAboutMe";
+import HomeServices from "./Components/homeServices/HomeServices";
 
 function Home() {
   return (

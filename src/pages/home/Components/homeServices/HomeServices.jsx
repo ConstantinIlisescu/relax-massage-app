@@ -1,10 +1,10 @@
 import React from "react";
 import "./HomeServices.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import Button from "../../../components/button/Button";
-import Img1 from "../../../images/home-services-1.jpg";
-import Img2 from "../../../images/home-services-2.jpg";
-import Img3 from "../../../images/home-services-3.jpg";
+import Button from "../../../../components/button/Button";
+import Img1 from "../../../../images/home-services-1.jpg";
+import Img2 from "../../../../images/home-services-2.jpg";
+import Img3 from "../../../../images/home-services-3.jpg";
 
 function HomeServices() {
   return (
