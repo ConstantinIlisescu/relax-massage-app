@@ -102,8 +102,9 @@
 
 @media screen and (min-width: 992px) {
   .navbar-links-container {
+    flex-grow: 1;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
   }
 
@@ -125,5 +126,9 @@
   }
   .item-services-menu .service-item {
     padding-left: 15px;
+  }
+
+  .btn--primary {
+    max-width: 230px;
   }
 }

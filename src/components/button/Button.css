@@ -1,7 +1,7 @@
 .btn--primary {
   background-color: var(--tale);
   color: var(--white);
-  padding: 0.8rem 1rem;
+  padding: 0.5rem 0.8rem;
   border-radius: 50px;
   cursor: pointer;
 }
