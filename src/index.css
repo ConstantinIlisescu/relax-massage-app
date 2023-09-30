@@ -66,6 +66,7 @@
   --paragraph-font: var(--Lato);
   --price-font: var(--RecoletaRegular);
 
+  --overlay-dark: rgba(40, 42, 42, 0.5);
   --gradient-dark-text: linear-gradient(90deg, var(--blue) 0%, var(--tale) 47%);
   --gradient-light-text: linear-gradient(
     90deg,
@@ -73,7 +74,7 @@
     rgba(255, 255, 255, 1) 67%
   );
 
-  --gradient-bg-about-me: radial-gradient(
+  --gradient-bg-dark: radial-gradient(
     circle at 25% 0%,
     var(--blue) 0%,
     var(--tale) 50%
