@@ -38,6 +38,11 @@
   src: url("./fonts/WondarQuason.ttf");
 }
 
+@font-face {
+  font-family: RecoletaRegular;
+  src: url("./fonts/RecoletaRegular.otf");
+}
+
 :root {
   --CroissantOne: "Croissant One", cursive;
   --Lato: "Lato", sans-serif;
@@ -53,11 +58,13 @@
   --PeachDaisy: PeachDaisy;
   --TrajanPro-Regular: TrajanPro-Regular;
   --Viagram: Viagram;
+  --RecoletaRegular: RecoletaRegular;
 
-  --main-title-font: var(--Morehla-Regular);
-  --secondary-title-font: var(--RobotoSlab);
-  --paragraph-title-font: var(--RobotoSlab);
+  --main-title-font: var(--RecoletaRegular);
+  --secondary-title-font: var(--RecoletaRegular);
+  --paragraph-title-font: var(--RecoletaRegular);
   --paragraph-font: var(--Lato);
+  --price-font: var(--RecoletaRegular);
 
   --gradient-dark-text: linear-gradient(90deg, var(--blue) 0%, var(--tale) 47%);
   --gradient-light-text: linear-gradient(
