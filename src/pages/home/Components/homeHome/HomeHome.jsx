@@ -7,7 +7,7 @@ import { BiMap } from "react-icons/bi";
 
 function HomeHome() {
   return (
-    <div id="home" className="page-padding">
+    <section id="home" className="page-padding">
       <div className="section-container container">
         <div className="home-description-main-title">
           <div className="home-description">
@@ -51,7 +51,7 @@ function HomeHome() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

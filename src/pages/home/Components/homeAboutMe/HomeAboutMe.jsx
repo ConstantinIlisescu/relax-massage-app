@@ -5,7 +5,7 @@ import Button from "../../../../components/button/Button";
 
 function HomeAboutMe() {
   return (
-    <div id="home-about-me" className="home-about-me page-padding">
+    <section id="home-about-me" className="home-about-me page-padding">
       <div className="section-container container">
         <div className="home-about-me-img">
           <img src={AboutMeImg} alt="Women doing massage" className="shadow" />
@@ -24,7 +24,7 @@ function HomeAboutMe() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
