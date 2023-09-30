@@ -2,6 +2,8 @@
   background: var(--gradient-bg-about-me);
   -webkit-clip-path: polygon(100% 0, 100% 0, 100% 90%, 0 100%, 0 10%);
   clip-path: polygon(100% 0, 100% 0, 100% 90%, 0 100%, 0 10%);
+  position: relative;
+  z-index: -1;
 }
 
 .home-about-me-img {
@@ -46,5 +48,10 @@
   .home-about-me {
     display: flex;
     justify-content: center;
+  }
+
+  .home-about-me-img img {
+    -webkit-box-shadow: 100px -89px 100px -24px var(--white);
+    box-shadow: -100px 50px 100px -24px var(--white);
   }
 }
