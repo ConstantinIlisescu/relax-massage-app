@@ -2,7 +2,7 @@ import React from "react";
 import "./HomeHome.css";
 import mainImg from "../../../../images/main-img.jpg";
 import secondImg from "../../../../images/second-img.jpg";
-import { AiOutlinePhone } from "react-icons/ai";
+import { AiOutlinePhone, AiOutlineWhatsApp } from "react-icons/ai";
 import { BiMap } from "react-icons/bi";
 
 function HomeHome() {
@@ -34,6 +34,10 @@ function HomeHome() {
             <div className="home-contacts-phone">
               <AiOutlinePhone />
               <a href="tel:00441543524924">+44 1543 524 924</a>
+            </div>
+            <div className="home-contacts-phone">
+              <AiOutlineWhatsApp />
+              <a href="https://wa.me/00441543524924">WhatsApp</a>
             </div>
             <div className="home-contacts-address">
               <BiMap />
