@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/relax-massage-app/static/css/main.ab3ecc32.css",
+    "main.js": "/relax-massage-app/static/js/main.9df64d81.js",
+    "static/media/RecoletaRegular.otf": "/relax-massage-app/static/media/RecoletaRegular.fd9bfd35d1085b5c6511.otf",
+    "static/media/TrajanPro-Regular.ttf": "/relax-massage-app/static/media/TrajanPro-Regular.5e3d3ff4f80f0875f849.ttf",
+    "static/media/female-model-having-massage-spa.jpg": "/relax-massage-app/static/media/female-model-having-massage-spa.11ae9402ae728e052906.jpg",
+    "static/media/second-img.jpg": "/relax-massage-app/static/media/second-img.b5c2039b205b6fa0d43e.jpg",
+    "static/media/main-img.jpg": "/relax-massage-app/static/media/main-img.aa22d964bad1bf58ef81.jpg",
+    "static/media/massage-on-woman-arm.jpg": "/relax-massage-app/static/media/massage-on-woman-arm.ab5936dc19297e0b693b.jpg",
+    "static/media/PeachDaisy.ttf": "/relax-massage-app/static/media/PeachDaisy.5a27d3723cb563beaa60.ttf",
+    "static/media/Mabel.otf": "/relax-massage-app/static/media/Mabel.5cbb6e71227ddae70424.otf",
+    "static/media/woman-relaxing-spa.jpg": "/relax-massage-app/static/media/woman-relaxing-spa.320f7c0d253c2e9fe1df.jpg",
+    "static/media/Viagram.otf": "/relax-massage-app/static/media/Viagram.523df32316f0d4383d94.otf",
+    "static/media/TrajanPro-Bold.otf": "/relax-massage-app/static/media/TrajanPro-Bold.3f14e0ffe7b54e407289.otf",
+    "static/media/Morehla-Regular.otf": "/relax-massage-app/static/media/Morehla-Regular.9b817772e786bd10b269.otf",
+    "static/media/WondarQuason.ttf": "/relax-massage-app/static/media/WondarQuason.d22b6333b3c6e6266fd4.ttf",
+    "static/media/about-me-massage.jpg": "/relax-massage-app/static/media/about-me-massage.b3796fb2683f4e1dd08f.jpg",
+    "static/media/Quilezy.otf": "/relax-massage-app/static/media/Quilezy.8444fce24ef1d59c681e.otf",
+    "static/media/home-services-1.jpg": "/relax-massage-app/static/media/home-services-1.5f0cc85b8bf855234f02.jpg",
+    "static/media/logo.jpg": "/relax-massage-app/static/media/logo.a94672e7eeec9214cc80.jpg",
+    "static/media/OPTIMA.woff": "/relax-massage-app/static/media/OPTIMA.20932a305858c4e79b57.woff",
+    "static/media/home-services-2.jpg": "/relax-massage-app/static/media/home-services-2.ad10efc4bf3c6c67fdae.jpg",
+    "static/media/home-services-3.jpg": "/relax-massage-app/static/media/home-services-3.7cc86b1f1b7070a7e454.jpg",
+    "index.html": "/relax-massage-app/index.html",
+    "main.ab3ecc32.css.map": "/relax-massage-app/static/css/main.ab3ecc32.css.map",
+    "main.9df64d81.js.map": "/relax-massage-app/static/js/main.9df64d81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab3ecc32.css",
+    "static/js/main.9df64d81.js"
+  ]
+}
