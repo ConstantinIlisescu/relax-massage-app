@@ -1,6 +1,5 @@
 .home-services-section {
-  padding: 5rem 1.5rem;
-  margin-bottom: 5rem;
+  padding: 0 1.5rem;
   margin-top: 5rem;
 }
 
@@ -143,7 +142,7 @@
 
 .home-services-img-section .home-services-img.three img {
   width: 60%;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .home-services-img-section .home-services-img img {

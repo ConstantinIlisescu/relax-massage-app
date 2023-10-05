@@ -1,7 +1,5 @@
 #home-about-me {
   background: var(--gradient-bg-dark);
-  position: relative;
-  z-index: -1;
 }
 
 .home-about-me-img {

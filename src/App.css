@@ -35,6 +35,11 @@ button {
   outline: inherit;
 }
 
+.z-index-1 {
+  position: relative;
+  z-index: -1;
+}
+
 .gradient-dark-text {
   background: var(--gradient-dark-text);
   background-clip: text;

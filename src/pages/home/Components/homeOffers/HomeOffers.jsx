@@ -9,56 +9,32 @@ import Img3 from "../../../../images/woman-relaxing-spa.jpg";
 
 function HomeOffers() {
   return (
-    <section className="home-offers-section clip-path-polygon">
+    <section className="home-offers-section clip-path-polygon z-index-1">
       <div className="container home-offers-carousel-container ">
-        <Carousel infiniteLoop={true}>
-          <div className="carousel-item-container">
-            <div className="carousel-item-img">
-              <img src={Img1} alt="" />
-              <span></span>
-            </div>
-            <div className="carousel-item-text-group">
-              <div className="carousel-item-text-group-title">
-                <span className="title-line"></span>
-                <h2>Special Offer</h2>
-              </div>
-              <p className="carousel-item-text-group-p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                culpa.
-              </p>
-              <div className="button">
-                <Button buttonStyle="btn--xl--round" isVisible={true}>
-                  Book now
-                </Button>
-              </div>
-            </div>
-            <h3 className="-carousel-item-offer-title">
-              Offer title Lorem ipsum dolor sit amet
-            </h3>
+        <div className="carousel-item-container">
+          <div className="carousel-item-img">
+            <img src={Img1} alt="" />
+            <span></span>
           </div>
-          <div className="carousel-item-container">
-            <div className="carousel-item-img">
-              <img src={Img2} alt="" />
-              <span></span>
+          <div className="carousel-item-text-group">
+            <div className="carousel-item-text-group-title">
+              <span className="title-line"></span>
+              <h2>Special Offer</h2>
             </div>
-            <div className="carousel-item-text-group">
-              <div className="carousel-item-text-group-title">
-                <span className="title-line"></span>
-                <h2>Special Offer</h2>
-              </div>
-              <p className="carousel-item-text-group-p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-                culpa.
-              </p>
+            <p className="carousel-item-text-group-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+              culpa.
+            </p>
+            <div className="button">
               <Button buttonStyle="btn--xl--round" isVisible={true}>
                 Book now
               </Button>
             </div>
-            <h3 className="-carousel-item-offer-title">
-              Offer title Lorem ipsum dolor sit amet
-            </h3>
           </div>
-        </Carousel>
+          <h3 className="-carousel-item-offer-title">
+            Offer title Lorem ipsum dolor sit amet
+          </h3>
+        </div>
       </div>
     </section>
   );

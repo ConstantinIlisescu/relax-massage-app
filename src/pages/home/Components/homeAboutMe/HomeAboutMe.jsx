@@ -7,7 +7,7 @@ function HomeAboutMe() {
   return (
     <section
       id="home-about-me"
-      className="home-about-me page-padding clip-path-polygon"
+      className="home-about-me page-padding clip-path-polygon z-index-1"
     >
       <div className="section-container container">
         <div className="home-about-me-img">
