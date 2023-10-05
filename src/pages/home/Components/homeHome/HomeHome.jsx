@@ -19,9 +19,10 @@ function HomeHome() {
           </div>
           <div className="home-main-title">
             <h1>
-              <span className="gradient-dark-text">Show</span>
-              <span className="gradient-dark-text">yourself</span>
-              <span className="gradient-dark-text">love today</span>
+              <span className="gradient-dark-text">GIVE</span>
+              <span className="gradient-dark-text">YOURSELF</span>
+              <span className="gradient-dark-text">A LITTLE</span>
+              <span className="gradient-dark-text">PAMPERING</span>
             </h1>
           </div>
         </div>
