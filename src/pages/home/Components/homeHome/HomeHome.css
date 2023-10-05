@@ -95,6 +95,7 @@ h1 span {
   width: 100%;
   max-width: 300px;
   border-radius: 250px;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
