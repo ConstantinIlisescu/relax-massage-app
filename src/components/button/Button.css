@@ -1,5 +1,5 @@
 .btn--primary {
-  background-color: var(--tale);
+  background-color: var(--lime);
   color: var(--white);
   padding: 0.5rem 0.8rem;
   border-radius: 50px;
@@ -7,7 +7,7 @@
 }
 
 .btn--primary:hover {
-  background-color: var(--blue);
+  background-color: var(--dark-lime);
 }
 
 .btn--small--round:hover {
