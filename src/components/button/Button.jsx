@@ -6,6 +6,7 @@ const STYLES = [
   "btn--primary",
   "btn--outline",
   "btn--small--round",
+  "btn--xl--round",
   "btn--small--back",
   "btn-small-round-up",
 ];
