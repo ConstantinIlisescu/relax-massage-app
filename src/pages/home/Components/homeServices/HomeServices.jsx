@@ -10,10 +10,10 @@ function HomeServices() {
   return (
     <div className="container home-services-section">
       <div className="home-services-text-section">
-        <h1 className="gradient-dark-text">Techniques</h1>
+        <h2 className="gradient-dark-text">Techniques</h2>
         <div className="home-services-subtitle">
           <span className="title-line"></span>
-          <h2>My Services</h2>
+          <h3>My Services</h3>
         </div>
         <ul className="home-services-list">
           <li className="home-services-list-item">
@@ -21,7 +21,7 @@ function HomeServices() {
               £<span>129</span>
             </h4>
             <div className="text">
-              <h3 className="">Service name</h3>
+              <h4 className="">Service name</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Necessitatibus, ipsum molestiae.
@@ -39,7 +39,7 @@ function HomeServices() {
               £<span>129</span>
             </h4>
             <div className="text">
-              <h3 className="">Service name</h3>
+              <h4 className="">Service name</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Necessitatibus, ipsum molestiae.
@@ -57,7 +57,7 @@ function HomeServices() {
               £<span>129</span>
             </h4>
             <div className="text">
-              <h3 className="">Service name</h3>
+              <h4 className="">Service name</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Necessitatibus, ipsum molestiae.
@@ -75,7 +75,7 @@ function HomeServices() {
               £<span>129</span>
             </h4>
             <div className="text">
-              <h3 className="">Service name</h3>
+              <h4 className="">Service name</h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Necessitatibus, ipsum molestiae.

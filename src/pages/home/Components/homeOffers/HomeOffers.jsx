@@ -1,7 +1,6 @@
 import React from "react";
 import "./HomeOffers.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
 import Button from "../../../../components/button/Button";
 import Img1 from "../../../../images/offer-img.png";
 

@@ -4,7 +4,7 @@
   margin-bottom: 3rem;
 }
 
-.home-services-text-section h1 {
+.home-services-text-section h2 {
   font-family: var(--main-title-font);
   font-size: 2.2rem;
   line-height: 3.2rem;
@@ -17,7 +17,7 @@
   margin: 3.5rem 0;
 }
 
-.home-services-subtitle h2 {
+.home-services-subtitle h3 {
   font-family: var(--secondary-title-font);
   text-transform: uppercase;
   font-size: 1rem;
@@ -73,7 +73,7 @@
   align-self: center;
 }
 
-.home-services-list-item h3 {
+.home-services-list-item h4 {
   font-size: 1.2rem;
   font-family: var(--paragraph-title-font);
   color: var(--blue);
@@ -95,6 +95,7 @@
   font-size: 1.8rem;
   color: var(--blue);
   letter-spacing: 5px;
+  font-family: var(--paragraph-font);
 }
 
 .home-services-list-item .price span {
@@ -155,13 +156,13 @@
 }
 
 @media screen and (min-width: 370px) {
-  .home-services-text-section h1 {
+  .home-services-text-section h2 {
     font-size: 2.8rem;
   }
 }
 
 @media screen and (min-width: 390px) {
-  .home-services-text-section h1 {
+  .home-services-text-section h2 {
     font-size: 3rem;
   }
 }
@@ -180,12 +181,12 @@
     margin: 3rem 0;
   }
 
-  .home-services-subtitle h2 {
+  .home-services-subtitle h3 {
     font-size: 1rem;
     letter-spacing: 5px;
   }
 
-  .home-services-list-item h3 {
+  .home-services-list-item h4 {
     font-size: 1.5rem;
     letter-spacing: 2px;
   }
