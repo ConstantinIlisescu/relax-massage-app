@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const STYLES = [
   "btn--primary",
   "btn--outline",
+  "btn--outline-dark",
   "btn--small--round",
   "btn--xl--round",
   "btn--small--back",
@@ -18,6 +19,7 @@ function Button({
   buttonStyle,
   linkTo = "#",
   isVisible,
+  toTarget = "_self",
 }) {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -29,8 +31,9 @@ function Button({
       onClick={onClick}
       type={type}
       style={{ display: isVisible ? "block" : "none" }}
+      target={toTarget}
     >
-      <Link to={`${linkTo}`} className="btn">
+      <Link to={`${linkTo}`} className="btn" target={toTarget}>
         {children}
       </Link>
     </button>
