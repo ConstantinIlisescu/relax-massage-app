@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/relax-massage-app/static/css/main.861f83d9.css",
-    "main.js": "/relax-massage-app/static/js/main.6d198c72.js",
+    "main.css": "/relax-massage-app/static/css/main.d7eacaf3.css",
+    "main.js": "/relax-massage-app/static/js/main.7a8fc339.js",
     "static/media/offer-img.png": "/relax-massage-app/static/media/offer-img.741475c472cbcf76212f.png",
     "static/media/RecoletaRegular.otf": "/relax-massage-app/static/media/RecoletaRegular.fd9bfd35d1085b5c6511.otf",
     "static/media/TrajanPro-Regular.ttf": "/relax-massage-app/static/media/TrajanPro-Regular.5e3d3ff4f80f0875f849.ttf",
@@ -21,11 +21,11 @@
     "static/media/home-services-2.jpg": "/relax-massage-app/static/media/home-services-2.ad10efc4bf3c6c67fdae.jpg",
     "static/media/home-services-3.jpg": "/relax-massage-app/static/media/home-services-3.7cc86b1f1b7070a7e454.jpg",
     "index.html": "/relax-massage-app/index.html",
-    "main.861f83d9.css.map": "/relax-massage-app/static/css/main.861f83d9.css.map",
-    "main.6d198c72.js.map": "/relax-massage-app/static/js/main.6d198c72.js.map"
+    "main.d7eacaf3.css.map": "/relax-massage-app/static/css/main.d7eacaf3.css.map",
+    "main.7a8fc339.js.map": "/relax-massage-app/static/js/main.7a8fc339.js.map"
   },
   "entrypoints": [
-    "static/css/main.861f83d9.css",
-    "static/js/main.6d198c72.js"
+    "static/css/main.d7eacaf3.css",
+    "static/js/main.7a8fc339.js"
   ]
 }
