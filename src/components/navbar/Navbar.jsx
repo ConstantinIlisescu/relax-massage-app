@@ -141,7 +141,13 @@ function Navbar() {
           About Me
         </Link>
       </li>
-      <Button buttonStyle="" onClick={handleClickCloseMenu} isVisible={TRUE}>
+      <Button
+        buttonStyle=""
+        linkTo="https://relaxmassagestudiocannock.setmore.com/"
+        toTarget="_blank"
+        onClick={handleClickCloseMenu}
+        isVisible={TRUE}
+      >
         Make an Appointment
       </Button>
     </>

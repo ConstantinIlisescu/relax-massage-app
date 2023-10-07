@@ -16,12 +16,6 @@
   transition: all ease-in-out 0.3s;
 }
 
-.btn--xl--round:hover,
-.btn--outline,
-.btn--outline-dark {
-  cursor: pointer;
-}
-
 .btn--outline {
   border: 1px solid var(--grey);
   border-radius: 50px;

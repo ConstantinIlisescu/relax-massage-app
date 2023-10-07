@@ -38,7 +38,12 @@ function HomeOffers() {
           <div className="home-offers-section-group-footer">
             <div className="btn-container">
               <div className="button">
-                <Button buttonStyle="btn--xl--round" isVisible={true}>
+                <Button
+                  buttonStyle="btn--xl--round"
+                  isVisible={true}
+                  linkTo="https://relaxmassagestudiocannock.setmore.com/"
+                  toTarget="_blank"
+                >
                   BOOK NOW <span>DON'T MISS OUT!</span>
                 </Button>
               </div>
