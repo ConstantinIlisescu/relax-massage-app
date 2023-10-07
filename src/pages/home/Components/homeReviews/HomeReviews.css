@@ -1,0 +1,76 @@
+.home-reviews-section-container {
+  margin: 4rem auto;
+  padding: 0 1rem;
+  max-width: 500px;
+}
+
+.home-reviews-section-container-subtitle {
+  display: flex;
+  align-items: center;
+  margin: 3.5rem 0;
+}
+
+.home-reviews-section-container h2 {
+  font-family: var(--main-title-font);
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  letter-spacing: 5px;
+}
+
+.home-reviews-section-container-subtitle h3 {
+  font-family: var(--secondary-title-font);
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--blue);
+  letter-spacing: 6px;
+}
+
+.home-reviews-section-container-subtitle .title-line {
+  width: 60px;
+  height: 0.5px;
+  background-color: var(--blue);
+  margin: 0 40px 0 0;
+}
+
+.home-reviews-section-container-carousel-item p {
+  font-family: var(--paragraph-font);
+  font-size: 1rem;
+  color: var(--blue);
+  letter-spacing: 3px;
+  text-align: left;
+  padding: 1rem 0;
+}
+
+.home-reviews-section-container-carousel-item h3 {
+  font-family: var(--secondary-title-font);
+  font-size: 1.2rem;
+  color: var(--blue);
+  letter-spacing: 6px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.carousel-status,
+.control-arrow {
+  display: none;
+}
+
+.carousel .control-dots .dot {
+  transition: opacity 0.25s ease-in;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  box-shadow: 5px 5px 4px rgba(51, 152, 157, 0.4);
+  background: var(--tale);
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.carousel .control-dots .dot.selected,
+.carousel .control-dots .dot:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
