@@ -59,6 +59,11 @@ button {
   clip-path: polygon(100% 0, 100% 0, 100% 90%, 0 100%, 0 10%);
 }
 
+.clip-path-polygon-offer-first {
+  -webkit-clip-path: polygon(100% 0, 100% 0, 100% 90%, 0 100%, 0 10%);
+  clip-path: polygon(100% 0, 100% 0, 100% 90%, 0 100%, 0 10%);
+}
+
 .container {
   margin: 0 3vw;
 }

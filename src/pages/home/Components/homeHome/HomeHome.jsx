@@ -33,7 +33,7 @@ function HomeHome() {
           <div className="home-contacts">
             <div className="home-contacts-phone">
               <AiOutlinePhone />
-              <a href="tel:01543524924">+44 1543 524 924</a>
+              <a href="tel:01543524924">01543 524 924</a>
             </div>
             <div className="home-contacts-phone">
               <AiOutlineWhatsApp />

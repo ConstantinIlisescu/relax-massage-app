@@ -1,5 +1,5 @@
 import React from "react";
-import AboutMeImg from "../../../../images/about-me-massage.jpg";
+import AboutMeImg from "../../../../images/about-me.jpg";
 import "./HomeAboutMe.css";
 import Button from "../../../../components/button/Button";
 

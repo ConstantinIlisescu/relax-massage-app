@@ -1,92 +1,112 @@
-.home-offers-section {
-  background: var(--gradient-bg-dark);
-}
-
-.home-offers-carousel-container {
-  padding: 5rem 0;
-  margin: 0 0 5rem 0;
-}
-
-.carousel-item-container {
+/* animation start */
+.circle-animation {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  min-height: 600px;
-  color: var(--grey);
-  overflow: hidden;
+  width: 100vw;
+  height: 800px;
+  background: radial-gradient(
+    circle,
+    var(--blue),
+    var(--tale) 55%,
+    var(--grey)
+  );
 }
 
-.carousel-item-img {
-  border-radius: 50%;
+.circle-animation:after {
+  content: "";
   position: absolute;
-  min-width: 700px;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%) rotate(15deg);
-  width: 100%;
-  overflow: hidden;
-  z-index: -1;
-  -webkit-box-shadow: -10px 29px 50px -24px var(--grey);
-  box-shadow: -10px 29px 50px -24px var(--grey);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle,
+    transparent,
+    var(--grey) 55%,
+    transparent
+  );
+  animation: color 2s infinite ease-out alternate;
+  opacity: 0;
 }
 
-.carousel-item-img span {
-  width: 100%;
-  height: 100%;
-  background-color: var(--overlay-dark);
+@keyframes color {
+  0% {
+    background: radial-gradient(
+      circle,
+      transparent,
+      var(--grey) 55%,
+      transparent
+    );
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* animation end */
+
+/* .home-offers-section-container {
+  background-image: url(../../../../images/offer-img.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+} */
+
+.home-offers-section-group {
   position: absolute;
   top: 0;
   left: 0;
-}
-.home-offers-carousel-container .carousel-status {
-  display: none;
-}
-
-.carousel-item-text-group {
-  margin: 2rem;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0 4rem 0;
 }
 
-.carousel-item-text-group-title {
+.home-offers-section-group-title {
   display: flex;
   align-items: center;
   margin: 0 0 1.5rem 0;
 }
 
-.carousel-item-text-group-title h2 {
+.home-offers-section-group-title-container {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  max-width: 450px;
+  margin: auto;
+}
+
+.home-offers-section-group-title-container-first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-clip-path: polygon(0% 15%, 100% 15%, 80% 80%, 15% 95%);
+  clip-path: polygon(0% 15%, 100% 25%, 85% 90%, 15% 80%);
+  background: var(--gradient-bg-light);
+}
+
+.home-offers-section-group-title-container-second {
+  -webkit-clip-path: polygon(15% 25%, 85% 10%, 100% 80%, 0 90%);
+  clip-path: polygon(15% 25%, 85% 10%, 100% 80%, 0 90%);
+  background: var(--gradient-bg-dark);
+  display: flex;
+  justify-content: center;
+}
+
+.home-offers-section-group-title-container-second h2 {
   font-family: var(--secondary-title-font);
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: 6px;
+  color: var(--grey);
+  padding: 1.5rem 0;
+  transform: rotate(-3deg);
 }
 
-.carousel-item-text-group-title .title-line {
-  width: 60px;
-  height: 2px;
-  background-color: var(--grey);
-  margin: 0 30px 0 0;
-}
-
-.carousel-item-text-group p {
-  font-size: 1rem;
-  font-family: var(--paragraph-font);
-  letter-spacing: 1.5px;
-  font-weight: 400;
-  text-align: left;
-  margin-bottom: 40px;
-}
-
-.carousel-item-container h3 {
-  font-family: var(--secondary-title-font);
-  text-transform: uppercase;
-  font-size: 2.5rem;
-  line-height: 2.8rem;
-  letter-spacing: 6px;
-  margin-top: auto;
-  padding: 30px;
-}
-
-.carousel-item-text-group .button {
+.home-offers-section-group .button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,25 +116,92 @@
   transition: all ease-in-out 0.3s;
 }
 
-.carousel-item-text-group .button {
-  background: var(--gradient-bg-dark);
+.home-offers-section-group .button {
+  background: var(--lime);
 }
 
-.carousel-item-text-group .button .btn--xl--round {
+.home-offers-section-group .button .btn--xl--round {
   border: 1px solid var(--grey);
   width: 90%;
   height: 90%;
   border-radius: 100%;
   font-size: 1.2rem;
+  color: white;
+}
+
+.home-offers-section-group .button .btn--xl--round span {
+  font-size: 0.6rem;
+  display: block;
+  margin-top: 10px;
+  letter-spacing: 1.5px;
+}
+
+.home-offers-section-group-offer-group {
+  /* background-image: url(../../../../images/offer-img.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%; */
+  width: 100%;
+  height: 65%;
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0;
+  border-radius: 100%;
+  color: var(--grey);
+}
+
+.home-offers-section-group-offer-group h3 {
+  font-family: var(--secondary-title-font);
+  font-size: 2.2rem;
+}
+
+.home-offers-section-group-offer-group-price {
+  font-family: var(--secondary-title-font);
+  font-size: 1.7rem;
+  padding-top: 90px;
+}
+
+.home-offers-section-group-offer-group-price-savings .save {
+  padding-left: 15px;
+  font-size: 1.2rem;
+}
+
+.home-offers-section-group-footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-width: 550px;
+  margin: auto;
+}
+
+.home-offers-section-group-footer .text {
+  margin: 0 10px;
+  padding: 10px;
+  font-family: var(--secondary-title-font);
+  color: var(--white);
+  background: rgba(51, 152, 157, 0.3);
+  font-size: 0.8rem;
+  border-radius: 20px;
+}
+
+.home-offers-section-group-footer .text p:nth-child(2) {
+  padding: 4px;
+  font-size: 0.6rem;
 }
 
 @media screen and (min-width: 576px) {
-  .carousel-item-container {
-    min-height: 550px;
+  .home-offers-section-group-footer .text {
+    margin: 0 20px;
+    padding: 20px;
+    font-size: 0.8rem;
+    border-radius: 40px;
   }
 
-  .home-offers-carousel-container {
-    margin: 0 auto 5rem auto;
+  .home-offers-section-group-footer .text p:nth-child(2) {
+    padding: 4px;
+    font-size: 0.8rem;
   }
 }
 
