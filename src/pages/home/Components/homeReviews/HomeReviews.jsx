@@ -5,7 +5,7 @@ import "./HomeReviews.css";
 
 function HomeReviews() {
   return (
-    <section className="home-reviews-section">
+    <section className="home-reviews-section z-index-1">
       <div className="home-reviews-section-container">
         <h2 className="gradient-dark-text">My clients</h2>
         <div className="home-reviews-section-container-subtitle">
@@ -17,6 +17,7 @@ function HomeReviews() {
           infiniteLoop={true}
           interval={5000}
           labels={false}
+          className="z-index-1"
         >
           <div className="home-reviews-section-container-carousel-item">
             <p>
@@ -37,7 +38,7 @@ function HomeReviews() {
           <div className="home-reviews-section-container-carousel-item">
             <p>
               Fantastic first massage with Aneta.I felt very comfortable and
-              ​relaxed.Will definitely recommend and can't wait to return.
+              relaxed.Will definitely recommend and can't wait to return.
             </p>
             <h3>Zoey Talbot</h3>
           </div>
