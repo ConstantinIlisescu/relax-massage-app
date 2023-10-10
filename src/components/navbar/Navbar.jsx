@@ -155,7 +155,13 @@ function Navbar() {
 
   return (
     <>
-      <nav className={visible ? "navbar slide-bottom" : "navbar slide-top"}>
+      <nav
+        className={
+          visible
+            ? "navbar slide-bottom z-index-2"
+            : "navbar slide-top z-index-2"
+        }
+      >
         <div className="navbar-links container">
           <Link className="" to="/" onClick={handleClickCloseMenu}>
             <img
