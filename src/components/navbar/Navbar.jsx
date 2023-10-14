@@ -32,13 +32,13 @@ function Navbar() {
     setToggleMenu(false);
   }
 
-  let oldScrolly = window.scrollY;
-
   function toggleVisible() {
     const scrolled = document.documentElement.scrollTop;
-    const newScrolly = window.scrollY + 50;
+    const newScrolly = window.scrollY;
+    const pageHeight = document.getElementById("root").scrollHeight;
+    let oldScrolly = window.scrollY;
 
-    if (scrolled > 100) {
+    if (scrolled > 100 && scrolled < pageHeight - 1800) {
       if (newScrolly > oldScrolly) {
         setVisible(false);
         setToggleServiceMenu(false);
