@@ -11,7 +11,7 @@ function Navbar() {
   const [isActive, setIsActive] = useState(false);
   const [toggleServiceMenu, setToggleServiceMenu] = useState(false);
   const [visible, setVisible] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
+  const [lastScrollY, setLastScrollY] = useState(100);
   const TRUE = true;
 
   function handleClickCloseMenu() {
@@ -79,62 +79,51 @@ function Navbar() {
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
+                to="/services"
               >
                 WARM RATTAN MASSAGE
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
+                to="/services"
               >
                 EXFOLIATION
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
+                to="/services"
               >
                 REIKI HEALING
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
+                to="/services"
               >
                 FOOT REFLEXOLOGY
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
+                to="/services"
               >
                 HOT STONE MASSAGE
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
+                to="/services"
               >
                 GLIDING CUPPING TREATMENTS
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
+                to="/services"
               >
                 FIRE CUPPING
-              </Link>
-              <Link
-                className="service-item"
-                onClick={handleClickCloseServiceMenu}
-              >
-                MODERN PARTY
-              </Link>
-              <Link
-                className="service-item"
-                onClick={handleClickCloseServiceMenu}
-              >
-                GETTING MARRIED SOON?
-              </Link>
-              <Link
-                className="service-item"
-                onClick={handleClickCloseServiceMenu}
-              >
-                RELAX MOBILE MASSAGE
               </Link>
             </div>
           </ul>
