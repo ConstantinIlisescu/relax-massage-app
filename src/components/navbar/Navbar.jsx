@@ -59,6 +59,11 @@ function Navbar() {
 
   const Menu = () => (
     <>
+      <li className="item" onClick={handleClickCloseMenu}>
+        <Link to="/" className="">
+          Home
+        </Link>
+      </li>
       <li className="item">
         <Link className="item-services" onClick={handleServiceMenu}>
           <span>Services List</span>
