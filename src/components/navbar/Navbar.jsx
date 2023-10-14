@@ -11,7 +11,7 @@ function Navbar() {
   const [isActive, setIsActive] = useState(false);
   const [toggleServiceMenu, setToggleServiceMenu] = useState(false);
   const [visible, setVisible] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(100);
+  const [lastScrollY, setLastScrollY] = useState(0);
   const TRUE = true;
 
   function handleClickCloseMenu() {
@@ -36,7 +36,7 @@ function Navbar() {
   useEffect(() => {
     const controlNavbar = () => {
       if (typeof window !== "undefined") {
-        if (window.scrollY > lastScrollY) {
+        if (window.scrollY > lastScrollY && window.scrollY > 100) {
           // if scroll down hide the navbar
           setVisible(false);
           setToggleServiceMenu(false);
