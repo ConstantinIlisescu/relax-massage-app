@@ -64,7 +64,7 @@ function Navbar() {
   const Menu = () => (
     <>
       <li className="item" onClick={handleClickCloseMenu}>
-        <Link to="/" className="">
+        <Link to="/relax-massage-app" className="">
           Home
         </Link>
       </li>
@@ -79,49 +79,49 @@ function Navbar() {
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="/services"
+                to="relax-massage-app/services"
               >
                 WARM RATTAN MASSAGE
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="/services"
+                to="relax-massage-app/services"
               >
                 EXFOLIATION
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="/services"
+                to="relax-massage-app/services"
               >
                 REIKI HEALING
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="/services"
+                to="relax-massage-app/services"
               >
                 FOOT REFLEXOLOGY
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="/services"
+                to="relax-massage-app/services"
               >
                 HOT STONE MASSAGE
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="/services"
+                to="relax-massage-app/services"
               >
                 GLIDING CUPPING TREATMENTS
               </Link>
               <Link
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="/services"
+                to="relax-massage-app/services"
               >
                 FIRE CUPPING
               </Link>
@@ -130,12 +130,12 @@ function Navbar() {
         )}
       </li>
       <li className="item" onClick={handleClickCloseMenu}>
-        <Link to="/about-services" className="">
+        <Link to="relax-massage-app/about-services" className="">
           About my Services
         </Link>
       </li>
       <li className="item last" onClick={handleClickCloseMenu}>
-        <Link to="/about" className="">
+        <Link to="relax-massage-app/about" className="">
           About Me
         </Link>
       </li>
@@ -161,7 +161,11 @@ function Navbar() {
         }
       >
         <div className="navbar-links container">
-          <Link className="" to="/" onClick={handleClickCloseMenu}>
+          <Link
+            className=""
+            to="/relax-massage-app"
+            onClick={handleClickCloseMenu}
+          >
             <img
               className="navbar-links-logo"
               src={logo}

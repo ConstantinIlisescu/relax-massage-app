@@ -4,6 +4,7 @@
   padding: 0.5rem 0.8rem;
   border-radius: 50px;
   cursor: pointer;
+  max-width: 400px;
 }
 
 .btn--primary:hover {
@@ -17,6 +18,7 @@
 }
 
 .btn--outline {
+  display: inline-block;
   border: 1px solid var(--grey);
   border-radius: 50px;
   cursor: pointer;

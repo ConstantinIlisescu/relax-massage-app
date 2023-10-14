@@ -17,10 +17,13 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="relax-massage-app" element={<Home />} />
-          <Route path="services" element={<Services />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="about-services" element={<AboutServices />} />
-          <Route path="about" element={<AboutMe />} />
+          <Route path="relax-massage-app/services" element={<Services />} />
+          <Route path="relax-massage-app/contact" element={<Contact />} />
+          <Route
+            path="relax-massage-app/about-services"
+            element={<AboutServices />}
+          />
+          <Route path="relax-massage-app/about" element={<AboutMe />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

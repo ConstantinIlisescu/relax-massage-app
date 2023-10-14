@@ -2,6 +2,7 @@ import React from "react";
 import AboutMeImg from "../../../../images/about-me.jpg";
 import "./HomeAboutMe.css";
 import Button from "../../../../components/button/Button";
+import { Link } from "react-router-dom";
 
 function HomeAboutMe() {
   return (
@@ -21,9 +22,9 @@ function HomeAboutMe() {
               unwind and de-stress. I use a variety of techniques to promote
               relaxation and well-being.
             </p>
-            <Button buttonStyle="btn--outline" onClick="" isVisible={true}>
+            <Link to="relax-massage-app/about" className="btn--outline">
               Read more
-            </Button>
+            </Link>
           </div>
         </div>
       </div>
