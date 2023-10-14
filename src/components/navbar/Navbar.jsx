@@ -36,7 +36,7 @@ function Navbar() {
 
   function toggleVisible() {
     const scrolled = document.documentElement.scrollTop;
-    const newScrolly = window.scrollY;
+    const newScrolly = window.scrollY + 50;
 
     if (scrolled > 100) {
       if (newScrolly > oldScrolly) {
