@@ -45,4 +45,5 @@
   right: 20px;
   cursor: pointer;
   border: 1px solid var(--grey);
+  z-index: 10;
 }

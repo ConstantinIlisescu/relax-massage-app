@@ -43,6 +43,10 @@ button {
   position: relative;
   z-index: 2;
 }
+.z-index-3 {
+  position: relative;
+  z-index: 3;
+}
 
 .gradient-dark-text {
   background: var(--gradient-dark-text);
