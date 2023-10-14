@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Button from "../button/Button";
 import logo from "../../images/logo.jpg";
@@ -11,6 +11,7 @@ function Navbar() {
   const [isActive, setIsActive] = useState(false);
   const [toggleServiceMenu, setToggleServiceMenu] = useState(false);
   const [visible, setVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
   const TRUE = true;
 
   function handleClickCloseMenu() {
@@ -32,30 +33,33 @@ function Navbar() {
     setToggleMenu(false);
   }
 
-  let oldScrolly = window.scrollY;
+  useEffect(() => {
+    const controlNavbar = () => {
+      if (typeof window !== "undefined") {
+        if (window.scrollY > lastScrollY) {
+          // if scroll down hide the navbar
+          setVisible(false);
+          setToggleServiceMenu(false);
+          setToggleMenu(false);
+        } else {
+          // if scroll up show the navbar
+          setVisible(true);
+        }
 
-  function toggleVisible() {
-    const scrolled = document.documentElement.scrollTop;
-    const newScrolly = window.scrollY;
-
-    if (scrolled > 100) {
-      if (newScrolly > oldScrolly) {
-        setVisible(false);
-        setToggleServiceMenu(false);
-        setToggleMenu(false);
-        oldScrolly = newScrolly;
-      } else if (newScrolly < oldScrolly) {
-        setVisible(true);
-        setToggleServiceMenu(false);
-        setToggleMenu(false);
-        oldScrolly = newScrolly;
-      } else {
-        setVisible(true);
+        // remember current page location to use in the next move
+        setLastScrollY(window.scrollY);
       }
-    }
-  }
+    };
 
-  window.addEventListener("scroll", toggleVisible);
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", controlNavbar);
+
+      // cleanup function
+      return () => {
+        window.removeEventListener("scroll", controlNavbar);
+      };
+    }
+  }, [lastScrollY]);
 
   const Menu = () => (
     <>
