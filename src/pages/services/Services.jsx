@@ -25,14 +25,45 @@ function Services() {
         <div className="services-service-item-container">
           <ServiceItem
             mainTitle="EXFOLIATION"
-            mainParagraph="Treat yourself to a body exfoliation session to reveal softer, more vibrant skin and indulge in a pampering self-care experience."
+            duration="1h 30m"
+            price="35"
             img={Img}
           />
           <ServiceItem
             mainTitle="REIKI HEALING"
-            mainParagraph="Experience the transformative power of Reiki and unlock your inner healing potential."
+            duration="1h"
+            price="45"
             img={Img}
-            className="reverse"
+          />
+          <ServiceItem
+            mainTitle="REIKI HEALING"
+            duration="1h"
+            price="45"
+            img={Img}
+          />
+          <ServiceItem
+            mainTitle="GLIDING CUPPING TREATMENTS"
+            duration="1h"
+            price="45"
+            img={Img}
+          />
+          <ServiceItem
+            mainTitle="REIKI HEALING"
+            duration="1h"
+            price="45"
+            img={Img}
+          />
+          <ServiceItem
+            mainTitle="WORM RATTAN MASSAGE"
+            duration="1h"
+            price="45"
+            img={Img}
+          />
+          <ServiceItem
+            mainTitle="GLIDING CUPPING TREATMENTS"
+            duration="1h"
+            price="45"
+            img={Img}
           />
         </div>
       </div>

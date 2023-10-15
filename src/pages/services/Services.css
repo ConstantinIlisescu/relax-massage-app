@@ -1,7 +1,15 @@
 .services-service-item-container {
-  margin: 120px auto;
+  margin: 150px auto 0 auto;
+  display: flex;
+  flex-direction: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
 }
 
+/* moving background */
 .services-moving-background {
   background: var(--blue);
   min-height: 100vh;
