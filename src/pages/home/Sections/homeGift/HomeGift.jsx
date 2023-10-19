@@ -18,7 +18,7 @@ function HomeGift() {
           {" "}
           <Button
             buttonStyle=""
-            linkTo="https://relaxmassagestudiocannock.setmore.com/"
+            linkTo="https://squareup.com/gift/MLJE3J2WEEYZ8/order"
             toTarget="_blank"
             isVisible={true}
           >

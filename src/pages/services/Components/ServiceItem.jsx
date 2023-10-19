@@ -4,7 +4,15 @@ import Button from "../../../components/button/Button";
 import { IoOpenOutline } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 
-function ServiceItem({ mainTitle, duration, price, img }) {
+function ServiceItem({
+  mainTitle,
+  duration,
+  price,
+  img,
+  secImg,
+  altImg,
+  mainParagraph,
+}) {
   const [toggleOverlay, setToggleOverlay] = useState(false);
 
   function handleOpenOverlay() {
@@ -19,7 +27,7 @@ function ServiceItem({ mainTitle, duration, price, img }) {
     <>
       <div className="services-service-item container">
         <div className="services-service-item-img">
-          <img src={img} alt="..." />
+          <img src={img} alt={altImg} />
         </div>
         <div className="services-service-item-text">
           <h2>{mainTitle}</h2>
@@ -51,13 +59,11 @@ function ServiceItem({ mainTitle, duration, price, img }) {
             <div className="services-service-item-overlay-content-item-close">
               <IoMdClose onClick={handleCloseOverlay} />
             </div>
-            <h3>test title overlay</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
-              excepturi consequatur cupiditate cum nobis aperiam explicabo
-              accusamus pariatur sequi ea quia, quidem ipsum quam tenetur fuga
-              maxime nam quis voluptatem!
-            </p>
+            <div className="services-service-item-overlay-content-item-img">
+              <img src={secImg} alt={altImg} />
+            </div>
+            <h2>{mainTitle}</h2>
+            <p>{mainParagraph}</p>
           </div>
           <div className="services-service-item-overlay-content-item">
             <h3>test title overlay</h3>
@@ -94,6 +100,16 @@ function ServiceItem({ mainTitle, duration, price, img }) {
               accusamus pariatur sequi ea quia, quidem ipsum quam tenetur fuga
               maxime nam quis voluptatem!
             </p>
+          </div>
+          <div className="services-service-item-overlay-content-button">
+            <Button
+              buttonStyle=""
+              linkTo="https://relaxmassagestudiocannock.setmore.com/"
+              toTarget="_blank"
+              isVisible={true}
+            >
+              Book Now
+            </Button>
           </div>
         </div>
       </div>
