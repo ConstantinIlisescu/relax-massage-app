@@ -33,33 +33,33 @@ function Navbar() {
     setToggleMenu(false);
   }
 
-  useEffect(() => {
-    const controlNavbar = () => {
-      if (typeof window !== "undefined") {
-        if (window.scrollY > lastScrollY && window.scrollY > 100) {
-          // if scroll down hide the navbar
-          setVisible(false);
-          setToggleServiceMenu(false);
-          setToggleMenu(false);
-        } else {
-          // if scroll up show the navbar
-          setVisible(true);
-        }
+  // useEffect(() => {
+  //   const controlNavbar = () => {
+  //     if (typeof window !== "undefined") {
+  //       if (window.scrollY > lastScrollY && window.scrollY > 100) {
+  //         // if scroll down hide the navbar
+  //         setVisible(false);
+  //         setToggleServiceMenu(false);
+  //         setToggleMenu(false);
+  //       } else {
+  //         // if scroll up show the navbar
+  //         setVisible(true);
+  //       }
 
-        // remember current page location to use in the next move
-        setLastScrollY(window.scrollY);
-      }
-    };
+  //       // remember current page location to use in the next move
+  //       setLastScrollY(window.scrollY);
+  //     }
+  //   };
 
-    if (typeof window !== "undefined") {
-      window.addEventListener("scroll", controlNavbar);
+  //   if (typeof window !== "undefined") {
+  //     window.addEventListener("scroll", controlNavbar);
 
-      // cleanup function
-      return () => {
-        window.removeEventListener("scroll", controlNavbar);
-      };
-    }
-  }, [lastScrollY]);
+  //     // cleanup function
+  //     return () => {
+  //       window.removeEventListener("scroll", controlNavbar);
+  //     };
+  //   }
+  // }, [lastScrollY]);
 
   const Menu = () => (
     <>
