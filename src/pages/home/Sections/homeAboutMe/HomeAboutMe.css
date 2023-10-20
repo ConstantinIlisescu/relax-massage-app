@@ -8,7 +8,7 @@
 }
 
 .home-about-me-img img {
-  border-radius: 50% 100% 50% 100%;
+  /* border-radius: 50% 100% 50% 100%; */
   -webkit-box-shadow: 100px -89px 100px -24px var(--white);
   box-shadow: 100px -89px 100px -24px var(--white);
   width: 100%;

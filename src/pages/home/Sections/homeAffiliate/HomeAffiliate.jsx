@@ -11,7 +11,7 @@ function HomeAffiliate() {
   return (
     <section className="home-affiliate-section">
       <div className="home-affiliate-container">
-        <h2 className="gradient-dark-text">Relax Massage Studio Partners</h2>
+        <h2 className="gradient-dark-text">Business That I Recommend</h2>
         <Carousel
           autoPlay={true}
           infiniteLoop={true}

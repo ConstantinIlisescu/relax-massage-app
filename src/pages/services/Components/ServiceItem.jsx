@@ -25,7 +25,10 @@ function ServiceItem({
 
   return (
     <>
-      <div className="services-service-item container">
+      <div
+        className="services-service-item container"
+        onClick={handleOpenOverlay}
+      >
         <div className="services-service-item-img">
           <img src={img} alt={altImg} />
         </div>

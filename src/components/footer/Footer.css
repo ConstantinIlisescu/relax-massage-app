@@ -1,4 +1,11 @@
 .footer {
-  height: 50px;
+  text-align: center;
   background: var(--gradient-bg-dark);
+}
+
+.footer p {
+  padding: 10px 0;
+  color: var(--grey);
+  font-family: var(--paragraph-title-font);
+  font-size: 0.6rem;
 }
