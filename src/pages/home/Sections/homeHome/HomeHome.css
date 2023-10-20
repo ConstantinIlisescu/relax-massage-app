@@ -2,11 +2,12 @@ h1 span {
   font-family: var(--main-title-font);
   display: block;
   font-size: 2.4rem;
+  font-weight: bolder;
   line-height: 3rem;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
 }
 
-.home-main-title h1 {
+.home-main-title {
   margin-top: 3rem;
 }
 
@@ -40,52 +41,41 @@ h1 span {
 }
 
 .home-main-image {
-  display: flex;
-  justify-content: center;
+  max-width: 450px;
+  margin: auto;
+  padding-top: 50px;
 }
 
 .home-main-image img {
   width: 100%;
-  max-width: 350px;
-  border-radius: 250px;
-  margin-top: 3rem;
   -webkit-box-shadow: 0px 49px 46px -24px var(--tale);
   box-shadow: 0px 89px 100px -24px var(--tale);
 }
 
-.home-contacts-second-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .home-contacts {
-  margin-top: 7rem;
+  max-width: 400px;
+  margin: 50px auto 20px auto;
 }
 
-.home-contacts,
-.home-second-img {
-  max-width: 300px;
+.home-contacts-button {
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
 }
 
-.home-second-img {
-  display: none;
-}
-
-.home-contacts .home-contacts-phone,
-.home-contacts .home-contacts-address {
+.home-contacts-phone,
+.home-contacts-address {
   display: flex;
   color: var(--blue);
   font-size: 1.2rem;
   margin: 25px;
 }
-.home-contacts .home-contacts-phone a {
+.home-contacts-phone a {
   padding: 10px 0;
 }
 
-.home-contacts .home-contacts-phone svg,
-.home-contacts .home-contacts-address svg {
+.home-contacts-phone svg,
+.home-contacts-address svg {
   background-color: var(--blue);
   color: var(--white);
   border-radius: 50%;
@@ -93,12 +83,6 @@ h1 span {
   min-width: 3rem;
   min-height: 3rem;
   padding: 0.6rem;
-}
-
-.home-second-img img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 250px;
 }
 
 @media screen and (min-width: 370px) {
@@ -116,53 +100,38 @@ h1 span {
 }
 
 @media screen and (min-width: 576px) {
+  .home-main-title {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .home-main-image {
+    padding: 0 0 0 20px;
+  }
+
   .section-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    max-width: 750px;
+    margin: auto;
   }
 
   .home-description-main-title {
     width: 100%;
   }
-
-  .home-main-image {
-    width: 50%;
-  }
-
-  .home-contacts-second-img {
-    width: 50%;
-  }
-
-  .home-main-image img {
-    object-fit: cover;
-  }
-
-  .home-second-img {
-    display: block;
-    width: 30%;
-  }
 }
 
 @media screen and (min-width: 700px) {
-  #home {
-    padding: 0;
-    margin: 0;
+  h1 span {
+    font-size: 3rem;
   }
 
   .home-main-image {
-    padding: 0 25px 0 1px;
-    height: fit-content;
-  }
-
-  h1 span {
-    font-size: 2rem;
-    line-height: 3rem;
-    letter-spacing: 3px;
-  }
-
-  .home-main-image img {
-    margin: 0;
+    max-width: 350px;
   }
 
   .home-description-title h3 {
@@ -176,146 +145,30 @@ h1 span {
     margin: 0 0 0 30px;
   }
 
-  .home-description-main-title {
-    width: 35%;
-  }
-
-  .home-main-image {
-    width: 33%;
-  }
-
-  .home-contacts-second-img {
-    width: 30%;
-  }
-
-  .home-contacts,
-  .home-second-img {
-    max-width: 100%;
-  }
-  .home-contacts-second-img {
-    display: flex;
-    margin: 150px 0;
-  }
-  .home-main-image,
-  .home-contacts,
-  .home-description-main-title {
-    margin: auto;
-  }
-
-  .home-second-img {
-    margin: auto;
-    padding: 40px;
-    display: block;
-    width: 80%;
-  }
-
-  .home-second-img img {
-    max-width: 180px;
-    -webkit-box-shadow: 0px 49px 46px -24px var(--tale);
-    box-shadow: -39px 0px 46px -24px var(--tale);
-  }
-
-  .home-contacts-second-img {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .home-contacts .home-contacts-phone,
-  .home-contacts .home-contacts-address {
+  .home-contacts-phone,
+  .home-contacts-address {
     font-size: 1rem;
     margin: 25px 0;
   }
 
-  .home-contacts .home-contacts-phone svg,
-  .home-contacts .home-contacts-address svg {
+  .home-contacts-phone svg,
+  .home-contacts-address svg {
     min-width: 2rem;
     min-height: 2rem;
     padding: 0.4rem;
   }
 }
 
-@media screen and (min-width: 992px) {
-  .home-description-title h3 {
-    font-size: 0.8rem;
+@media screen and (min-width: 770px) {
+  .home-contacts {
+    margin: 50px auto 20px 0;
   }
 
-  .home-description-main-title {
-    width: 35%;
-  }
-
-  .home-main-image {
-    width: 30%;
-  }
-
-  .home-contacts-second-img {
-    width: 35%;
+  .home-contacts-button {
+    margin: auto 0 auto auto;
   }
 
   .home-main-image {
-    padding: 0 25px 0 5px;
-    height: fit-content;
-  }
-
-  h1 span {
-    font-size: 2.8rem;
-    line-height: 4rem;
-    letter-spacing: 3px;
-  }
-
-  .home-description-main-title {
-    max-width: 37%;
-  }
-
-  .home-contacts-second-img {
-    max-width: 30%;
-  }
-
-  .home-contacts,
-  .home-second-img {
-    max-width: 100%;
-  }
-  .home-contacts-second-img {
-    display: flex;
-    margin: 150px 0;
-  }
-  .home-main-image,
-  .home-contacts,
-  .home-description-main-title {
-    margin: auto;
-  }
-
-  .home-second-img {
-    width: 250px;
-    margin: auto;
-  }
-  .home-second-img img {
-    max-width: 180px;
-    -webkit-box-shadow: 0px 49px 46px -24px var(--tale);
-    box-shadow: -39px 0px 46px -24px var(--tale);
-  }
-
-  .home-contacts-second-img {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .home-contacts .home-contacts-phone,
-  .home-contacts .home-contacts-address {
-    font-size: 1rem;
-    margin: 25px 0;
-  }
-
-  .home-second-img {
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  h1 span {
-    font-size: 3.4rem;
-    line-height: 4rem;
-    letter-spacing: 4px;
+    margin: auto 0 auto auto;
   }
 }

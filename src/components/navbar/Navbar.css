@@ -39,6 +39,10 @@
   color: var(--white);
 }
 
+.navbar-links-container .btn--primary {
+  display: none;
+}
+
 .navbar-links-container .item a:hover,
 .navbar-links-menu .item:hover {
   color: var(--blue);
@@ -128,9 +132,5 @@
   }
   .item-services-menu .service-item {
     padding-left: 15px;
-  }
-
-  .btn--primary {
-    max-width: 230px;
   }
 }

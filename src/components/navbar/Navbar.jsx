@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "../button/Button";
 import logo from "../../images/logo.jpg";
@@ -10,8 +10,6 @@ function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [isActive, setIsActive] = useState(false);
   const [toggleServiceMenu, setToggleServiceMenu] = useState(false);
-  const [visible, setVisible] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
   const TRUE = true;
 
   function handleClickCloseMenu() {
@@ -32,34 +30,6 @@ function Navbar() {
     setToggleServiceMenu(false);
     setToggleMenu(false);
   }
-
-  // useEffect(() => {
-  //   const controlNavbar = () => {
-  //     if (typeof window !== "undefined") {
-  //       if (window.scrollY > lastScrollY && window.scrollY > 100) {
-  //         // if scroll down hide the navbar
-  //         setVisible(false);
-  //         setToggleServiceMenu(false);
-  //         setToggleMenu(false);
-  //       } else {
-  //         // if scroll up show the navbar
-  //         setVisible(true);
-  //       }
-
-  //       // remember current page location to use in the next move
-  //       setLastScrollY(window.scrollY);
-  //     }
-  //   };
-
-  //   if (typeof window !== "undefined") {
-  //     window.addEventListener("scroll", controlNavbar);
-
-  //     // cleanup function
-  //     return () => {
-  //       window.removeEventListener("scroll", controlNavbar);
-  //     };
-  //   }
-  // }, [lastScrollY]);
 
   const Menu = () => (
     <>
@@ -139,7 +109,7 @@ function Navbar() {
           About Me
         </Link>
       </li>
-      <Button
+      {/* <Button
         buttonStyle=""
         linkTo="https://relaxmassagestudiocannock.setmore.com/"
         toTarget="_blank"
@@ -147,19 +117,13 @@ function Navbar() {
         isVisible={TRUE}
       >
         Make an Appointment
-      </Button>
+      </Button> */}
     </>
   );
 
   return (
     <>
-      <nav
-        className={
-          visible
-            ? "navbar slide-bottom z-index-2"
-            : "navbar slide-top z-index-2"
-        }
-      >
+      <nav className="navbar slide-bottom z-index-2">
         <div className="navbar-links container">
           <Link
             className=""
