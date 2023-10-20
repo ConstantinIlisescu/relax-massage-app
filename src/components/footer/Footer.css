@@ -1,6 +1,8 @@
 .footer {
   text-align: center;
   background: var(--gradient-bg-dark);
+  z-index: 3;
+  position: relative;
 }
 
 .footer p {

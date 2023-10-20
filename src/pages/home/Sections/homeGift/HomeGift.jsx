@@ -2,7 +2,6 @@ import React from "react";
 import "./HomeGift.css";
 import Img from "../../../../images/gift.png";
 import Button from "../../../../components/button/Button";
-import "./homeGift.js";
 
 function HomeGift() {
   return (

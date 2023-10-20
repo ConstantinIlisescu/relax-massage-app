@@ -104,9 +104,14 @@ function Navbar() {
           About my Services
         </Link>
       </li>
-      <li className="item last" onClick={handleClickCloseMenu}>
+      <li className="item" onClick={handleClickCloseMenu}>
         <Link to="relax-massage-app/about" className="">
           About Me
+        </Link>
+      </li>
+      <li className="item last" onClick={handleClickCloseMenu}>
+        <Link to="relax-massage-app/about#contact-me" className="">
+          Contact Me
         </Link>
       </li>
       {/* <Button
