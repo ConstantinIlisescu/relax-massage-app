@@ -286,4 +286,64 @@
   .services-service-item-container {
     max-width: 990px;
   }
+
+  .shape-blob.one {
+    height: 450px;
+    width: 5cm;
+  }
+
+  .shape-blob.two {
+    height: 450px;
+    width: 450px;
+  }
+
+  .shape-blob.three {
+    height: 450px;
+    width: 450px;
+  }
+
+  .shape-blob.four {
+    height: 400px;
+    width: 480px;
+  }
+
+  .shape-blob.five {
+    height: 400px;
+    width: 480px;
+  }
+
+  .shape-blob.six {
+    height: 370px;
+    width: 400px;
+  }
+
+  .shape-blob.seven {
+    height: 450px;
+    width: 500px;
+  }
+
+  .shape-blob.eight {
+    height: 550px;
+    width: 450px;
+  }
+
+  .shape-blob.nine {
+    height: 450px;
+    width: 550px;
+  }
+
+  .shape-blob.ten {
+    height: 400px;
+    width: 380px;
+  }
+
+  .shape-blob.eleven {
+    height: 400px;
+    width: 380px;
+  }
+
+  .shape-blob.twelve {
+    height: 370px;
+    width: 400px;
+  }
 }
