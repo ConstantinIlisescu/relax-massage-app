@@ -9,7 +9,7 @@ import { IoOpenOutline } from "react-icons/io5";
 
 function HomeAffiliate() {
   return (
-    <section className="home-affiliate-section">
+    <section id="home-affiliate" className="home-affiliate-section">
       <div className="home-affiliate-container">
         <h2 className="gradient-dark-text">Business That I Recommend</h2>
         <Carousel

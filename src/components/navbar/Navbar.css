@@ -133,4 +133,8 @@
   .item-services-menu .service-item {
     padding-left: 15px;
   }
+
+  .main-page-button {
+    display: none;
+  }
 }

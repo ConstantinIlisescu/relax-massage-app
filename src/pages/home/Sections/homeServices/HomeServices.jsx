@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import "./HomeServices.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Button from "../../../../components/button/Button";
@@ -8,7 +9,7 @@ import Img3 from "../../../../images/home-services-3.jpg";
 
 function HomeServices() {
   return (
-    <div className="container home-services-section">
+    <section id="home-services" className="container home-services-section">
       <div className="home-services-text-section">
         <h2 className="gradient-dark-text">Techniques</h2>
         <div className="home-services-subtitle">
@@ -29,7 +30,9 @@ function HomeServices() {
             </div>
             <div className="button">
               <Button buttonStyle="btn--small--round" isVisible={true}>
-                <AiOutlineArrowRight />
+                <HashLink to="relax-massage-app/services/#">
+                  <AiOutlineArrowRight />
+                </HashLink>
               </Button>
             </div>
             <span className="dotted-line"></span>
@@ -47,7 +50,9 @@ function HomeServices() {
             </div>
             <div className="button">
               <Button buttonStyle="btn--small--round" isVisible={true}>
-                <AiOutlineArrowRight />
+                <HashLink to="relax-massage-app/services/#">
+                  <AiOutlineArrowRight />
+                </HashLink>
               </Button>
             </div>
             <span className="dotted-line"></span>
@@ -65,7 +70,9 @@ function HomeServices() {
             </div>
             <div className="button">
               <Button buttonStyle="btn--small--round" isVisible={true}>
-                <AiOutlineArrowRight />
+                <HashLink to="relax-massage-app/services/#">
+                  <AiOutlineArrowRight />
+                </HashLink>
               </Button>
             </div>
             <span className="dotted-line"></span>
@@ -83,7 +90,9 @@ function HomeServices() {
             </div>
             <div className="button">
               <Button buttonStyle="btn--small--round" isVisible={true}>
-                <AiOutlineArrowRight />
+                <HashLink to="relax-massage-app/services/#">
+                  <AiOutlineArrowRight />
+                </HashLink>
               </Button>
             </div>
             <span className="dotted-line"></span>
@@ -91,7 +100,9 @@ function HomeServices() {
         </ul>
         <div className="home-services-button">
           <Button buttonStyle="btn--primary" isVisible={true}>
-            See All Services
+            <HashLink to="relax-massage-app/services/#">
+              See All Services
+            </HashLink>
           </Button>
         </div>
       </div>
@@ -106,7 +117,7 @@ function HomeServices() {
           <img src={Img3} alt="cliding-cupping massage" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

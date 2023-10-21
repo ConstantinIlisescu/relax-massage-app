@@ -3,20 +3,19 @@ import "./HomeOffers.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Button from "../../../../components/button/Button";
 import Img1 from "../../../../images/offer-img.png";
+import Img2 from "../../../../images/special-offers.png";
 
 function HomeOffers() {
   return (
     <>
-      <section className="home-offers-section clip-path-polygon z-index-1">
+      <section
+        id="home-offers"
+        className="home-offers-section clip-path-polygon z-index-1"
+      >
         <div className="circle-animation home-offers-section-container"></div>
         <div className="home-offers-section-group container">
           <div className="home-offers-section-group-title">
-            <div className="home-offers-section-group-title-container">
-              <div className="home-offers-section-group-title-container-first"></div>
-              <div className="home-offers-section-group-title-container-second">
-                <h2>Special Offer</h2>
-              </div>
-            </div>
+            <img src={Img2} alt="..." />
           </div>
           <div className="home-offers-section-group-offer-group">
             <h3>REIKI HEALING SESSION</h3>

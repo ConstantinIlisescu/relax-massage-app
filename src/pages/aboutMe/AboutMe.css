@@ -54,6 +54,7 @@
 .about-me-page-container-contact-me-section h3 {
   font-family: var(--secondary-title-font);
   font-size: 2.8rem;
+  text-align: center;
 }
 
 .about-me-page-container iframe {
@@ -61,7 +62,7 @@
   height: 400px;
   border: none;
   border-radius: 10px;
-  z-index: 3;
+  z-index: 1;
   position: relative;
 }
 
@@ -114,6 +115,20 @@
     justify-content: space-between;
     align-items: center;
     max-width: 800px;
+  }
+
+  .about-me-page-container-contact-me-section h3 {
+    width: 60%;
+    text-align: left;
+  }
+
+  .about-me-page-container-contact-me-section-contacts {
+    display: flex;
+    gap: 20px;
+  }
+
+  .about-me-page-container-contact-me-section-contacts div:first-child {
+    width: 100%;
   }
 }
 

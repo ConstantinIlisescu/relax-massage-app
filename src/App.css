@@ -2,7 +2,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  scroll-behavior: smooth;
   font-family: var(--Lato);
 }
 
@@ -13,6 +12,7 @@ body {
 html {
   position: relative;
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -72,6 +72,11 @@ button {
   clip-path: polygon(100% 0, 100% 0, 100% 90%, 0 100%, 0 10%);
 }
 
+.clip-path-polygon-top {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%, 0 10%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%, 0 10%);
+}
+
 .container {
   margin: 0 3vw;
 }
@@ -84,6 +89,16 @@ button {
 
 .page-padding {
   padding: 130px 0;
+}
+
+.hover-effect-dark:hover {
+  background: var(--gradient-bg-dark);
+  color: var(--white);
+}
+
+.hover-effect-light:hover {
+  background: var(--gradient-bg-light);
+  color: var(--tale);
 }
 
 @media screen and (min-width: 576px) {

@@ -1,0 +1,28 @@
+#error-page div {
+  max-width: 300px;
+  margin: auto;
+  padding: 120px 0;
+}
+
+#error-page img {
+  width: 100%;
+  -webkit-box-shadow: -50px -39px 1300px 14px var(--tale);
+  box-shadow: -50px -39px 1300px 14px var(--tale);
+}
+
+#error-page h2 {
+  font-family: var(--main-title-font);
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#error-page p {
+  color: var(--tale);
+  font-family: var(--paragraph-font);
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  line-height: 1.6rem;
+  text-align: center;
+}

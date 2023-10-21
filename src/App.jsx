@@ -6,7 +6,6 @@ import {
   Services,
   AboutServices,
   AboutMe,
-  Contact,
   NoPage,
 } from "./pages";
 
@@ -14,11 +13,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/relax-massage-app" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="relax-massage-app" element={<Home />} />
           <Route path="relax-massage-app/services" element={<Services />} />
-          <Route path="relax-massage-app/contact" element={<Contact />} />
           <Route
             path="relax-massage-app/about-services"
             element={<AboutServices />}

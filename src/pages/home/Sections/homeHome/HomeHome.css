@@ -71,10 +71,6 @@ h1 span {
   margin: 25px;
 }
 
-.home-contacts-phone a {
-  padding: 10px 0;
-}
-
 .home-contacts-phone svg,
 .home-contacts-address svg {
   background-color: var(--blue);
@@ -83,7 +79,6 @@ h1 span {
   margin-right: 0.7rem;
   min-width: 3rem;
   min-height: 3rem;
-  padding: 0.6rem;
 }
 
 @media screen and (min-width: 370px) {

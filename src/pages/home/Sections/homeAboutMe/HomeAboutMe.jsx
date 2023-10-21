@@ -1,8 +1,7 @@
 import React from "react";
 import AboutMeImg from "../../../../images/about-me.jpg";
 import "./HomeAboutMe.css";
-import Button from "../../../../components/button/Button";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function HomeAboutMe() {
   return (
@@ -22,9 +21,12 @@ function HomeAboutMe() {
               unwind and de-stress. I use a variety of techniques to promote
               relaxation and well-being.
             </p>
-            <Link to="relax-massage-app/about" className="btn--outline">
+            <HashLink
+              to="relax-massage-app/about#about-me"
+              className="btn--outline hover-effect-light"
+            >
               Read more
-            </Link>
+            </HashLink>
           </div>
         </div>
       </div>

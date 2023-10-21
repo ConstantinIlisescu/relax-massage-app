@@ -5,7 +5,10 @@ import Button from "../../../../components/button/Button";
 
 function HomeGift() {
   return (
-    <section className="home-gift-section clip-path-polygon z-index-1">
+    <section
+      id="home-gift"
+      className="home-gift-section clip-path-polygon z-index-1"
+    >
       <div className="home-gift-section-container z-index-2">
         <div>
           {/* <h2 className="gradient-light-text">Gift Voucher</h2> */}

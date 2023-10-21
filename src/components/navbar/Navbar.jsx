@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import Button from "../button/Button";
+import { HashLink } from "react-router-hash-link";
 import logo from "../../images/logo.jpg";
+import Button from "../../components/button/Button";
 import { BiMenuAltRight, BiCaretDown, BiCaretUp } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
 import "./Navbar.css";
@@ -34,95 +34,97 @@ function Navbar() {
   const Menu = () => (
     <>
       <li className="item" onClick={handleClickCloseMenu}>
-        <Link to="/relax-massage-app" className="">
+        <HashLink to="/relax-massage-app#home" className="">
           Home
-        </Link>
+        </HashLink>
       </li>
       <li className="item">
-        <Link className="item-services" onClick={handleServiceMenu}>
+        <HashLink className="item-services" onClick={handleServiceMenu}>
           <span>Services List</span>
           <span>{toggleServiceMenu ? <BiCaretUp /> : <BiCaretDown />}</span>
-        </Link>
+        </HashLink>
         {toggleServiceMenu && (
           <ul className="item-services-menu scale-up-ver-top">
             <div>
-              <Link
+              <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
                 to="relax-massage-app/services"
               >
                 WARM RATTAN MASSAGE
-              </Link>
-              <Link
+              </HashLink>
+              <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
                 to="relax-massage-app/services"
               >
                 EXFOLIATION
-              </Link>
-              <Link
+              </HashLink>
+              <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
                 to="relax-massage-app/services"
               >
                 REIKI HEALING
-              </Link>
-              <Link
+              </HashLink>
+              <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
                 to="relax-massage-app/services"
               >
                 FOOT REFLEXOLOGY
-              </Link>
-              <Link
+              </HashLink>
+              <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
                 to="relax-massage-app/services"
               >
                 HOT STONE MASSAGE
-              </Link>
-              <Link
+              </HashLink>
+              <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
                 to="relax-massage-app/services"
               >
                 GLIDING CUPPING TREATMENTS
-              </Link>
-              <Link
+              </HashLink>
+              <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
                 to="relax-massage-app/services"
               >
                 FIRE CUPPING
-              </Link>
+              </HashLink>
             </div>
           </ul>
         )}
       </li>
       <li className="item" onClick={handleClickCloseMenu}>
-        <Link to="relax-massage-app/about-services" className="">
+        <HashLink to="relax-massage-app/about-services#" className="">
           About my Services
-        </Link>
+        </HashLink>
       </li>
       <li className="item" onClick={handleClickCloseMenu}>
-        <Link to="relax-massage-app/about" className="">
+        <HashLink to="relax-massage-app/about#about-me" className="">
           About Me
-        </Link>
+        </HashLink>
       </li>
       <li className="item last" onClick={handleClickCloseMenu}>
-        <Link to="relax-massage-app/about#contact-me" className="">
+        <HashLink to="relax-massage-app/about#contact-me" className="">
           Contact Me
-        </Link>
+        </HashLink>
       </li>
-      {/* <Button
-        buttonStyle=""
-        linkTo="https://relaxmassagestudiocannock.setmore.com/"
-        toTarget="_blank"
-        onClick={handleClickCloseMenu}
-        isVisible={TRUE}
-      >
-        Make an Appointment
-      </Button> */}
+      <div className="main-page-button">
+        <Button
+          buttonStyle=""
+          linkTo="https://relaxmassagestudiocannock.setmore.com/"
+          toTarget="_blank"
+          onClick={handleClickCloseMenu}
+          isVisible={TRUE}
+        >
+          Make an Appointment
+        </Button>
+      </div>
     </>
   );
 
@@ -130,9 +132,9 @@ function Navbar() {
     <>
       <nav className="navbar slide-bottom z-index-2">
         <div className="navbar-links container">
-          <Link
+          <HashLink
             className=""
-            to="/relax-massage-app"
+            to="/relax-massage-app#home"
             onClick={handleClickCloseMenu}
           >
             <img
@@ -141,7 +143,7 @@ function Navbar() {
               alt="logo"
               srcset=""
             />
-          </Link>
+          </HashLink>
           <ul className="navbar-links-container">
             <Menu />
           </ul>

@@ -34,7 +34,9 @@
   color: var(--tale);
 }
 
-.btn--small--back {
+.btn--outline-dark:hover {
+  background: var(--gradient-bg-dark);
+  color: var(--white);
 }
 
 .btn-small-round-up {

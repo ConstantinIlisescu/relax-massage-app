@@ -5,7 +5,7 @@ import "./HomeReviews.css";
 
 function HomeReviews() {
   return (
-    <section className="home-reviews-section z-index-1">
+    <section id="home-reviews" className="home-reviews-section z-index-1">
       <div className="home-reviews-section-container">
         <h2 className="gradient-dark-text">My clients</h2>
         <div className="home-reviews-section-container-subtitle">
