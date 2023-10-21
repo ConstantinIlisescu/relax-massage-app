@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/relax-massage-app/static/css/main.b8172cb8.css",
-    "main.js": "/relax-massage-app/static/js/main.f928e884.js",
+    "main.css": "/relax-massage-app/static/css/main.14caed9f.css",
+    "main.js": "/relax-massage-app/static/js/main.38ecbe1f.js",
+    "static/media/about-services-three.png": "/relax-massage-app/static/media/about-services-three.a2dac219ed859a8805ec.png",
+    "static/media/error-img.png": "/relax-massage-app/static/media/error-img.a2dac219ed859a8805ec.png",
     "static/media/exfoliation.png": "/relax-massage-app/static/media/exfoliation.ecfd7075e889b487a8c9.png",
     "static/media/main-img.png": "/relax-massage-app/static/media/main-img.09d5c1ce55de7fd42eef.png",
+    "static/media/about-services.png": "/relax-massage-app/static/media/about-services.1811897b858f48083b5c.png",
+    "static/media/about-services-two.png": "/relax-massage-app/static/media/about-services-two.906a9e5089546089eb11.png",
     "static/media/offer-img.png": "/relax-massage-app/static/media/offer-img.741475c472cbcf76212f.png",
     "static/media/gift.png": "/relax-massage-app/static/media/gift.8ba40045e23ed4152a69.png",
     "static/media/RecoletaRegular.otf": "/relax-massage-app/static/media/RecoletaRegular.fd9bfd35d1085b5c6511.otf",
@@ -20,6 +24,7 @@
     "static/media/BeautyES.png": "/relax-massage-app/static/media/BeautyES.ab405500ee1e09f47006.png",
     "static/media/fht.png": "/relax-massage-app/static/media/fht.e4a196416e6706c77063.png",
     "static/media/vision.png": "/relax-massage-app/static/media/vision.9e6c9164327d77f6de76.png",
+    "static/media/special-offers.png": "/relax-massage-app/static/media/special-offers.fd4fe85606bf1cbe7377.png",
     "static/media/home-services-1.jpg": "/relax-massage-app/static/media/home-services-1.5f0cc85b8bf855234f02.jpg",
     "static/media/logo.jpg": "/relax-massage-app/static/media/logo.a94672e7eeec9214cc80.jpg",
     "static/media/OPTIMA.woff": "/relax-massage-app/static/media/OPTIMA.20932a305858c4e79b57.woff",
@@ -27,11 +32,11 @@
     "static/media/home-services-3.jpg": "/relax-massage-app/static/media/home-services-3.7cc86b1f1b7070a7e454.jpg",
     "static/media/linaillab.png": "/relax-massage-app/static/media/linaillab.09abd0a7fd208ccf13a4.png",
     "index.html": "/relax-massage-app/index.html",
-    "main.b8172cb8.css.map": "/relax-massage-app/static/css/main.b8172cb8.css.map",
-    "main.f928e884.js.map": "/relax-massage-app/static/js/main.f928e884.js.map"
+    "main.14caed9f.css.map": "/relax-massage-app/static/css/main.14caed9f.css.map",
+    "main.38ecbe1f.js.map": "/relax-massage-app/static/js/main.38ecbe1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8172cb8.css",
-    "static/js/main.f928e884.js"
+    "static/css/main.14caed9f.css",
+    "static/js/main.38ecbe1f.js"
   ]
 }
