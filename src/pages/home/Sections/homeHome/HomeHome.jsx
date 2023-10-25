@@ -1,9 +1,11 @@
 import React from "react";
 import "./HomeHome.css";
-import mainImg from "../../../../images/main-img.png";
 import { AiOutlinePhone, AiOutlineWhatsApp } from "react-icons/ai";
 import { BiMap, BiLogoFacebook } from "react-icons/bi";
 import Button from "../../../../components/button/Button";
+import { homeHome } from "../../../../Data/home/homeHome";
+import { contactInfo } from "../../../../Data/contactInfo";
+import { bookingButton } from "../../../../Data/bookingButton";
 
 function HomeHome() {
   return (
@@ -12,78 +14,68 @@ function HomeHome() {
         <div className="home-description-main-title">
           <div className="home-description">
             <div className="home-description-title">
-              <h3>Massage Studio</h3>
+              <h3>{homeHome.firstTitle}</h3>
               <span className="title-line"></span>
             </div>
-            <p>Relax, lie back and let me take away your stress......</p>
+            <p>{homeHome.secondTitle}</p>
           </div>
           <div className="home-main-title">
             <h1>
-              <span className="gradient-dark-text">GIVE</span>
-              <span className="gradient-dark-text">YOURSELF</span>
-              <span className="gradient-dark-text">A LITTLE</span>
-              <span className="gradient-dark-text">PAMPERING</span>
+              {homeHome.mainTitle.map((span, index) => {
+                return (
+                  <span key={index} className="gradient-dark-text">
+                    {span}
+                  </span>
+                );
+              })}
             </h1>
             <div className="home-main-image">
-              <img src={mainImg} alt="..." />
+              <img
+                src={require(`../../../../images/${homeHome.mainImage}`)}
+                alt={homeHome.mainImageDescription}
+              />
             </div>
           </div>
         </div>
         <div className="home-contacts">
           <div className="home-contacts-phone">
-            <a href="tel:01543524924">
+            <a href={contactInfo.phone}>
               <AiOutlinePhone />
             </a>
-            <a href="tel:01543524924">01543 524 924</a>
+            <a href={contactInfo.phone}>{contactInfo.phoneDisplay}</a>
           </div>
           <div className="home-contacts-phone">
-            <a href="https://wa.me/01543524924">
+            <a href={contactInfo.whatsapp}>
               <AiOutlineWhatsApp />
             </a>
-            <a href="https://wa.me/01543524924">WhatsApp</a>
+            <a href={contactInfo.whatsapp}>{contactInfo.whatsappDisplay}</a>
           </div>
           <div className="home-contacts-phone">
-            <a
-              href="https://www.facebook.com/profile.php?id=100084589461441"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={contactInfo.facebook} target="_blank" rel="noreferrer">
               <BiLogoFacebook />
             </a>
-            <a
-              href="https://www.facebook.com/profile.php?id=100084589461441"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Facebook
+            <a href={contactInfo.facebook} target="_blank" rel="noreferrer">
+              {contactInfo.facebookDisplay}
             </a>
           </div>
           <div className="home-contacts-address">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.google.com/maps/place/34+Haymaker+Way,+Wimblebury,+Cannock+WS12+0FU/@52.7027386,-1.9753925,17z/data=!3m1!4b1!4m6!3m5!1s0x487a0abe80d983ff:0x7aa752da9dc03ab6!8m2!3d52.7027386!4d-1.9753925!16s%2Fg%2F11c5dctl26?entry=ttu"
-            >
+            <a target="_blank" rel="noreferrer" href={contactInfo.address}>
               <BiMap />
             </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.google.com/maps/place/34+Haymaker+Way,+Wimblebury,+Cannock+WS12+0FU/@52.7027386,-1.9753925,17z/data=!3m1!4b1!4m6!3m5!1s0x487a0abe80d983ff:0x7aa752da9dc03ab6!8m2!3d52.7027386!4d-1.9753925!16s%2Fg%2F11c5dctl26?entry=ttu"
-            >
-              34 Haymaker Way, Wimblebury, Cannock <br />
-              WS12 0FU
+            <a target="_blank" rel="noreferrer" href={contactInfo.address}>
+              {contactInfo.addressDisplay} <br />{" "}
+              {contactInfo.addressDisplayPostcode}
             </a>
           </div>
         </div>
         <div className="home-contacts-button">
           <Button
             buttonStyle=""
-            linkTo="https://relaxmassagestudiocannock.setmore.com/"
+            linkTo={bookingButton.link}
             toTarget="_blank"
             isVisible={true}
           >
-            Make an Appointment
+            {homeHome.mainBookAppointmentButton}
           </Button>
         </div>
       </div>

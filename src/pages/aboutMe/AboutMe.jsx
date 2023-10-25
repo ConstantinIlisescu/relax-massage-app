@@ -1,10 +1,9 @@
 import React from "react";
 import "./AboutMe.css";
-import Img1 from "../../images/about-me.jpg";
-import Img2 from "../../images/about-me-massage.jpg";
-import Img3 from "../../images/fht.png";
 import { AiOutlinePhone, AiOutlineWhatsApp } from "react-icons/ai";
 import { BiMap, BiLogoFacebook } from "react-icons/bi";
+import { aboutMe } from "../../Data/aboutMe";
+import { contactInfo } from "../../Data/contactInfo";
 
 function AboutMe() {
   return (
@@ -12,27 +11,27 @@ function AboutMe() {
       <div className="about-me-page-container-about-me-section">
         <div className="about-me-page-container-about-me-section-img1-container">
           <div>
-            <h2 className="gradient-dark-text">ABOUT ME</h2>
-            <p>
-              I offer massages, body treatments and Reiki healing to help you
-              unwind and de-stress. I use a variety of techniques to promote
-              relaxation and well-being.
-            </p>
+            <h2 className="gradient-dark-text">{aboutMe.title}</h2>
+            <p>{aboutMe.descriptionOne}</p>
           </div>
-          <img src={Img1} alt="..." />
+          <img
+            src={require(`../../images/${aboutMe.imageOne}`)}
+            alt={aboutMe.imageOneDescription}
+          />
         </div>
         <div className="about-me-page-container-about-me-section-img2-container">
-          <p>
-            My peaceful studio is the perfect place to escape the hustle and
-            bustle of daily life and allow yourself to fully relax. I am
-            dedicated to providing an exceptional experience that leaves you
-            feeling rejuvenated and refreshed. I look forward to welcoming you
-            to the studio and helping you to relax and unwind.
-          </p>
-          <img src={Img2} alt="..." />
+          <p>{aboutMe.descriptionTwo}</p>
+          <img
+            src={require(`../../images/${aboutMe.imageTwo}`)}
+            alt={aboutMe.imageTwoDescription}
+          />
         </div>
         <div className="member-off">
-          <span>Member of</span> <img src={Img3} alt="..." />
+          <span>{aboutMe.memberSectionText}</span>
+          <img
+            src={require(`../../images/${aboutMe.memberSectionImage}`)}
+            alt={aboutMe.memberSectionImageDescription}
+          />
         </div>
         <div className="member-of-lines">
           <div className="member-of-lines-one"></div>
@@ -46,54 +45,38 @@ function AboutMe() {
         id="contact-me"
         className="about-me-page-container-contact-me-section"
       >
-        <h3 className="gradient-dark-text"> Contact me</h3>
+        <h3 className="gradient-dark-text"> {aboutMe.contactText}</h3>
         <div className="about-me-page-container-contact-me-section-contacts z-index-1">
           <div>
             <div className="home-contacts-phone">
-              <a href="tel:01543524924">
+              <a href={contactInfo.phone}>
                 <AiOutlinePhone />
               </a>
-              <a href="tel:01543524924">01543 524 924</a>
+              <a href={contactInfo.phone}>{contactInfo.phoneDisplay}</a>
             </div>
             <div className="home-contacts-phone">
-              <a href="https://wa.me/01543524924">
+              <a href={contactInfo.whatsapp}>
                 <AiOutlineWhatsApp />
               </a>
-              <a href="https://wa.me/01543524924">WhatsApp</a>
+              <a href={contactInfo.whatsapp}>{contactInfo.whatsappDisplay}</a>
             </div>
           </div>
           <div>
             <div className="home-contacts-phone">
-              <a
-                href="https://www.facebook.com/profile.php?id=100084589461441"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={contactInfo.facebook} target="_blank" rel="noreferrer">
                 <BiLogoFacebook />
               </a>
-              <a
-                href="https://www.facebook.com/profile.php?id=100084589461441"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Facebook
+              <a href={contactInfo.facebook} target="_blank" rel="noreferrer">
+                {contactInfo.facebookDisplay}
               </a>
             </div>
             <div className="home-contacts-address">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.google.com/maps/place/34+Haymaker+Way,+Wimblebury,+Cannock+WS12+0FU/@52.7027386,-1.9753925,17z/data=!3m1!4b1!4m6!3m5!1s0x487a0abe80d983ff:0x7aa752da9dc03ab6!8m2!3d52.7027386!4d-1.9753925!16s%2Fg%2F11c5dctl26?entry=ttu"
-              >
+              <a target="_blank" rel="noreferrer" href={contactInfo.address}>
                 <BiMap />
               </a>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.google.com/maps/place/34+Haymaker+Way,+Wimblebury,+Cannock+WS12+0FU/@52.7027386,-1.9753925,17z/data=!3m1!4b1!4m6!3m5!1s0x487a0abe80d983ff:0x7aa752da9dc03ab6!8m2!3d52.7027386!4d-1.9753925!16s%2Fg%2F11c5dctl26?entry=ttu"
-              >
-                34 Haymaker Way, Wimblebury, Cannock <br />
-                WS12 0FU
+              <a target="_blank" rel="noreferrer" href={contactInfo.address}>
+                {contactInfo.addressDisplay} <br />
+                addressDisplayPostcode
               </a>
             </div>
           </div>

@@ -1,7 +1,8 @@
 import React from "react";
 import "./NoPage.css";
-import Img from "../../images/error-img.png";
 import Button from "../../components/button/Button";
+import { errorPage } from "../../Data/errorPage";
+import { bookingButton } from "../../Data/bookingButton";
 
 function NoPage() {
   return (
@@ -15,15 +16,18 @@ function NoPage() {
           see you soon at a massage session
         </p>
         <div>
-          <img src={Img} alt="..." />
+          <img
+            src={require(`../../images/${errorPage.image}`)}
+            alt={errorPage.imageDescription}
+          />
         </div>
         <Button
           buttonStyle=""
-          linkTo="https://relaxmassagestudiocannock.setmore.com/"
+          linkTo={bookingButton.link}
           toTarget="_blank"
           isVisible={true}
         >
-          Book Now
+          {errorPage.buttonText}
         </Button>
       </div>
     </section>

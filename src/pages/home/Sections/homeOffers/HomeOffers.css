@@ -2,7 +2,7 @@
 .circle-animation {
   position: relative;
   width: 100vw;
-  height: 900px;
+  height: 1000px;
   background: radial-gradient(
     circle,
     var(--blue),

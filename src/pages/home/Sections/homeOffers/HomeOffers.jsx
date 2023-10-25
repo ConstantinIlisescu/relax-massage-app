@@ -2,8 +2,8 @@ import React from "react";
 import "./HomeOffers.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Button from "../../../../components/button/Button";
-import Img1 from "../../../../images/offer-img.png";
-import Img2 from "../../../../images/special-offers.png";
+import { homeOffers } from "../../../../Data/home/homeOffers";
+import { bookingButton } from "../../../../Data/bookingButton";
 
 function HomeOffers() {
   return (
@@ -15,22 +15,28 @@ function HomeOffers() {
         <div className="circle-animation home-offers-section-container"></div>
         <div className="home-offers-section-group container">
           <div className="home-offers-section-group-title">
-            <img src={Img2} alt="..." />
+            <img
+              src={require(`../../../../images/${homeOffers.titleImage}`)}
+              alt={homeOffers.titleImageDescription}
+            />
           </div>
           <div className="home-offers-section-group-offer-group">
-            <h3>REIKI HEALING SESSION</h3>
+            <h3>{homeOffers.offerTitle}</h3>
             <p className="home-offers-section-group-offer-group-price">
-              ONLY <span>£</span>40
+              {homeOffers.only} <span>{homeOffers.currency}</span>
+              {homeOffers.priceAmount}
             </p>
             <p className="home-offers-section-group-offer-group-price-savings">
-              Priced at
+              {homeOffers.pricedAt}
               <span className="full-price">
                 <s>
-                  <span> £</span>50
+                  <span> {homeOffers.currency}</span>
+                  {homeOffers.pricedAtAmount}
                 </s>
               </span>
               <span className="save">
-                Save <span>£</span>10
+                {homeOffers.save} <span>{homeOffers.currency}</span>
+                {homeOffers.saveAmount}
               </span>
             </p>
           </div>
@@ -40,16 +46,17 @@ function HomeOffers() {
                 <Button
                   buttonStyle="btn--xl--round"
                   isVisible={true}
-                  linkTo="https://relaxmassagestudiocannock.setmore.com/"
+                  linkTo={bookingButton.link}
                   toTarget="_blank"
                 >
-                  BOOK NOW <span>DON'T MISS OUT!</span>
+                  {homeOffers.buttonMainText}{" "}
+                  <span>{homeOffers.buttonSubtext}</span>
                 </Button>
               </div>
             </div>
             <div className="text">
-              <p>Offer valid ONLY for appointments made in October 2023</p>
-              <p>Offer ends 31/10/2023</p>
+              <p>{homeOffers.offerInfo}</p>
+              <p>{homeOffers.offerEndTime}</p>
             </div>
           </div>
         </div>

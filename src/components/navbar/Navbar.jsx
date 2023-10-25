@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
-import logo from "../../images/logo.jpg";
 import Button from "../../components/button/Button";
 import { BiMenuAltRight, BiCaretDown, BiCaretUp } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
 import "./Navbar.css";
+import { navBar } from "../../Data/navBar";
+import { bookingButton } from "../../Data/bookingButton";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -35,12 +36,12 @@ function Navbar() {
     <>
       <li className="item" onClick={handleClickCloseMenu}>
         <HashLink to="/relax-massage-app#home" className="">
-          Home
+          {navBar.home}
         </HashLink>
       </li>
       <li className="item">
         <HashLink className="item-services" onClick={handleServiceMenu}>
-          <span>Services List</span>
+          <span>{navBar.servicesList}</span>
           <span>{toggleServiceMenu ? <BiCaretUp /> : <BiCaretDown />}</span>
         </HashLink>
         {toggleServiceMenu && (
@@ -49,49 +50,49 @@ function Navbar() {
               <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services"
+                to="relax-massage-app/services#"
               >
                 WARM RATTAN MASSAGE
               </HashLink>
               <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services"
+                to="relax-massage-app/services#"
               >
                 EXFOLIATION
               </HashLink>
               <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services"
+                to="relax-massage-app/services#"
               >
                 REIKI HEALING
               </HashLink>
               <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services"
+                to="relax-massage-app/services#"
               >
                 FOOT REFLEXOLOGY
               </HashLink>
               <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services"
+                to="relax-massage-app/services#"
               >
                 HOT STONE MASSAGE
               </HashLink>
               <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services"
+                to="relax-massage-app/services#"
               >
                 GLIDING CUPPING TREATMENTS
               </HashLink>
               <HashLink
                 className="service-item"
                 onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services"
+                to="relax-massage-app/services#"
               >
                 FIRE CUPPING
               </HashLink>
@@ -101,28 +102,28 @@ function Navbar() {
       </li>
       <li className="item" onClick={handleClickCloseMenu}>
         <HashLink to="relax-massage-app/about-services#" className="">
-          About my Services
+          {navBar.aboutMyServices}
         </HashLink>
       </li>
       <li className="item" onClick={handleClickCloseMenu}>
         <HashLink to="relax-massage-app/about#about-me" className="">
-          About Me
+          {navBar.aboutMe}
         </HashLink>
       </li>
       <li className="item last" onClick={handleClickCloseMenu}>
         <HashLink to="relax-massage-app/about#contact-me" className="">
-          Contact Me
+          {navBar.contactMe}
         </HashLink>
       </li>
       <div className="main-page-button">
         <Button
           buttonStyle=""
-          linkTo="https://relaxmassagestudiocannock.setmore.com/"
+          linkTo={bookingButton.link}
           toTarget="_blank"
           onClick={handleClickCloseMenu}
           isVisible={TRUE}
         >
-          Make an Appointment
+          {navBar.buttonText}
         </Button>
       </div>
     </>
@@ -139,7 +140,7 @@ function Navbar() {
           >
             <img
               className="navbar-links-logo"
-              src={logo}
+              src={require(`../../images/${navBar.logo}`)}
               alt="logo"
               srcset=""
             />

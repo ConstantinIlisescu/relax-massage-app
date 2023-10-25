@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomeGift.css";
-import Img from "../../../../images/gift.png";
 import Button from "../../../../components/button/Button";
+import { homeGift } from "../../../../Data/home/homeGift";
 
 function HomeGift() {
   return (
@@ -11,9 +11,12 @@ function HomeGift() {
     >
       <div className="home-gift-section-container z-index-2">
         <div>
-          {/* <h2 className="gradient-light-text">Gift Voucher</h2> */}
+          <h2 className="gradient-light-text">{homeGift.title}</h2>
           <div className="home-gift-section-image">
-            <img src={Img} alt="..." />
+            <img
+              src={require(`../../../../images/${homeGift.mainImage}`)}
+              alt={homeGift.mainImageDescription}
+            />
           </div>
         </div>
         <div className="home-gift-section-button">
@@ -24,7 +27,7 @@ function HomeGift() {
             toTarget="_blank"
             isVisible={true}
           >
-            Buy a Gift Voucher
+            {homeGift.buttonText}
           </Button>
         </div>
       </div>

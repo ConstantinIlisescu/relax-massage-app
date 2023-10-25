@@ -1,11 +1,13 @@
 import React from "react";
 import "./Footer.css";
+import { footer } from "../../Data/footer";
 
 function Footer() {
   return (
     <div className="footer">
       <p>
-        RELAX MASSAGE STUDIO CANNOCK <span>©</span> {new Date().getFullYear()}
+        {footer.text} <span>©</span>
+        {new Date().getFullYear()}
       </p>
     </div>
   );

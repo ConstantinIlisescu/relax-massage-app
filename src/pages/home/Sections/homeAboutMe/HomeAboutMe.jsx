@@ -2,6 +2,7 @@ import React from "react";
 import AboutMeImg from "../../../../images/about-me.jpg";
 import "./HomeAboutMe.css";
 import { HashLink } from "react-router-hash-link";
+import { homeAboutMe } from "../../../../Data/home/homeAboutMe";
 
 function HomeAboutMe() {
   return (
@@ -11,21 +12,21 @@ function HomeAboutMe() {
     >
       <div className="section-container container">
         <div className="home-about-me-img">
-          <img src={AboutMeImg} alt="Women doing massage" className="shadow" />
+          <img
+            src={require(`../../../../images/${homeAboutMe.image}`)}
+            alt={homeAboutMe.imageDescription}
+            className="shadow"
+          />
         </div>
         <div>
-          <h2 className="gradient-light-text ">About Me</h2>
+          <h2 className="gradient-light-text ">{homeAboutMe.title}</h2>
           <div>
-            <p className="home-about-me-paragraph">
-              I offer massages, body treatments and Reiki healing to help you
-              unwind and de-stress. I use a variety of techniques to promote
-              relaxation and well-being.
-            </p>
+            <p className="home-about-me-paragraph">{homeAboutMe.paragraph}</p>
             <HashLink
               to="relax-massage-app/about#about-me"
               className="btn--outline hover-effect-light"
             >
-              Read more
+              {homeAboutMe.buttonText}
             </HashLink>
           </div>
         </div>
