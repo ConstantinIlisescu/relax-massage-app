@@ -13,7 +13,7 @@
 #error-page h2 {
   font-family: var(--main-title-font);
   font-size: 1.8rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -22,7 +22,7 @@
   color: var(--tale);
   font-family: var(--paragraph-font);
   font-size: 1.2rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   line-height: 1.6rem;
   text-align: center;
 }

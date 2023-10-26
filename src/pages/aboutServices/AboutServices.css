@@ -37,7 +37,7 @@
 .about-services-container-first-section h2 {
   font-family: var(--main-title-font);
   font-size: 1.8rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -46,7 +46,7 @@
   text-align: center;
   font-family: var(--main-title-font);
   font-size: 2.2rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   color: var(--lime);
   margin-bottom: 30px;
 }
@@ -56,7 +56,7 @@
   color: var(--grey);
   font-family: var(--paragraph-font);
   font-size: 1.2rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   line-height: 1.6rem;
 }
 
@@ -72,28 +72,28 @@
   text-align: center;
   font-family: var(--main-title-font);
   font-size: 1.8rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   margin-bottom: 30px;
 }
 
 .about-services-container-section-item h4 {
   font-family: var(--main-title-font);
   font-size: 1.3rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   margin-bottom: 30px;
 }
 
 .about-services-container-section-item h5 {
   font-family: var(--main-title-font);
   font-size: 1.1rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   text-align: center;
 }
 
 .about-services-container-section-item p {
   font-family: var(--paragraph-font);
   font-size: 1.2rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   line-height: 1.6rem;
 }
 

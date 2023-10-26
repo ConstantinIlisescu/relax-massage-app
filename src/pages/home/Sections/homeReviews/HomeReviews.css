@@ -14,7 +14,7 @@
   font-family: var(--main-title-font);
   font-size: 2.2rem;
   line-height: 3.2rem;
-  letter-spacing: 5px;
+  letter-spacing: 0.5px;
 }
 
 .home-reviews-section-container-subtitle h3 {
@@ -22,7 +22,7 @@
   text-transform: uppercase;
   font-size: 1rem;
   color: var(--blue);
-  letter-spacing: 6px;
+  letter-spacing: 0.5px;
 }
 
 .home-reviews-section-container-subtitle .title-line {
@@ -36,7 +36,7 @@
   font-family: var(--paragraph-font);
   font-size: 1rem;
   color: var(--blue);
-  letter-spacing: 3px;
+  letter-spacing: 0.5px;
   text-align: left;
   padding: 1rem 0;
 }
@@ -45,7 +45,7 @@
   font-family: var(--secondary-title-font);
   font-size: 1.2rem;
   color: var(--blue);
-  letter-spacing: 6px;
+  letter-spacing: 0.5px;
   margin-bottom: 60px;
   text-align: left;
 }

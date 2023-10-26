@@ -40,20 +40,20 @@
   margin: 10px 0;
   font-size: 1.2rem;
   line-height: 1.5rem;
-  letter-spacing: 5px;
+  letter-spacing: 0.5px;
   font-family: var(--main-title-font);
 }
 
 .services-service-item-overlay-content-item h2 {
   font-family: var(--main-title-font);
-  letter-spacing: 5px;
+  letter-spacing: 0.5px;
   text-align: center;
 }
 
 .services-service-item-text p {
   font-family: var(--paragraph-font);
   font-size: 1rem;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
   margin-bottom: 5px;
 }
 
@@ -142,7 +142,7 @@
 .services-service-item-overlay-content-item p {
   font-family: var(--paragraph-font);
   font-size: 1rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   padding-bottom: 10px;
 }
 
