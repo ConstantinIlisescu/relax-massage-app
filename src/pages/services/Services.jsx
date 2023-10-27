@@ -1,7 +1,7 @@
 import React from "react";
 import ServiceItem from "./Components/ServiceItem";
 import "./Services.css";
-import Img from "./../../images/exfoliation.png";
+import Img from "./../../images/Services/exfoliation.png";
 
 function Services() {
   return (

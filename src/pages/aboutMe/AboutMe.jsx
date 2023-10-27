@@ -15,21 +15,21 @@ function AboutMe() {
             <p>{aboutMe.descriptionOne}</p>
           </div>
           <img
-            src={require(`../../images/${aboutMe.imageOne}`)}
+            src={require(`../../images/AboutMe/${aboutMe.imageOne}`)}
             alt={aboutMe.imageOneDescription}
           />
         </div>
         <div className="about-me-page-container-about-me-section-img2-container">
           <p>{aboutMe.descriptionTwo}</p>
           <img
-            src={require(`../../images/${aboutMe.imageTwo}`)}
+            src={require(`../../images/AboutMe/${aboutMe.imageTwo}`)}
             alt={aboutMe.imageTwoDescription}
           />
         </div>
         <div className="member-off">
           <span>{aboutMe.memberSectionText}</span>
           <img
-            src={require(`../../images/${aboutMe.memberSectionImage}`)}
+            src={require(`../../images/AboutMe/${aboutMe.memberSectionImage}`)}
             alt={aboutMe.memberSectionImageDescription}
           />
         </div>

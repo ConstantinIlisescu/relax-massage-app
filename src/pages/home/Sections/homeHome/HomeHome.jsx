@@ -31,7 +31,7 @@ function HomeHome() {
             </h1>
             <div className="home-main-image">
               <img
-                src={require(`../../../../images/${homeHome.mainImage}`)}
+                src={require(`../../../../images/Home/${homeHome.mainImage}`)}
                 alt={homeHome.mainImageDescription}
               />
             </div>

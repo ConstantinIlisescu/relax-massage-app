@@ -1,5 +1,4 @@
 import React from "react";
-import AboutMeImg from "../../../../images/about-me.jpg";
 import "./HomeAboutMe.css";
 import { HashLink } from "react-router-hash-link";
 import { homeAboutMe } from "../../../../Data/home/homeAboutMe";
@@ -13,7 +12,7 @@ function HomeAboutMe() {
       <div className="section-container container">
         <div className="home-about-me-img">
           <img
-            src={require(`../../../../images/${homeAboutMe.image}`)}
+            src={require(`../../../../images/Home/${homeAboutMe.image}`)}
             alt={homeAboutMe.imageDescription}
             className="shadow"
           />

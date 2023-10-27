@@ -33,7 +33,7 @@ function HomeAffiliate() {
                 </div>
                 <img
                   className="home-affiliate-carousel-item-img"
-                  src={require(`../../../../images/${item.businessImage}`)}
+                  src={require(`../../../../images/Affiliate${item.businessImage}`)}
                   alt={item.imageDescription}
                 />
               </div>

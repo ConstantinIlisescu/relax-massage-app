@@ -16,7 +16,7 @@ function HomeOffers() {
         <div className="home-offers-section-group container">
           <div className="home-offers-section-group-title">
             <img
-              src={require(`../../../../images/${homeOffers.titleImage}`)}
+              src={require(`../../../../images/Home/${homeOffers.titleImage}`)}
               alt={homeOffers.titleImageDescription}
             />
           </div>

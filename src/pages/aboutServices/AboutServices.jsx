@@ -14,7 +14,7 @@ function AboutServices() {
           </div>
           <div className="about-services-img-container">
             <img
-              src={require(`../../images/${aboutServices.sectionOne.image}`)}
+              src={require(`../../images/AboutServices/${aboutServices.sectionOne.image}`)}
               alt={aboutServices.sectionOne.imageDescription}
             />
           </div>
@@ -32,7 +32,7 @@ function AboutServices() {
           </div>
           <div className="about-services-img-container">
             <img
-              src={require(`../../images/${aboutServices.sectionTwo.image}`)}
+              src={require(`../../images/AboutServices/${aboutServices.sectionTwo.image}`)}
               alt={aboutServices.sectionTwo.imageDescription}
             />
           </div>
@@ -62,7 +62,7 @@ function AboutServices() {
           </div>
           <div className="about-services-img-container">
             <img
-              src={require(`../../images/${aboutServices.sectionThree.image}`)}
+              src={require(`../../images/AboutServices/${aboutServices.sectionThree.image}`)}
               alt={aboutServices.sectionThree.imageDescription}
             />
           </div>
