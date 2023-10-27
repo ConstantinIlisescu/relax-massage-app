@@ -2,10 +2,17 @@ export const services = {
   mainPageSectionTitle: "Techniques",
   mainPageSubtitle: "MY SERVICES",
   mainPageButtonText: "See All Services",
-  numberOfServicesDisplayedOnMainPage: "3",
+  mainPageImg1: "home-services-1.jpg",
+  mainPageImg1Description: "...",
+  mainPageImg2: "home-services-2.jpg",
+  mainPageImg2Description: "...",
+  mainPageImg3: "home-services-3.jpg",
+  mainPageImg3Description: "...",
+  numberOfServicesDisplayedOnMainPage: 3,
   servicesPageMainTitle: "Services",
   servicesPageLearnMoreButtonText: "Learn More",
   servicesPageButtonText: "Book Now",
+  serviceCurrency: "£",
   items: [
     {
       mainImage: "exfoliation.png",

@@ -6,6 +6,7 @@ import { IoMdClose } from "react-icons/io";
 import "./Navbar.css";
 import { navBar } from "../../Data/navBar";
 import { bookingButton } from "../../Data/bookingButton";
+import { services } from "../../Data/services";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -47,55 +48,18 @@ function Navbar() {
         {toggleServiceMenu && (
           <ul className="item-services-menu scale-up-ver-top">
             <div>
-              <HashLink
-                className="service-item"
-                onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services#"
-              >
-                WARM RATTAN MASSAGE
-              </HashLink>
-              <HashLink
-                className="service-item"
-                onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services#"
-              >
-                EXFOLIATION
-              </HashLink>
-              <HashLink
-                className="service-item"
-                onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services#"
-              >
-                REIKI HEALING
-              </HashLink>
-              <HashLink
-                className="service-item"
-                onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services#"
-              >
-                FOOT REFLEXOLOGY
-              </HashLink>
-              <HashLink
-                className="service-item"
-                onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services#"
-              >
-                HOT STONE MASSAGE
-              </HashLink>
-              <HashLink
-                className="service-item"
-                onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services#"
-              >
-                GLIDING CUPPING TREATMENTS
-              </HashLink>
-              <HashLink
-                className="service-item"
-                onClick={handleClickCloseServiceMenu}
-                to="relax-massage-app/services#"
-              >
-                FIRE CUPPING
-              </HashLink>
+              {services.items.map((service, index) => {
+                return (
+                  <HashLink
+                    id={index}
+                    className="service-item"
+                    onClick={handleClickCloseServiceMenu}
+                    to="relax-massage-app/services#"
+                  >
+                    {service.serviceTitle}
+                  </HashLink>
+                );
+              })}
             </div>
           </ul>
         )}
