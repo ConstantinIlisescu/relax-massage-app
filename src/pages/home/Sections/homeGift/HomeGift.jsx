@@ -14,7 +14,7 @@ function HomeGift() {
           <h2 className="gradient-light-text">{homeGift.title}</h2>
           <div className="home-gift-section-image">
             <img
-              src={require(`../../../../images/Home${homeGift.mainImage}`)}
+              src={require(`../../../../images/Home/${homeGift.mainImage}`)}
               alt={homeGift.mainImageDescription}
             />
           </div>

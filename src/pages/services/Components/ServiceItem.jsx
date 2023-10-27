@@ -3,15 +3,24 @@ import "./ServiceItem.css";
 import Button from "../../../components/button/Button";
 import { IoOpenOutline } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
+import { bookingButton } from "../../../Data/bookingButton";
 
 function ServiceItem({
+  id,
   mainTitle,
+  durationText,
   duration,
+  priceText,
   price,
+  currency,
   img,
-  secImg,
   altImg,
-  mainParagraph,
+  secImg,
+  altSecImg,
+  mainDescription,
+  secDescriptions,
+  learnMoreButtonText,
+  bookNowButtonText,
 }) {
   const [toggleOverlay, setToggleOverlay] = useState(false);
 
@@ -26,27 +35,33 @@ function ServiceItem({
   return (
     <>
       <div
+        id={id}
         className="services-service-item container"
         onClick={handleOpenOverlay}
       >
         <div className="services-service-item-img">
-          <img src={img} alt={altImg} />
+          <img src={require(`../../../images/Services/${img}`)} alt={altImg} />
         </div>
         <div className="services-service-item-text">
           <h2>{mainTitle}</h2>
-          <p>Duration: {duration}</p>
-          <p>Price: £{price}</p>
+          <p>
+            {durationText} {duration}
+          </p>
+          <p>
+            {priceText} {currency}
+            {price}
+          </p>
           <span onClick={handleOpenOverlay}>
-            Learn More
+            {learnMoreButtonText}
             <IoOpenOutline />
           </span>
           <Button
             buttonStyle=""
-            linkTo="https://relaxmassagestudiocannock.setmore.com/"
+            linkTo={bookingButton.link}
             toTarget="_blank"
             isVisible={true}
           >
-            Book Now
+            {bookNowButtonText}
           </Button>
         </div>
       </div>
@@ -63,55 +78,34 @@ function ServiceItem({
               <IoMdClose onClick={handleCloseOverlay} />
             </div>
             <div className="services-service-item-overlay-content-item-img">
-              <img src={secImg} alt={altImg} />
+              <img
+                src={require(`../../../images/Services/${secImg}`)}
+                alt={altSecImg}
+              />
             </div>
             <h2>{mainTitle}</h2>
-            <p>{mainParagraph}</p>
+            <p>{mainDescription}</p>
           </div>
-          <div className="services-service-item-overlay-content-item">
-            <h3>test title overlay</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
-              excepturi consequatur cupiditate cum nobis aperiam explicabo
-              accusamus pariatur sequi ea quia, quidem ipsum quam tenetur fuga
-              maxime nam quis voluptatem!
-            </p>
-          </div>
-          <div className="services-service-item-overlay-content-item">
-            <h3>test title overlay</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
-              excepturi consequatur cupiditate cum nobis aperiam explicabo
-              accusamus pariatur sequi ea quia, quidem ipsum quam tenetur fuga
-              maxime nam quis voluptatem!
-            </p>
-          </div>
-          <div className="services-service-item-overlay-content-item">
-            <h3>test title overlay</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
-              excepturi consequatur cupiditate cum nobis aperiam explicabo
-              accusamus pariatur sequi ea quia, quidem ipsum quam tenetur fuga
-              maxime nam quis voluptatem!
-            </p>
-          </div>
-          <div className="services-service-item-overlay-content-item">
-            <h3>test title overlay</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
-              excepturi consequatur cupiditate cum nobis aperiam explicabo
-              accusamus pariatur sequi ea quia, quidem ipsum quam tenetur fuga
-              maxime nam quis voluptatem!
-            </p>
-          </div>
+          {secDescriptions.map((service, index) => {
+            return (
+              <div
+                key={index}
+                className="services-service-item-overlay-content-item"
+              >
+                <h3>{service.title}</h3>
+                <p>{service.paragraph}</p>
+              </div>
+            );
+          })}
+
           <div className="services-service-item-overlay-content-button">
             <Button
               buttonStyle=""
-              linkTo="https://relaxmassagestudiocannock.setmore.com/"
+              linkTo={bookingButton.link}
               toTarget="_blank"
               isVisible={true}
             >
-              Book Now
+              {bookNowButtonText}
             </Button>
           </div>
         </div>
