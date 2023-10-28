@@ -289,61 +289,61 @@
 
   .shape-blob.one {
     height: 450px;
-    width: 5cm;
+    width: 1450px;
   }
 
   .shape-blob.two {
     height: 450px;
-    width: 450px;
+    width: 1450px;
   }
 
   .shape-blob.three {
     height: 450px;
-    width: 450px;
+    width: 1450px;
   }
 
   .shape-blob.four {
     height: 400px;
-    width: 480px;
+    width: 1480px;
   }
 
   .shape-blob.five {
     height: 400px;
-    width: 480px;
+    width: 1480px;
   }
 
   .shape-blob.six {
     height: 370px;
-    width: 400px;
+    width: 1400px;
   }
 
   .shape-blob.seven {
     height: 450px;
-    width: 500px;
+    width: 1500px;
   }
 
   .shape-blob.eight {
     height: 550px;
-    width: 450px;
+    width: 1450px;
   }
 
   .shape-blob.nine {
     height: 450px;
-    width: 550px;
+    width: 1550px;
   }
 
   .shape-blob.ten {
     height: 400px;
-    width: 380px;
+    width: 1380px;
   }
 
   .shape-blob.eleven {
     height: 400px;
-    width: 380px;
+    width: 1380px;
   }
 
   .shape-blob.twelve {
     height: 370px;
-    width: 400px;
+    width: 1400px;
   }
 }
