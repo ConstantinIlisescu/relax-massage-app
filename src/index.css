@@ -63,8 +63,9 @@
   --main-title-font: var(--RecoletaRegular);
   --secondary-title-font: var(--RecoletaRegular);
   --paragraph-title-font: var(--RecoletaRegular);
-  --paragraph-font: var(--Lato);
+  --paragraph-font: var(--RecoletaRegular);
   --price-font: var(--RecoletaRegular);
+  --button-font: var(--RecoletaRegular);
 
   --overlay-dark: rgba(40, 42, 42, 0.5);
   --gradient-dark-text: linear-gradient(90deg, var(--blue) 0%, var(--tale) 47%);
