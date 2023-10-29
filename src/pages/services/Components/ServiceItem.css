@@ -59,14 +59,14 @@
   margin-bottom: 5px;
 }
 
-.services-service-item-text span {
+.services-service-item-text .learn-more {
   margin-bottom: 20px;
   margin-top: 10px;
   color: var(--lime);
 }
 
-.services-service-item-text p span:hover {
-  cursor: pointer;
+.services-service-item-text p span {
+  font-family: "Lato", sans-serif;
 }
 
 .services-service-item-text button {

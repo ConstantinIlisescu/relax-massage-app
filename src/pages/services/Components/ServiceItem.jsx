@@ -48,10 +48,10 @@ function ServiceItem({
             {durationText} {duration}
           </p>
           <p>
-            {priceText} {currency}
+            {priceText} <span>{currency}</span>
             {price}
           </p>
-          <span onClick={handleOpenOverlay}>
+          <span onClick={handleOpenOverlay} className="learn-more">
             {learnMoreButtonText}
             <IoOpenOutline />
           </span>

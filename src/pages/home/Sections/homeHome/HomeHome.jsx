@@ -1,7 +1,11 @@
 import React from "react";
 import "./HomeHome.css";
-import { AiOutlinePhone, AiOutlineWhatsApp } from "react-icons/ai";
-import { BiMap, BiLogoFacebook } from "react-icons/bi";
+import {
+  AiOutlineMail,
+  AiOutlinePhone,
+  AiOutlineWhatsApp,
+} from "react-icons/ai";
+import { BiMap, BiLogoFacebook, BiLogoInstagram } from "react-icons/bi";
 import Button from "../../../../components/button/Button";
 import { homeHome } from "../../../../Data/home/homeHome";
 import { contactInfo } from "../../../../Data/contactInfo";
@@ -13,22 +17,39 @@ function HomeHome() {
       <div className="section-container">
         <div className="home-description-main-title">
           <div className="home-description">
-            <div className="home-description-title">
-              <h3>{homeHome.firstTitle}</h3>
-              <span className="title-line"></span>
+            <div className="home-description-logo">
+              <img
+                src={require(`../../../../images/Home/${homeHome.logoImage}`)}
+                alt={homeHome.logoImageDescription}
+              />
             </div>
-            <p>{homeHome.secondTitle}</p>
+            <p>{homeHome.firstParagraph}</p>
           </div>
           <div className="home-main-title">
-            <h1>
-              {homeHome.mainTitle.map((span, index) => {
-                return (
-                  <span key={index} className="gradient-dark-text">
-                    {span}
-                  </span>
-                );
-              })}
-            </h1>
+            <div className="home-main-title-text">
+              <h1>
+                {homeHome.mainTitle.map((span, index) => {
+                  return (
+                    <span key={index} className="gradient-dark-text">
+                      {span}
+                    </span>
+                  );
+                })}
+              </h1>
+              <div className="home-description-title">
+                <h3>{homeHome.mainSubtitleParagraph}</h3>
+              </div>
+              <div className="home-contacts-button">
+                <Button
+                  buttonStyle=""
+                  linkTo={bookingButton.link}
+                  toTarget="_blank"
+                  isVisible={true}
+                >
+                  {homeHome.mainBookAppointmentButton}
+                </Button>
+              </div>
+            </div>
             <div className="home-main-image">
               <img
                 src={require(`../../../../images/Home/${homeHome.mainImage}`)}
@@ -38,45 +59,55 @@ function HomeHome() {
           </div>
         </div>
         <div className="home-contacts">
-          <div className="home-contacts-phone">
-            <a href={contactInfo.phone}>
+          {/* <div className="home-contacts-phone">
+            <a href={contactInfo.phone} target="_blank" rel="noreferrer">
               <AiOutlinePhone />
             </a>
-            <a href={contactInfo.phone}>{contactInfo.phoneDisplay}</a>
-          </div>
-          <div className="home-contacts-phone">
-            <a href={contactInfo.whatsapp}>
+            <a href={contactInfo.phone} target="_blank" rel="noreferrer">
+              {contactInfo.phoneDisplay}
+            </a>
+          </div> */}
+          {/* <div className="home-contacts-phone">
+            <a href={contactInfo.whatsapp} target="_blank" rel="noreferrer">
               <AiOutlineWhatsApp />
             </a>
-            <a href={contactInfo.whatsapp}>{contactInfo.whatsappDisplay}</a>
-          </div>
-          <div className="home-contacts-phone">
+            <a href={contactInfo.whatsapp} target="_blank" rel="noreferrer">
+              {contactInfo.whatsappDisplay}
+            </a>
+          </div> */}
+          {/* <div className="home-contacts-phone">
+            <a href={contactInfo.email} target="_blank" rel="noreferrer">
+              <AiOutlineMail />
+            </a>
+            <a href={contactInfo.email} target="_blank" rel="noreferrer">
+              {contactInfo.emailDisplay}
+            </a>
+          </div> */}
+          {/* <div className="home-contacts-phone">
             <a href={contactInfo.facebook} target="_blank" rel="noreferrer">
               <BiLogoFacebook />
             </a>
             <a href={contactInfo.facebook} target="_blank" rel="noreferrer">
               {contactInfo.facebookDisplay}
             </a>
-          </div>
+          </div> */}
+          {/* <div className="home-contacts-phone">
+            <a href={contactInfo.instagram} target="_blank" rel="noreferrer">
+              <BiLogoInstagram />
+            </a>
+            <a href={contactInfo.instagram} target="_blank" rel="noreferrer">
+              {contactInfo.instagramDisplay}
+            </a>
+          </div> */}
           <div className="home-contacts-address">
-            <a target="_blank" rel="noreferrer" href={contactInfo.address}>
+            <a href={contactInfo.address} target="_blank" rel="noreferrer">
               <BiMap />
             </a>
-            <a target="_blank" rel="noreferrer" href={contactInfo.address}>
+            <a href={contactInfo.address} target="_blank" rel="noreferrer">
               {contactInfo.addressDisplay} <br />{" "}
               {contactInfo.addressDisplayPostcode}
             </a>
           </div>
-        </div>
-        <div className="home-contacts-button">
-          <Button
-            buttonStyle=""
-            linkTo={bookingButton.link}
-            toTarget="_blank"
-            isVisible={true}
-          >
-            {homeHome.mainBookAppointmentButton}
-          </Button>
         </div>
       </div>
     </section>

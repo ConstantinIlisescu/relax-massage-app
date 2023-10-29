@@ -4,6 +4,6 @@ export const navBar = {
   aboutMyServices: "About my Services",
   aboutMe: "About Me",
   contactMe: "Contact",
-  buttonText: "Make an Appointment",
+  buttonText: "BROWSE SERVICES",
   logo: "logo.jpg",
 };

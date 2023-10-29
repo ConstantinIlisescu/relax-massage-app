@@ -1,7 +1,9 @@
 export const homeHome = {
-  firstTitle: "MASSAGE STUDIO",
-  secondTitle: "Welcome to Award winning massage studio in Cannock",
-  mainTitle: ["GIVE", "YOURSELF", "A LITTLE", "PAMPERING"],
+  logoImage: "relaxLogo.png",
+  logoImageDescription: "...",
+  firstParagraph: "Welcome to Award Winning Massage Studio in Cannock",
+  mainTitle: ["Perfect", "mind-body", "harmony"],
+  mainSubtitleParagraph: "Relax, lie back and let me take away your stress",
   mainImage: "main-img.png",
   mainImageDescription: "...",
   mainBookAppointmentButton: "BROWSE SERVICES",

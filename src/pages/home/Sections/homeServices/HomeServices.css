@@ -58,6 +58,7 @@
   order: 2;
   width: 50%;
   align-self: center;
+  font-family: "Lato", sans-serif;
 }
 
 .home-services-list-item .text {
@@ -95,7 +96,6 @@
   font-size: 1.8rem;
   color: var(--tale);
   letter-spacing: 0.5px;
-  font-family: var(--paragraph-font);
 }
 
 .home-services-list-item .price span {

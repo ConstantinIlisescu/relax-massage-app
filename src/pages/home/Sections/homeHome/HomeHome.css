@@ -8,21 +8,36 @@ h1 span {
   text-align: center;
 }
 
+.home-description {
+  max-width: 450px;
+  margin: auto;
+}
+
+.home-description-logo {
+  width: 300px;
+  margin: auto;
+}
+
+.home-description-logo img {
+  width: 100%;
+}
+
 .home-main-title {
-  margin-top: 3rem;
+  margin-top: 50px;
 }
 
 .home-description-title {
-  display: flex;
-  align-items: center;
+  max-width: 250px;
+  margin: auto;
 }
 
 .home-description-title h3 {
   font-family: var(--secondary-title-font);
-  text-transform: uppercase;
   font-size: 1rem;
   color: var(--blue);
-  letter-spacing: 0.5px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .home-description-title .title-line {
@@ -35,10 +50,11 @@ h1 span {
 .home-description p {
   font-family: var(--paragraph-font);
   font-size: 1.2rem;
-  color: var(--tale);
+  color: var(--blue);
   letter-spacing: 0.5px;
   line-height: 1.8rem;
   padding-top: 2rem;
+  text-align: center;
 }
 
 .home-main-image {
@@ -54,8 +70,12 @@ h1 span {
 }
 
 .home-contacts {
-  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  max-width: 600px;
   margin: 50px auto 20px auto;
+  justify-content: start;
 }
 
 .home-contacts-button {
@@ -69,7 +89,6 @@ h1 span {
   display: flex;
   color: var(--blue);
   font-size: 1.2rem;
-  margin: 25px;
 }
 
 .home-contacts-phone svg,
@@ -108,6 +127,7 @@ h1 span {
 
   .home-main-image {
     padding: 0 0 0 20px;
+    max-width: 280px;
   }
 
   .section-container {
@@ -124,16 +144,16 @@ h1 span {
 }
 
 @media screen and (min-width: 700px) {
+  .home-contacts {
+    justify-content: center;
+  }
+
   h1 span {
     font-size: 3rem;
   }
 
   .home-main-image {
     max-width: 350px;
-  }
-
-  .home-description-title h3 {
-    font-size: 0.5rem;
   }
 
   .home-description-title .title-line {
@@ -146,7 +166,6 @@ h1 span {
   .home-contacts-phone,
   .home-contacts-address {
     font-size: 1rem;
-    margin: 25px 0;
   }
 
   .home-contacts-phone svg,
@@ -158,10 +177,6 @@ h1 span {
 }
 
 @media screen and (min-width: 770px) {
-  .home-contacts {
-    margin: 50px auto 20px 0;
-  }
-
   .home-contacts-button {
     margin: auto 0 auto auto;
   }
