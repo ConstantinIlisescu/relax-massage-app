@@ -5,6 +5,7 @@ h1 span {
   font-weight: bolder;
   line-height: 3rem;
   letter-spacing: 0.5px;
+  text-align: center;
 }
 
 .home-main-title {

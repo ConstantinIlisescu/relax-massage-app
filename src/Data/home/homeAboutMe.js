@@ -1,5 +1,5 @@
 export const homeAboutMe = {
-  image: "about-me.jpg",
+  image: "about-me-2.JPG",
   imageDescription: "...",
   title: "About Me",
   paragraph:

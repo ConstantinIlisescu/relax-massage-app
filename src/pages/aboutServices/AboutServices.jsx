@@ -78,13 +78,13 @@ function AboutServices() {
             return (
               <div key={index}>
                 <div className="round-circle-blue-dark"></div>
-                <p>{item.paragraph}</p>
+                <h4>{item.paragraph}</h4>
               </div>
             );
           })}
 
           <div className="round-circle-blue-dark"></div>
-          <h5>{aboutServices.sectionFour.secondaryParagraph}</h5>
+          <h4>{aboutServices.sectionFour.secondaryParagraph}</h4>
           <div className="round-circle-blue-dark"></div>
           <h4>{aboutServices.sectionFour.conclusionParagraph}</h4>
         </div>

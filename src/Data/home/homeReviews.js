@@ -1,6 +1,6 @@
 export const homeReviews = {
-  mainTitle: "My clients",
-  subTitle: "Reviews",
+  mainTitle: "CLIENT REVIEWS",
+  subTitle: "",
   buttonText: "Leave a review",
   reviews: [
     {

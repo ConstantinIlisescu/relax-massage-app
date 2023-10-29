@@ -1,5 +1,5 @@
 export const homeAffiliate = {
-  mainTitle: "Business That I Recommend",
+  mainTitle: "Recommended local business",
   business: [
     {
       businessLink: "https://linaillab.co.uk/",

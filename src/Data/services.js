@@ -1,5 +1,5 @@
 export const services = {
-  mainPageSectionTitle: "Techniques",
+  mainPageSectionTitle: "",
   mainPageSubtitle: "MY SERVICES",
   mainPageButtonText: "See All Services",
   mainPageImg1: "home-services-1.jpg",
@@ -9,7 +9,7 @@ export const services = {
   mainPageImg3: "home-services-3.jpg",
   mainPageImg3Description: "...",
   numberOfServicesDisplayedOnMainPage: 3,
-  servicesPageMainTitle: "Services",
+  servicesPageMainTitle: "TREATMENTS",
   servicesPageLearnMoreButtonText: "Learn More",
   servicesPageButtonText: "Book Now",
   serviceCurrency: "£",
@@ -139,8 +139,8 @@ export const services = {
     {
       mainImage: "glidingCupping.png",
       mainImageDescription: "...",
-      serviceTitleLink: "Gliding Cupping Treatments",
-      serviceTitle: "GLIDING CUPPING TREATMENTS",
+      serviceTitleLink: "Gliding Cupping",
+      serviceTitle: "GLIDING CUPPING",
       serviceId: "glidingCupping",
       serviceShortDescription:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
