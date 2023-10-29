@@ -1,13 +1,4 @@
 export const services = {
-  mainPageSectionTitle: "",
-  mainPageSubtitle: "MY SERVICES",
-  mainPageButtonText: "See All Services",
-  mainPageImg1: "home-services-1.jpg",
-  mainPageImg1Description: "...",
-  mainPageImg2: "home-services-2.jpg",
-  mainPageImg2Description: "...",
-  mainPageImg3: "home-services-3.jpg",
-  mainPageImg3Description: "...",
   numberOfServicesDisplayedOnMainPage: 3,
   servicesPageMainTitle: "TREATMENTS",
   servicesPageLearnMoreButtonText: "Learn More",

@@ -54,13 +54,6 @@
   display: none;
 }
 
-.home-services-list-item .price {
-  order: 2;
-  width: 50%;
-  align-self: center;
-  font-family: "Lato", sans-serif;
-}
-
 .home-services-list-item .text {
   order: 1;
   width: 100%;
@@ -92,30 +85,6 @@
   margin-bottom: 10px;
 }
 
-.home-services-list-item .price {
-  font-size: 1.8rem;
-  color: var(--tale);
-  letter-spacing: 0.5px;
-}
-
-.home-services-list-item .price span {
-  font-family: var(--price-font);
-}
-
-.home-services-list-item .button .btn--small--round {
-  border: 1px solid var(--blue);
-  padding: 0.4rem;
-  border-radius: 50%;
-  transition: all ease-in-out 0.3s;
-}
-
-.home-services-list-item .button .btn--small--round svg {
-  padding-top: 2px;
-  width: 30px;
-  height: 25px;
-  color: var(--blue);
-}
-
 .home-services-button {
   padding: 0 2rem;
 }
@@ -123,35 +92,18 @@
   width: 100%;
 }
 
-.home-services-img-section {
+.home-services-list-object {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.home-services-img-section .home-services-img.one {
-  margin-top: 4rem;
+  margin-bottom: 50px;
 }
 
-.home-services-img-section .home-services-img {
-  margin: 2rem 0;
-  display: flex;
-  justify-content: center;
-}
-
-.home-services-img-section .home-services-img.two img {
-  width: 80%;
-}
-
-.home-services-img-section .home-services-img.three img {
-  width: 60%;
-  margin-bottom: 1rem;
-}
-
-.home-services-img-section .home-services-img img {
+.home-services-img img {
   width: 100%;
   max-width: 450px;
   border-radius: 30px;
-  -webkit-box-shadow: 0px 49px 46px -24px var(--tale);
+  -webkit-box-shadow: 0px 89px 100px -24px var(--tale);
   box-shadow: 0px 89px 100px -24px var(--tale);
 }
 
@@ -168,6 +120,15 @@
 }
 
 @media screen and (min-width: 700px) {
+  .home-services-list-item .dotted-line {
+    width: 50%;
+  }
+
+  .home-services-list-object {
+    flex-direction: row;
+    align-items: center;
+  }
+
   .home-services-section {
     display: flex;
     gap: 2rem;
@@ -195,36 +156,4 @@
     font-size: 1.2rem;
     letter-spacing: 0.5px;
   }
-
-  .home-services-list-item .price {
-    font-size: 1.5rem;
-    letter-spacing: 0.5px;
-  }
-
-  .home-services-list-item .button .btn--small--round {
-    border: 1px solid var(--blue);
-  }
-
-  .home-services-img-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .home-services-img-section .home-services-img.one {
-    margin-top: 4rem;
-  }
-
-  .home-services-img-section .home-services-img {
-    margin: 2rem 0;
-    display: flex;
-    justify-content: center;
-  }
-  .home-services-img-section .home-services-img img {
-    max-width: 650px;
-  }
-}
-
-@media screen and (min-width: 992px) {
 }
