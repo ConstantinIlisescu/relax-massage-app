@@ -40,7 +40,12 @@ function Navbar() {
           {navBar.home}
         </HashLink>
       </li>
-      <li className="item">
+      <li className="item" onClick={handleClickCloseMenu}>
+        <HashLink to="relax-massage-app/services#" className="">
+          {navBar.servicesList}
+        </HashLink>
+      </li>
+      {/* <li className="item">
         <HashLink className="item-services" onClick={handleServiceMenu}>
           <span>{navBar.servicesList}</span>
           <span>{toggleServiceMenu ? <BiCaretUp /> : <BiCaretDown />}</span>
@@ -63,7 +68,7 @@ function Navbar() {
             </div>
           </ul>
         )}
-      </li>
+      </li> */}
       <li className="item" onClick={handleClickCloseMenu}>
         <HashLink to="relax-massage-app/about-services#" className="">
           {navBar.aboutMyServices}

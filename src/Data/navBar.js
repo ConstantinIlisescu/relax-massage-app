@@ -1,6 +1,6 @@
 export const navBar = {
   home: "Home",
-  servicesList: "Services List",
+  servicesList: "Treatments",
   aboutMyServices: "About my Services",
   aboutMe: "About Me",
   contactMe: "Contact",
