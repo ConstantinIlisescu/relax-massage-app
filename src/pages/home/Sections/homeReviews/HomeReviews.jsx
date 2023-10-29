@@ -9,10 +9,6 @@ function HomeReviews() {
     <section id="home-reviews" className="home-reviews-section z-index-1">
       <div className="home-reviews-section-container">
         <h2 className="gradient-dark-text">{homeReviews.mainTitle}</h2>
-        <div className="home-reviews-section-container-subtitle">
-          <span className="title-line"></span>
-          <h3>{homeReviews.subTitle}</h3>
-        </div>
         <Carousel
           autoPlay={true}
           infiniteLoop={true}
@@ -32,15 +28,17 @@ function HomeReviews() {
             );
           })}
         </Carousel>
-        <Button
-          buttonStyle="btn--outline-dark"
-          onClick=""
-          isVisible={true}
-          linkTo="https://relaxmassagestudiocannock.setmore.com/reviews"
-          toTarget="_blank"
-        >
-          {homeReviews.buttonText}
-        </Button>
+        <span>
+          <Button
+            buttonStyle="btn--outline-dark"
+            onClick=""
+            isVisible={true}
+            linkTo={homeReviews.buttonLinkTo}
+            toTarget="_blank"
+          >
+            {homeReviews.buttonText}
+          </Button>
+        </span>
       </div>
     </section>
   );

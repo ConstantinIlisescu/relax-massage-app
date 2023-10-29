@@ -44,14 +44,6 @@
 
 /* animation end */
 
-/* .home-offers-section-container {
-  background-image: url(../../../../images/offer-img.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: 50% 50%;
-} */
-
 .home-offers-section-group {
   position: absolute;
   top: 0;
@@ -72,44 +64,19 @@
   width: 100%;
 }
 
-.home-offers-section-group .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  transition: all ease-in-out 0.3s;
+.btn-container {
+  margin-bottom: 30px;
 }
 
-.home-offers-section-group .button {
-  background: var(--lime);
-}
-
-.home-offers-section-group .button .btn--xl--round {
-  border: 1px solid var(--grey);
-  width: 90%;
-  height: 90%;
-  border-radius: 100%;
-  font-size: 1.2rem;
-  color: white;
-}
-
-.home-offers-section-group .button .btn--xl--round span {
-  font-size: 0.6rem;
-  display: block;
-  margin-top: 10px;
-  letter-spacing: 0.5px;
+.btn-container .button .btn--primary {
+  font-size: 1.3rem;
+  min-width: 300px;
+  line-height: 2rem;
 }
 
 .home-offers-section-group-offer-group {
-  /* background-image: url(../../../../images/offer-img.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: 50% 50%; */
   width: 100%;
-  height: 65%;
+  height: 100%;
   max-width: 650px;
   margin: 0 auto;
   text-align: center;
@@ -129,13 +96,20 @@
   padding-top: 90px;
 }
 
+.home-offers-section-group-offer-group-price span {
+  font-family: "Lato", sans-serif;
+}
+
 .home-offers-section-group-offer-group-price-savings .save {
   padding-left: 15px;
   font-size: 1.2rem;
 }
 
+.home-offers-section-group-offer-group-price-savings {
+  margin-bottom: 100px;
+}
+
 .home-offers-section-group-footer {
-  display: flex;
   align-items: center;
   text-align: center;
   max-width: 550px;

@@ -39,24 +39,24 @@ function HomeOffers() {
                 {homeOffers.saveAmount}
               </span>
             </p>
-          </div>
-          <div className="home-offers-section-group-footer">
-            <div className="btn-container">
-              <div className="button">
-                <Button
-                  buttonStyle="btn--xl--round"
-                  isVisible={true}
-                  linkTo={bookingButton.link}
-                  toTarget="_blank"
-                >
-                  {homeOffers.buttonMainText}{" "}
-                  <span>{homeOffers.buttonSubtext}</span>
-                </Button>
+            <div className="home-offers-section-group-footer">
+              <div className="btn-container">
+                <div className="button">
+                  <Button
+                    buttonStyle="btn--primary"
+                    isVisible={true}
+                    linkTo={bookingButton.link}
+                    toTarget="_blank"
+                  >
+                    {homeOffers.buttonMainText} <br />
+                    <span>{homeOffers.buttonSubtext}</span>
+                  </Button>
+                </div>
               </div>
-            </div>
-            <div className="text">
-              <p>{homeOffers.offerInfo}</p>
-              <p>{homeOffers.offerEndTime}</p>
+              <div className="text">
+                <p>{homeOffers.offerInfo}</p>
+                <p>{homeOffers.offerEndTime}</p>
+              </div>
             </div>
           </div>
         </div>
