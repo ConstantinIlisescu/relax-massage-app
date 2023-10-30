@@ -69,10 +69,6 @@
   font-family: "Lato", sans-serif;
 }
 
-.services-service-item-text button {
-  max-width: 120px;
-}
-
 .services-service-item-img {
   overflow: hidden;
   position: relative;

@@ -45,9 +45,6 @@ function ServiceItem({
         <div className="services-service-item-text">
           <h2>{mainTitle}</h2>
           <p>
-            {durationText} {duration}
-          </p>
-          <p>
             {priceText} <span>{currency}</span>
             {price}
           </p>

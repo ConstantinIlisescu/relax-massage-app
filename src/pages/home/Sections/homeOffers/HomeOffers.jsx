@@ -13,7 +13,7 @@ function HomeOffers() {
         className="home-offers-section clip-path-polygon z-index-1"
       >
         <div className="circle-animation home-offers-section-container"></div>
-        <div className="home-offers-section-group container">
+        <div className="home-offers-section-group">
           <div className="home-offers-section-group-title">
             <img
               src={require(`../../../../images/Home/${homeOffers.titleImage}`)}

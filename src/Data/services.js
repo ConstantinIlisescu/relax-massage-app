@@ -1,5 +1,4 @@
 export const services = {
-  numberOfServicesDisplayedOnMainPage: 3,
   servicesPageMainTitle: "TREATMENTS",
   servicesPageLearnMoreButtonText: "Learn More",
   servicesPageButtonText: "Book Now",
@@ -8,14 +7,11 @@ export const services = {
     {
       mainImage: "exfoliation.png",
       mainImageDescription: "...",
-      serviceTitleLink: "Exfoliation",
       serviceTitle: "EXFOLIATION",
       serviceId: "EXFOLIATION",
       serviceShortDescription:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-      serviceDurationText: "Duration",
-      serviceDuration: "40 minutes",
-      servicePriceText: "Price",
+      servicePriceText: "From",
       servicePrice: "45",
       serviceCurrency: "£",
       serviceDescriptions: {
@@ -34,14 +30,11 @@ export const services = {
     {
       mainImage: "reiki.png",
       mainImageDescription: "...",
-      serviceTitleLink: "Reiki Healing",
       serviceTitle: "REIKI HEALING",
       serviceId: "reikiHealing",
       serviceShortDescription:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-      serviceDurationText: "Duration",
-      serviceDuration: "1h 20min",
-      servicePriceText: "Price",
+      servicePriceText: "From",
       servicePrice: "80",
       serviceCurrency: "£",
       serviceDescriptions: {
@@ -71,14 +64,11 @@ export const services = {
     {
       mainImage: "footReflexology.png",
       mainImageDescription: "...",
-      serviceTitleLink: "Foot Reflexology",
       serviceTitle: "FOOT REFLEXOLOGY",
       serviceId: "footReflexology",
       serviceShortDescription:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-      serviceDurationText: "Duration",
-      serviceDuration: "1h",
-      servicePriceText: "Price",
+      servicePriceText: "From",
       servicePrice: "60",
       serviceCurrency: "£",
       serviceDescriptions: {
@@ -98,14 +88,11 @@ export const services = {
     {
       mainImage: "hotStoneMassage.png",
       mainImageDescription: "...",
-      serviceTitleLink: "Hot Stone Massage",
       serviceTitle: "HOT STONE MASSAGE",
       serviceId: "hotStoneMassage",
       serviceShortDescription:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-      serviceDurationText: "Duration",
-      serviceDuration: "45m",
-      servicePriceText: "Price",
+      servicePriceText: "From",
       servicePrice: "35",
       serviceCurrency: "£",
       serviceDescriptions: {
@@ -130,14 +117,11 @@ export const services = {
     {
       mainImage: "glidingCupping.png",
       mainImageDescription: "...",
-      serviceTitleLink: "Gliding Cupping",
       serviceTitle: "GLIDING CUPPING",
       serviceId: "glidingCupping",
       serviceShortDescription:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-      serviceDurationText: "Duration",
-      serviceDuration: "50 mins",
-      servicePriceText: "Price",
+      servicePriceText: "From",
       servicePrice: "40",
       serviceCurrency: "£",
       serviceDescriptions: {
@@ -162,14 +146,11 @@ export const services = {
     {
       mainImage: "fireCupping.png",
       mainImageDescription: "...",
-      serviceTitleLink: "Fire Cupping",
       serviceTitle: "FIRE CUPPING",
       serviceId: "fireCupping",
       serviceShortDescription:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-      serviceDurationText: "Duration",
-      serviceDuration: "45 minutes",
-      servicePriceText: "Price",
+      servicePriceText: "From",
       servicePrice: "45",
       serviceCurrency: "£",
       serviceDescriptions: {
@@ -189,14 +170,11 @@ export const services = {
     {
       mainImage: "warmRattan.png",
       mainImageDescription: "...",
-      serviceTitleLink: "Warm Rattan Massage",
       serviceTitle: "WARM RATTAN MASSAGE",
       serviceId: "wormRattanMassage",
       serviceShortDescription:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-      serviceDurationText: "Duration",
-      serviceDuration: "50 minutes",
-      servicePriceText: "Price",
+      servicePriceText: "From",
       servicePrice: "45",
       serviceCurrency: "£",
       serviceDescriptions: {
@@ -215,12 +193,9 @@ export const services = {
     // {
     //   mainImage: "",
     //   mainImageDescription: "...",
-    //   serviceTitleLink: "",
     //   serviceTitle: "",
     //   serviceId: "",
     //   serviceShortDescription:"",
-    //   serviceDurationText: "Duration",
-    //   serviceDuration: "",
     //   servicePriceText: "Price",
     //   servicePrice: "",
     //   serviceCurrency: "£",

@@ -1,6 +1,6 @@
 export const homeGift = {
   title: "",
-  buttonText: "Buy a Gift Voucher",
+  buttonText: "BUY A GIFT VOUCHER",
   mainImage: "gift.png",
   mainImageDescription: "...",
 };

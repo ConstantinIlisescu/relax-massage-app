@@ -38,7 +38,7 @@ export const homeServices = {
       imageDescription: "...",
     },
     {
-      title: "COMBO",
+      title: "SIGNATURE TREATMENTS",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
       image: "home-services-1.jpg",
