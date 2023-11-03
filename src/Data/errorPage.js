@@ -4,5 +4,5 @@ export const errorPage = {
     "Please use the top menu to navigate to an existing page and hope to see you soon at a massage session",
   image: "error-img.png",
   imageDescription: "...",
-  buttonText: "Book now",
+  buttonText: "BOOK NOW",
 };

@@ -1,8 +1,7 @@
 export const services = {
-  servicesPageMainTitle: "TREATMENTS",
+  servicesPageMainTitle: "TREATMENT MENU",
   servicesPageLearnMoreButtonText: "Learn More",
-  servicesPageButtonText: "Book Now",
-  serviceCurrency: "£",
+  servicesPageButtonText: "BOOK NOW",
   items: [
     {
       mainImage: "exfoliation.png",
@@ -20,10 +19,10 @@ export const services = {
         serviceMainDescription:
           "By removing dead skin cells and unclogging pores, exfoliation promotes improved skin texture and a healthy glow. It also enhances the effectiveness of moisturizers and treatments, allowing them to penetrate deeper. Additionally, exfoliation can help reduce ingrown hairs and even out skin tone. Treat yourself to a body exfoliation session to reveal softer, more vibrant skin and indulge in a pampering self-care experience.",
         serviceSecDescriptions: [
-          {
-            title: "",
-            paragraph: "",
-          },
+          // {
+          //   title: "",
+          //   paragraph: "",
+          // },
         ],
       },
     },
@@ -49,7 +48,7 @@ export const services = {
               "Reiki is a gentle, hands-on healing technique that channels universal life force energy to promote relaxation, balance, and overall well-being",
           },
           {
-            title: "Where Reiki comes from?",
+            title: "Where Reiki comes From?",
             paragraph:
               "Reiki originated in Japan in the early 20th century, developed by Mikao Usui as a spiritual practice for healing and self-improvement",
           },
@@ -58,6 +57,10 @@ export const services = {
             paragraph:
               "I have initiated in the Usui System of Natural Healing in 2017 by Reiki Master Allan Harris",
           },
+          // {
+          //   title: "",
+          //   paragraph: "",
+          // },
         ],
       },
     },
@@ -82,6 +85,10 @@ export const services = {
             paragraph:
               "Foot reflexology offers a multitude of benefits, including stress reduction, enhanced relaxation, improved circulation, strengthened immunity, pain relief, and an overall sense of well-being.",
           },
+          // {
+          //   title: "",
+          //   paragraph: "",
+          // },
         ],
       },
     },
@@ -104,13 +111,12 @@ export const services = {
           {
             title: "Benefits of Hot Stone Massage",
             paragraph:
-              "Hot stone massage offers several benefits, including relaxation of muscles, improved blood circulation, reduced stress and anxiety, relief from chronic pain, enhanced flexibility, and a sense of overall well-being.",
+              "Hot stone massage offers several benefits, including relaxation of muscles, improved blood circulation, reduced stress and anxiety, relief from chronic pain, enhanced flexibility, and a sense of overall well-being. Hot stone massage can also help in releasing muscle tension and knots, promoting deeper relaxation, improving sleep quality, detoxifying the body, and boosting the immune system. It can also enhance mental clarity, promote a sense of grounding and balance, and provide a luxurious and soothing experience.",
           },
-          {
-            title: "Any other benefits?",
-            paragraph:
-              "Hot stone massage can also help in releasing muscle tension and knots, promoting deeper relaxation, improving sleep quality, detoxifying the body, and boosting the immune system. It can also enhance mental clarity, promote a sense of grounding and balance, and provide a luxurious and soothing experience.",
-          },
+          // {
+          //   title: "",
+          //   paragraph: "",
+          // },
         ],
       },
     },
@@ -131,15 +137,18 @@ export const services = {
           "The suction created by the cups helps to release tension and stimulate energy flow, resulting in various health benefits such as pain relief, improved lymphatic drainage, and relaxation of muscles.",
         serviceSecDescriptions: [
           {
-            title: "GLIDING or SLIDING Cupping",
+            title: "",
             paragraph:
-              "This massage is deep, it is firm and it will revive your achy and tired muscles. This intense treatment will focus on muscle and fascia release with the use of oils and silicone cups.",
+              "This massage is deep, it is firm and it will revive your achy and tired muscles. This intense treatment will focus on muscle and fascia release with the use of oils and silicone cups. This treatment is combined with hands on deeper tissue massage, making you feel the ripples of tension slowly leave the body. As the cups glide or left firmly held in place with suction, you will feel a sense of release and the body stretched and refreshed.",
           },
           {
             title: "",
-            paragraph:
-              "This treatment is combined with hands on deeper tissue massage, making you feel the ripples of tension slowly leave the body. As the cups glide or left firmly held in place with suction, you will feel a sense of release and the body stretched and refreshed.",
+            paragraph: "",
           },
+          // {
+          //   title: "",
+          //   paragraph: "",
+          // },
         ],
       },
     },
@@ -160,10 +169,14 @@ export const services = {
           "Fire cupping is believed to have several potential benefits. It is thought to increase blood circulation, promote the flow of qi (energy), and relieve muscle tension. The suction created by the cups may also help release toxins and stagnation from the body.",
         serviceSecDescriptions: [
           {
-            title: "Fire Cupping Treatment",
+            title: "",
             paragraph:
               "Fire cupping is thought to increase blood circulation, promote the flow of qi (energy), and relieve muscle tension. The suction created by the cups may also help release toxins and stagnation from the body",
           },
+          // {
+          //   title: "",
+          //   paragraph: "",
+          // },
         ],
       },
     },
@@ -183,10 +196,10 @@ export const services = {
         serviceMainDescription:
           "Warm rattan massage is a therapeutic technique where smooth rattan sticks of varying sizes are heated and used to apply pressure, knead muscles, and promote relaxation. The warmth helps ease tension and increase circulation for a soothing and rejuvenating experience.",
         serviceSecDescriptions: [
-          {
-            title: "",
-            paragraph: "",
-          },
+          // {
+          //   title: "",
+          //   paragraph: "",
+          // },
         ],
       },
     },

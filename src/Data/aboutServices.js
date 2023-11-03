@@ -7,13 +7,21 @@ export const aboutServices = {
     image: "about-services.png",
     imageDescription: "...",
   },
-  sectionTwo: {
-    title: "WHAT EXACTLY IS A MASSAGE?",
-    paragraph:
-      "Through skilled touch and manipulation, massage alleviates muscle tension, reduces pain, and enhances flexibility. Massage improves blood circulation, which aids in delivering oxygen and nutrients to tissues while removing toxins. Massage also promotes relaxation, reduces stress, and boosts mood by stimulating the release of endorphins. Additionally, massage can improve sleep quality and alleviate anxiety and depression symptoms.",
-    image: "about-services-two.png",
-    imageDescription: "...",
-  },
+  sectionTwo: [
+    {
+      title: "WHAT EXACTLY IS A MASSAGE?",
+      paragraph:
+        "Through skilled touch and manipulation, massage alleviates muscle tension, reduces pain, and enhances flexibility. Massage improves blood circulation, which aids in delivering oxygen and nutrients to tissues while removing toxins. Massage also promotes relaxation, reduces stress, and boosts mood by stimulating the release of endorphins. Additionally, massage can improve sleep quality and alleviate anxiety and depression symptoms.",
+      image: "about-services-two.png",
+      imageDescription: "...",
+    },
+    // {
+    //   title: "",
+    //   paragraph:"",
+    //   image: "",
+    //   imageDescription: "...",
+    // },
+  ],
   sectionThree: {
     title: "What I Promise You",
     list: [

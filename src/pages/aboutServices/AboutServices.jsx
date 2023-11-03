@@ -21,22 +21,29 @@ function AboutServices() {
         </div>
       </div>
       <div className="about-services-light-section-background about-services-container-section-item">
-        <div className="container about-services-flex-container about-services-flex-direction-reverse">
-          <div className="about-services-container-second-section-text">
-            <h3 className="gradient-dark-text">
-              {aboutServices.sectionTwo.title}
-            </h3>
-            <p className="about-services-p-padding-bottom">
-              {aboutServices.sectionTwo.paragraph}
-            </p>
+        {aboutServices.sectionTwo.map((item, index) => (
+          <div
+            key={index}
+            className={
+              index % 2 === 0
+                ? "container about-services-flex-container-reverse"
+                : "container about-services-flex-container"
+            }
+          >
+            <div className="about-services-container-second-section-text">
+              <h3 className="gradient-dark-text">{item.title}</h3>
+              <p className="about-services-p-padding-bottom">
+                {item.paragraph}
+              </p>
+            </div>
+            <div className="about-services-img-container">
+              <img
+                src={require(`../../images/AboutServices/${item.image}`)}
+                alt={item.imageDescription}
+              />
+            </div>
           </div>
-          <div className="about-services-img-container">
-            <img
-              src={require(`../../images/AboutServices/${aboutServices.sectionTwo.image}`)}
-              alt={aboutServices.sectionTwo.imageDescription}
-            />
-          </div>
-        </div>
+        ))}
       </div>
       <div className="about-services-dark-section-background about-services-container-section-item clip-path-polygon z-index-1">
         <div className="container about-services-container-section-item-list small-container about-services-flex-container">

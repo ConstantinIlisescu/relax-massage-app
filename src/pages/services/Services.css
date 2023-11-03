@@ -7,13 +7,13 @@
   justify-items: center;
   align-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .services-service-item-container-main-title {
   text-align: center;
   padding-bottom: 20px;
   font-size: 2.8rem;
-  letter-spacing: 0.5px;
   font-family: var(--main-title-font);
   color: var(--white);
   width: 100%;
@@ -33,7 +33,7 @@
   overflow: hidden;
   position: fixed;
   width: 100vw;
-  filter: blur(40px);
+  filter: blur(80px);
   z-index: 1;
 }
 
@@ -285,65 +285,5 @@
 @media screen and (min-width: 1199px) {
   .services-service-item-container {
     max-width: 990px;
-  }
-
-  .shape-blob.one {
-    height: 450px;
-    width: 1450px;
-  }
-
-  .shape-blob.two {
-    height: 450px;
-    width: 1450px;
-  }
-
-  .shape-blob.three {
-    height: 450px;
-    width: 1450px;
-  }
-
-  .shape-blob.four {
-    height: 400px;
-    width: 1480px;
-  }
-
-  .shape-blob.five {
-    height: 400px;
-    width: 1480px;
-  }
-
-  .shape-blob.six {
-    height: 370px;
-    width: 1400px;
-  }
-
-  .shape-blob.seven {
-    height: 450px;
-    width: 1500px;
-  }
-
-  .shape-blob.eight {
-    height: 550px;
-    width: 1450px;
-  }
-
-  .shape-blob.nine {
-    height: 450px;
-    width: 1550px;
-  }
-
-  .shape-blob.ten {
-    height: 400px;
-    width: 1380px;
-  }
-
-  .shape-blob.eleven {
-    height: 400px;
-    width: 1380px;
-  }
-
-  .shape-blob.twelve {
-    height: 370px;
-    width: 1400px;
   }
 }

@@ -1,8 +1,7 @@
 export const homeAboutMe = {
-  image: "about-me-2.JPG",
+  image: "about-me-3.JPG",
   imageDescription: "...",
-  title: "About Me",
+  title: "MY MISSION",
   paragraph:
-    "I offer massages, body treatments and Reiki healing to help you unwind and de-stress. I use a variety of techniques to promote relaxation and well-being.",
-  buttonText: "Read more",
+    "I aim to provide exceptional massage therapy that promotes relaxation, relieves pain, and enhances overall well-being. I want to create a warm and welcoming space where clients can unwind, and I'm committed to continuously growing and learning to better serve them.",
 };

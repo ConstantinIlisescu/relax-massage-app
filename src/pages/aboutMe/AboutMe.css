@@ -1,20 +1,90 @@
 .about-me-page-container {
   padding-top: 150px;
+  text-align: center;
+}
+
+.contact-info-icons div {
+  margin: 15px;
+}
+
+contacts-button-container {
+  margin-top: 50px;
 }
 
 .about-me-page-container img {
   width: 100%;
-  -webkit-box-shadow: 0px 49px 46px -24px var(--tale);
-  box-shadow: 0px 39px 100px -24px var(--tale);
+  -webkit-box-shadow: 100px 9px 100px -34px var(--tale);
+  box-shadow: 100px 9px 100px -34px var(--tale);
 }
 
-.about-me-page-container-about-me-section-img1-container {
+.about-me-page-container
+  .about-me-page-container-about-me-section-img2-container-reverse
+  img {
+  width: 100%;
+  -webkit-box-shadow: 100px 9px 100px -34px var(--tale);
+  box-shadow: -100px 9px 100px -34px var(--tale);
+}
+
+.about-me-page-container-about-me-section-img-container {
   margin-bottom: 50px;
+}
+
+.about-me-page-container-about-me-section-img2-container {
+  margin-top: 50px;
+}
+
+#working-hours {
+  margin-top: 100px;
+}
+
+.home-contacts-phone,
+.home-contacts-address {
+  display: flex;
+  color: var(--blue);
+  font-size: 1.2rem;
+}
+
+.home-contacts-phone svg,
+.home-contacts-address svg {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 50%;
+  margin-right: 0.7rem;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0.5rem;
+}
+
+.working-hours-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 150px 0;
+}
+
+.working-hours-container h3 {
+  width: 100%;
+  margin-bottom: 50px;
+  font-family: var(--secondary-title-font);
+  font-size: 2.8rem;
+}
+
+.working-hours-container-schedule {
+  max-width: 350px;
+  margin: auto;
+}
+
+.working-hours-container-schedule-item {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--secondary-title-font);
+  font-size: 1.2rem;
+  margin-top: 5px;
 }
 
 .member-off {
   margin: 20px auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: var(--paragraph-font);
@@ -22,9 +92,16 @@
   color: var(--tale);
 }
 
-.member-off img {
+.member-off span {
+  margin-bottom: 20px;
+}
+
+.member-off-img-section {
+  display: flex;
+}
+.member-off-img-section img {
   width: 100px;
-  margin-left: 20px;
+  margin: 0 10px;
 }
 
 .about-me-page-container-about-me-section {
@@ -52,9 +129,20 @@
 }
 
 .about-me-page-container-contact-me-section h3 {
+  width: 100%;
+  margin-bottom: 50px;
   font-family: var(--secondary-title-font);
   font-size: 2.8rem;
-  text-align: center;
+}
+
+.about-me-page-container-where-to-find-me-section h3 {
+  font-family: var(--secondary-title-font);
+  font-size: 2.8rem;
+}
+
+.about-me-page-container-where-to-find-me-section .home-contacts-address {
+  max-width: 400px;
+  margin: 40px auto;
 }
 
 .about-me-page-container iframe {
@@ -67,14 +155,14 @@
 }
 
 .about-me-page-container-contact-me-section {
-  margin: 200px auto 0 auto;
+  margin: 100px auto;
   max-width: 400px;
 }
 
 .member-of-lines {
   display: flex;
   width: 400px;
-  margin: auto;
+  margin: 50px auto 50px auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -110,16 +198,24 @@
 }
 
 @media screen and (min-width: 700px) {
+  .home-contacts-phone,
+  .home-contacts-address {
+    font-size: 1rem;
+  }
+
+  .home-contacts-phone svg,
+  .home-contacts-address svg {
+    min-width: 2rem;
+    min-height: 2rem;
+    padding: 0.4rem;
+  }
+
   .about-me-page-container-contact-me-section {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     max-width: 800px;
-  }
-
-  .about-me-page-container-contact-me-section h3 {
-    width: 50%;
-    text-align: left;
   }
 
   .about-me-page-container-contact-me-section-contacts {
@@ -137,25 +233,46 @@
     max-width: 900px;
   }
 
-  .about-me-page-container img {
-    width: 250px;
-  }
-
-  .about-me-page-container-about-me-section-img1-container,
-  .about-me-page-container-about-me-section-img2-container {
+  .about-me-page-container-about-me-section-img-container {
     display: flex;
     align-items: center;
   }
 
-  .about-me-page-container-about-me-section-img1-container img {
+  .about-me-page-container-about-me-section-img-container img {
     margin-left: 50px;
   }
 
-  .about-me-page-container-about-me-section-img2-container {
+  .about-me-page-container img {
+    width: 250px;
+    -webkit-box-shadow: 100px 59px 100px -34px var(--tale);
+    box-shadow: 100px 59px 100px -34px var(--tale);
+  }
+
+  .about-me-page-container
+    .about-me-page-container-about-me-section-img2-container-reverse
+    img {
+    width: 250px;
+    -webkit-box-shadow: 100px 9px 100px -34px var(--tale);
+    box-shadow: -100px -59px 100px -34px var(--tale);
+  }
+
+  .about-me-page-container-about-me-section-img2-container-reverse {
+    display: flex;
     flex-direction: row-reverse;
   }
-  .about-me-page-container-about-me-section-img2-container img {
+
+  .about-me-page-container-about-me-section-img2-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+
+  .about-me-page-container-about-me-section-img2-container-reverse img {
     margin-right: 50px;
+  }
+
+  .about-me-page-container-about-me-section-img2-container img {
+    margin-left: 50px;
   }
 
   .member-off img {

@@ -1,6 +1,5 @@
 import React from "react";
 import "./HomeAboutMe.css";
-import { HashLink } from "react-router-hash-link";
 import { homeAboutMe } from "../../../../Data/home/homeAboutMe";
 
 function HomeAboutMe() {
@@ -21,12 +20,6 @@ function HomeAboutMe() {
           <h2 className="gradient-light-text ">{homeAboutMe.title}</h2>
           <div>
             <p className="home-about-me-paragraph">{homeAboutMe.paragraph}</p>
-            <HashLink
-              to="relax-massage-app/about#about-me"
-              className="btn--outline hover-effect-light"
-            >
-              {homeAboutMe.buttonText}
-            </HashLink>
           </div>
         </div>
       </div>

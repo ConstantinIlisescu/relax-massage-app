@@ -1,4 +1,7 @@
 export const contactInfo = {
+  contactText: "CONTACT ME",
+  whereToFindMeText: "WHERE TO FIND ME",
+  mainBookAppointmentButton: "BOOK NOW",
   phone: "tel:01543524924",
   phoneDisplay: "01543 524 924",
   whatsapp: "https://wa.me/1543524924",

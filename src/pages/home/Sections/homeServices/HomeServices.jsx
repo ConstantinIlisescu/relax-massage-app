@@ -5,6 +5,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import Button from "../../../../components/button/Button";
 import { services } from "../../../../Data/services";
 import { homeServices } from "../../../../Data/home/homeServices";
+import { bookingButton } from "../../../../Data/bookingButton";
 
 function HomeServices() {
   const servicesList = [];
@@ -48,10 +49,18 @@ function HomeServices() {
           })}
         </div>
         <div className="home-services-button">
-          <Button buttonStyle="btn--primary" isVisible={true}>
+          {/* <Button buttonStyle="btn--primary" isVisible={true}>
             <HashLink to="relax-massage-app/services/#">
               {homeServices.mainPageButtonText}
             </HashLink>
+          </Button> */}
+          <Button
+            buttonStyle=""
+            linkTo={bookingButton.link}
+            toTarget="_blank"
+            isVisible={true}
+          >
+            {homeServices.mainPageButtonText}
           </Button>
         </div>
       </div>
