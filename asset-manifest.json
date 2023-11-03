@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/relax-massage-app/static/css/main.47d149d7.css",
-    "main.js": "/relax-massage-app/static/js/main.1d31a03a.js",
+    "main.css": "/relax-massage-app/static/css/main.f24dc25f.css",
+    "main.js": "/relax-massage-app/static/js/main.0d6ba6ed.js",
     "static/media/about-services-three.png": "/relax-massage-app/static/media/about-services-three.a2dac219ed859a8805ec.png",
     "static/media/error-img.png": "/relax-massage-app/static/media/error-img.a2dac219ed859a8805ec.png",
     "static/media/exfoliation.png": "/relax-massage-app/static/media/exfoliation.29dcfae5a849844f1e42.png",
@@ -44,6 +44,7 @@
     "static/media/PHOTO-2023-10-24-15-19-33.jpg": "/relax-massage-app/static/media/PHOTO-2023-10-24-15-19-33.cbde529ba3f74fc0ec84.jpg",
     "static/media/about-me.jpg": "/relax-massage-app/static/media/about-me.4c7ec6e5dd9d7c3612c4.jpg",
     "static/media/Viagram.otf": "/relax-massage-app/static/media/Viagram.523df32316f0d4383d94.otf",
+    "static/media/about-me-3.JPG": "/relax-massage-app/static/media/about-me-3.6190341788bf5b3e072a.JPG",
     "static/media/TrajanPro-Bold.otf": "/relax-massage-app/static/media/TrajanPro-Bold.3f14e0ffe7b54e407289.otf",
     "static/media/Morehla-Regular.otf": "/relax-massage-app/static/media/Morehla-Regular.9b817772e786bd10b269.otf",
     "static/media/WondarQuason.ttf": "/relax-massage-app/static/media/WondarQuason.d22b6333b3c6e6266fd4.ttf",
@@ -62,11 +63,11 @@
     "static/media/home-services-3.jpg": "/relax-massage-app/static/media/home-services-3.7cc86b1f1b7070a7e454.jpg",
     "static/media/linaillab.png": "/relax-massage-app/static/media/linaillab.09abd0a7fd208ccf13a4.png",
     "index.html": "/relax-massage-app/index.html",
-    "main.47d149d7.css.map": "/relax-massage-app/static/css/main.47d149d7.css.map",
-    "main.1d31a03a.js.map": "/relax-massage-app/static/js/main.1d31a03a.js.map"
+    "main.f24dc25f.css.map": "/relax-massage-app/static/css/main.f24dc25f.css.map",
+    "main.0d6ba6ed.js.map": "/relax-massage-app/static/js/main.0d6ba6ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.47d149d7.css",
-    "static/js/main.1d31a03a.js"
+    "static/css/main.f24dc25f.css",
+    "static/js/main.0d6ba6ed.js"
   ]
 }
