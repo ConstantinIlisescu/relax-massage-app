@@ -70,7 +70,7 @@ export const services = {
       ],
     },
     {
-      mainImage: "bfeea4d1-eb64-4ed4-9ba1-a34d582a5f14.JPG",
+      mainImage: "exfoliation.png",
       mainImageDescription: "...",
       serviceTitle: "Full Body Massage",
       serviceId: "FullBodyMassage",
@@ -78,7 +78,7 @@ export const services = {
       servicePrice: "50",
       serviceCurrency: "£",
       serviceDescriptions: {
-        image: "4e14b335-39a6-4dcb-93f8-444e7df50d40.JPG",
+        image: "exfoliation.png",
         imageDescription: "...",
         serviceMainDescription:
           "A relaxing full body massage is a therapeutic technique that encompasses the entire body. It involves applying various techniques such as kneading, stroking, and stretching to promote relaxation, relieve muscle tension, and improve overall well-being. This includes face, head, neck, back, shoulders, arms, abdomen, legs, and feet, providing a comprehensive and soothing experience. A full body massage helps to improve blood circulation, release muscle tension, reduce stress, and promote a sense of deep relaxation. It is an excellent choice for those seeking a complete rejuvenation and a blissful escape from daily stressors.",
