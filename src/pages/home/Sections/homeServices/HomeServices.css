@@ -126,7 +126,6 @@
   }
   .home-services-text-section h1 {
     font-size: 3.3rem;
-    letter-spacing: 0.5px;
   }
 
   .home-services-subtitle {
@@ -135,16 +134,18 @@
 
   .home-services-subtitle h3 {
     font-size: 1rem;
-    letter-spacing: 0.5px;
   }
 
   .home-services-list-item h4 {
     font-size: 1.5rem;
-    letter-spacing: 0.5px;
   }
 
   .home-services-list-item p {
     font-size: 1.2rem;
-    letter-spacing: 0.5px;
+    margin-right: 20px;
+  }
+
+  .home-services-img {
+    width: 100%;
   }
 }

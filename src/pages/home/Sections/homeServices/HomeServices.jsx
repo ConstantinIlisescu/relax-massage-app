@@ -34,7 +34,7 @@ function HomeServices() {
                       <p>{service.description}</p>
                     </div>
                   </div>
-                  <div className="home-services-img one">
+                  <div className="home-services-img">
                     <img
                       src={require(`../../../../images/Home/${service.image}`)}
                       alt={service.imageDescription}

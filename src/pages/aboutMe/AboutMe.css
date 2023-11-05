@@ -13,6 +13,10 @@ contacts-button-container {
 
 .about-me-page-container img {
   width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   -webkit-box-shadow: 100px 9px 100px -34px var(--tale);
   box-shadow: 100px 9px 100px -34px var(--tale);
 }
@@ -30,6 +34,9 @@ contacts-button-container {
 }
 
 .about-me-page-container-about-me-section-img2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 50px;
 }
 
@@ -40,6 +47,7 @@ contacts-button-container {
 .home-contacts-phone,
 .home-contacts-address {
   display: flex;
+  justify-content: center;
   color: var(--blue);
   font-size: 1.2rem;
 }
@@ -235,6 +243,9 @@ contacts-button-container {
 
   .about-me-page-container-about-me-section-img-container {
     display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
     align-items: center;
   }
 
@@ -258,6 +269,8 @@ contacts-button-container {
 
   .about-me-page-container-about-me-section-img2-container-reverse {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row-reverse;
   }
 

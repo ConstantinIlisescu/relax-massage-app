@@ -3,35 +3,31 @@ export const schedule = {
   list: [
     {
       day: "Monday",
-      schedule: "9:00am - 9:00pm",
+      schedule: "11 am - 7 pm",
     },
     {
       day: "Tuesday",
-      schedule: "9:00am - 9:00pm",
+      schedule: "10 am - 9 pm",
     },
     {
       day: "Wednesday",
-      schedule: "9:00am - 9:00pm",
+      schedule: "11 am - 7 pm",
     },
     {
       day: "Thursday",
-      schedule: "9:00am - 9:00pm",
+      schedule: "10 am - 9 pm",
     },
     {
       day: "Friday",
-      schedule: "9:00am - 9:00pm",
+      schedule: "10 am - 9 pm",
     },
     {
       day: "Saturday",
-      schedule: "Closed",
+      schedule: "10 am - 9 pm",
     },
     {
       day: "Sunday",
-      schedule: "Closed",
+      schedule: "10 am - 9 pm",
     },
-    // {
-    //   day: "",
-    //   schedule: "",
-    // },
   ],
 };

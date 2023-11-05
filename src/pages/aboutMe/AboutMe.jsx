@@ -64,6 +64,16 @@ function AboutMe() {
               />
             </div>
           ))}
+          <div className="home-contacts-button z-index-1">
+            <Button
+              buttonStyle=""
+              linkTo={bookingButton.link}
+              toTarget="_blank"
+              isVisible={true}
+            >
+              {contactInfo.mainBookAppointmentButton}
+            </Button>
+          </div>
         </div>
       </div>
 
