@@ -70,7 +70,7 @@ export const services = {
       ],
     },
     {
-      mainImage: "exfoliation.png",
+      mainImage: "9d5f5a6b-9c7a-4ac2-8a7e-bc4f6e9030e2.JPG",
       mainImageDescription: "...",
       serviceTitle: "Full Body Massage",
       serviceId: "FullBodyMassage",
@@ -78,7 +78,7 @@ export const services = {
       servicePrice: "50",
       serviceCurrency: "£",
       serviceDescriptions: {
-        image: "exfoliation.png",
+        image: "a030e70a-c62e-40e9-880b-d5db7cc1c422.JPG",
         imageDescription: "...",
         serviceMainDescription:
           "A relaxing full body massage is a therapeutic technique that encompasses the entire body. It involves applying various techniques such as kneading, stroking, and stretching to promote relaxation, relieve muscle tension, and improve overall well-being. This includes face, head, neck, back, shoulders, arms, abdomen, legs, and feet, providing a comprehensive and soothing experience. A full body massage helps to improve blood circulation, release muscle tension, reduce stress, and promote a sense of deep relaxation. It is an excellent choice for those seeking a complete rejuvenation and a blissful escape from daily stressors.",
@@ -652,7 +652,7 @@ export const services = {
       ],
     },
     {
-      mainImage: "exfoliation.png",
+      mainImage: "1858171f-2016-482f-a9bf-4170b2a48ffb.JPG",
       mainImageDescription: "...",
       serviceTitle: "Paraffin Wax Hands Treatment",
       serviceId: "ParaffinWaxHandsTreatment",
@@ -660,7 +660,7 @@ export const services = {
       servicePrice: "15",
       serviceCurrency: "£",
       serviceDescriptions: {
-        image: "exfoliation.png",
+        image: "a64b86dd-2c75-4b77-bf32-9f613f4c8a81.JPG",
         imageDescription: "...",
         serviceMainDescription:
           "A paraffin wax hand treatment is a spa therapy that involves immersing the hands in warm, melted paraffin wax. The hands are first cleansed and exfoliated to remove any dead skin cells. Then, they are dipped into the warm paraffin wax, allowing the wax to coat the hands completely. The hands are then covered with plastic and a towel and left to relax and absorb the heat for a few minutes. The heat from the wax helps to open up the pores, increase blood circulation, and moisturise the skin. After the wax is removed, the hands are left feeling soft, smooth, and rejuvenated. This treatment is particularly beneficial for dry, rough, or tired hands.",
