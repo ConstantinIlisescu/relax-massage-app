@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/relax-massage-app/static/css/main.396dbe11.css",
-    "main.js": "/relax-massage-app/static/js/main.d9d4ffae.js",
+    "main.js": "/relax-massage-app/static/js/main.47f14edf.js",
     "static/media/about-services-three.png": "/relax-massage-app/static/media/about-services-three.a2dac219ed859a8805ec.png",
     "static/media/error-img.png": "/relax-massage-app/static/media/error-img.a2dac219ed859a8805ec.png",
     "static/media/exfoliation.png": "/relax-massage-app/static/media/exfoliation.29dcfae5a849844f1e42.png",
@@ -49,6 +49,7 @@
     "static/media/about-me-massage.jpg": "/relax-massage-app/static/media/about-me-massage.72a075fa43c132653c43.jpg",
     "static/media/PHOTO-2023-10-24-15-19-32 1.jpg": "/relax-massage-app/static/media/PHOTO-2023-10-24-15-19-32 1.4d6087b47f6ed60ed35a.jpg",
     "static/media/PHOTO-2023-10-24-15-19-33.jpg": "/relax-massage-app/static/media/PHOTO-2023-10-24-15-19-33.cbde529ba3f74fc0ec84.jpg",
+    "static/media/PHOTO-2023-11-05-13-59-42.jpg": "/relax-massage-app/static/media/PHOTO-2023-11-05-13-59-42.92ebb3dbd69b92a81faa.jpg",
     "static/media/Viagram.otf": "/relax-massage-app/static/media/Viagram.523df32316f0d4383d94.otf",
     "static/media/PHOTO-2023-11-03-20-02-25.jpg": "/relax-massage-app/static/media/PHOTO-2023-11-03-20-02-25.53285894e30569a500f5.jpg",
     "static/media/about-me-3.JPG": "/relax-massage-app/static/media/about-me-3.6190341788bf5b3e072a.JPG",
@@ -68,10 +69,10 @@
     "static/media/linaillab.png": "/relax-massage-app/static/media/linaillab.09abd0a7fd208ccf13a4.png",
     "index.html": "/relax-massage-app/index.html",
     "main.396dbe11.css.map": "/relax-massage-app/static/css/main.396dbe11.css.map",
-    "main.d9d4ffae.js.map": "/relax-massage-app/static/js/main.d9d4ffae.js.map"
+    "main.47f14edf.js.map": "/relax-massage-app/static/js/main.47f14edf.js.map"
   },
   "entrypoints": [
     "static/css/main.396dbe11.css",
-    "static/js/main.d9d4ffae.js"
+    "static/js/main.47f14edf.js"
   ]
 }
