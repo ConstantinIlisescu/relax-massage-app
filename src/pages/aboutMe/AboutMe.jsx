@@ -65,7 +65,7 @@ function AboutMe() {
               />
             </div>
           ))}
-          <div className="home-contacts-button z-index-1">
+          <div className="home-contacts-button section-top z-index-1">
             <Button
               buttonStyle=""
               linkTo={bookingButton.link}

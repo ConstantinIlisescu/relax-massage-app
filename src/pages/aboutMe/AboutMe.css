@@ -11,6 +11,10 @@ contacts-button-container {
   margin-top: 50px;
 }
 
+.home-contacts-button.section-top {
+  margin-top: 30px;
+}
+
 .about-me-page-container img {
   width: 100%;
   height: 100%;
@@ -39,7 +43,7 @@ contacts-button-container {
 }
 
 #working-hours {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .home-contacts-phone,
@@ -162,7 +166,7 @@ contacts-button-container {
 }
 
 .about-me-page-container-contact-me-section {
-  margin: 100px auto;
+  margin: 50px auto;
   max-width: 400px;
 }
 
