@@ -8,8 +8,6 @@ import { bookingButton } from "../../../Data/bookingButton";
 function ServiceItem({
   id,
   mainTitle,
-  durationText,
-  duration,
   priceText,
   price,
   currency,
@@ -21,6 +19,7 @@ function ServiceItem({
   secDescriptions,
   learnMoreButtonText,
   bookNowButtonText,
+  priceList,
 }) {
   const [toggleOverlay, setToggleOverlay] = useState(false);
 
@@ -94,7 +93,16 @@ function ServiceItem({
               </div>
             );
           })}
-
+          {priceList.map((item, index) => (
+            <div
+              key={index}
+              className="services-service-item-overlay-content-item-price-list"
+            >
+              <p>{item.mins}</p>
+              &nbsp;<span>{currency}</span>
+              <p>{item.price}</p>
+            </div>
+          ))}
           <div className="services-service-item-overlay-content-button">
             <Button
               buttonStyle=""

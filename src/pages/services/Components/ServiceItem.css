@@ -27,6 +27,12 @@
   cursor: pointer;
 }
 
+.services-service-item-overlay-content-item-price-list {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
 .services-service-item-text {
   display: flex;
   flex-grow: 1;

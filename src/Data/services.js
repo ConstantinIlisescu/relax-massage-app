@@ -4,7 +4,7 @@ export const services = {
   servicesPageButtonText: "BOOK NOW",
   items: [
     {
-      mainImage: "exfoliation.png",
+      mainImage: "PHOTO-2023-11-05-14-05-44.jpg",
       mainImageDescription: "...",
       serviceTitle: "Relaxing Back Massage",
       serviceId: "RelaxingBackMassage",
@@ -12,10 +12,10 @@ export const services = {
       servicePrice: "25",
       serviceCurrency: "£",
       serviceDescriptions: {
-        image: "exfoliation.png",
+        image: "PHOTO-2023-11-05-14-05-46.jpg",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "A relaxing back massage is a therapeutic technique that aims to relieve tension and promote relaxation in the back muscles. It involves applying gentle pressure and kneading motions to the muscles using various techniques. The soothing strokes and movements help improve blood circulation, release muscle knots, reduce stress, and enhance overall well-being. It's a great way to unwind and rejuvenate, especially after a long day.",
         serviceSecDescriptions: [
           // {
           //   title: "",
@@ -23,28 +23,48 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        {
+          mins: "30 Mins -",
+          price: "30",
+        },
+        {
+          mins: "45 Mins -",
+          price: "40",
+        },
+        {
+          mins: "60 Mins -",
+          price: "50",
+        },
+      ],
     },
-    {
-      mainImage: "exfoliation.png",
-      mainImageDescription: "...",
-      serviceTitle: "Back Massage Mixed Techniques",
-      serviceId: "BackMassageMixedTechniques",
-      servicePriceText: "From",
-      servicePrice: "50",
-      serviceCurrency: "£",
-      serviceDescriptions: {
-        image: "exfoliation.png",
-        imageDescription: "...",
-        serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-        serviceSecDescriptions: [
-          // {
-          //   title: "",
-          //   paragraph: "",
-          // },
-        ],
-      },
-    },
+    // {
+    //   mainImage: "exfoliation.png",
+    //   mainImageDescription: "...",
+    //   serviceTitle: "Back Massage Mixed Techniques",
+    //   serviceId: "BackMassageMixedTechniques",
+    //   servicePriceText: "From",
+    //   servicePrice: "50",
+    //   serviceCurrency: "£",
+    //   serviceDescriptions: {
+    //     image: "exfoliation.png",
+    //     imageDescription: "...",
+    //     serviceMainDescription:
+    //       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+    //     serviceSecDescriptions: [
+    //       // {
+    //       //   title: "",
+    //       //   paragraph: "",
+    //       // },
+    //     ],
+    //   },
+    //   servicesPricesList: [
+    //     // {
+    //     //   mins: "",
+    //     //   price: "",
+    //     // },
+    //   ],
+    // },
     {
       mainImage: "exfoliation.png",
       mainImageDescription: "...",
@@ -57,7 +77,7 @@ export const services = {
         image: "exfoliation.png",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "A neck and shoulders tension relief massage is a therapeutic technique specifically designed to target and alleviate tension in the neck and shoulder muscles. Focused pressure kneading motions are applied to these areas, using techniques like deep tissue massage or trigger point therapy. This helps to release muscle tension, improve blood circulation, and reduce pain and stiffness in the neck and shoulders. The massage may also include stretching and gentle movements to increase flexibility and promote relaxation. It's an effective way to relieve tension and promote overall comfort and well-being in the upper body.",
         serviceSecDescriptions: [
           // {
           //   title: "",
@@ -65,6 +85,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        {
+          mins: "45 Mins -",
+          price: "40",
+        },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -78,7 +104,7 @@ export const services = {
         image: "exfoliation.png",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "Indian head massage, also known as champissage, is a therapeutic technique that focuses on the head, neck, and shoulders. It involves applying firm but gentle pressure to these areas, using a combination of techniques like kneading, tapping, and circular motions. The massage helps to relieve tension, improve blood circulation, and promote relaxation. It can also stimulate hair growth and relieve headaches.",
         serviceSecDescriptions: [
           // {
           //   title: "",
@@ -86,6 +112,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        {
+          mins: "30 Mins -",
+          price: "30",
+        },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -99,7 +131,7 @@ export const services = {
         image: "exfoliation.png",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "A legs massage is a therapeutic technique that focuses on the muscles of the legs. It involves applying pressure and using various techniques such as kneading, stroking, and stretching to promote relaxation, improve blood circulation, and relieve muscle tension. Specific areas of the legs may be targeted, such as the calves or thighs, to address any specific concerns or areas of discomfort. A legs massage can help reduce muscle soreness, increase flexibility, and provide a sense of overall well-being. It is a great option for those who spend long hours on their feet or engage in physical activities.",
         serviceSecDescriptions: [
           // {
           //   title: "",
@@ -107,6 +139,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        {
+          mins: "60 Mins - ",
+          price: "50",
+        },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -120,7 +158,7 @@ export const services = {
         image: "exfoliation.png",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "A deep tissue back massage is a therapeutic technique that involves applying firm pressure and slow strokes to reach the deeper layers of muscles in the back. It aims to release chronic muscle tension, improve posture, increase range of motion, and promote relaxation. This type of massage can be intense and may cause temporary discomfort, but it provides long-lasting relief from muscle tightness and chronic pain. It is beneficial for those seeking a more targeted and therapeutic approach to address specific issues in the back muscles.",
         serviceSecDescriptions: [
           // {
           //   title: "",
@@ -128,6 +166,16 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        {
+          mins: "30 Mins (taster session) -",
+          price: "30",
+        },
+        {
+          mins: "60 Mins -",
+          price: "50",
+        },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -141,7 +189,7 @@ export const services = {
         image: "exfoliation.png",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "A deep tissue full body massage is a therapeutic technique that involves applying firm pressure and slow strokes to reach the deeper layers of muscles throughout the entire body. It aims to release chronic muscle tension and knots, improve posture, increase range of motion, and promote relaxation. This type of massage can be intense and may cause temporary discomfort, but it provides long-lasting relief from muscle tightness and chronic pain. It is beneficial for those seeking a more comprehensive and therapeutic approach to address specific issues in multiple areas of the body.",
         serviceSecDescriptions: [
           // {
           //   title: "",
@@ -149,6 +197,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        {
+          mins: "60 Mins -",
+          price: "65",
+        },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -162,7 +216,7 @@ export const services = {
         image: "exfoliation.png",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "A sports massage is a therapeutic technique specifically designed for athletes and individuals engaged in physical activities. It focuses on preventing and treating injuries, improving performance, and aiding in recovery. Combination of techniques is used such as deep tissue massage, stretching, and joint mobilisation to target specific muscles and areas of the body that are commonly affected by sports-related stress and tension. Sports massage helps to enhance flexibility, reduce muscle soreness, increase blood flow, and promote overall athletic performance and well-being. It is a valuable tool for athletes and active individuals looking to optimise their training and recovery.",
         serviceSecDescriptions: [
           // {
           //   title: "",
@@ -170,6 +224,16 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        {
+          mins: "30 Mins -",
+          price: "35",
+        },
+        {
+          mins: "60 Mins -",
+          price: "55",
+        },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -183,7 +247,7 @@ export const services = {
         image: "exfoliation.png",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "A lymphatic drainage massage is a gentle and rhythmic technique that aims to stimulate the lymphatic system, which helps remove toxins and waste from the body. Light pressure and specific hand movements are used to encourage the flow of lymph fluid throughout the body. This can help reduce swelling, boost the immune system, improve circulation, and promote overall detoxification and well-being. Lymphatic drainage massage is often used to address conditions such as lymphedema, post-surgical swelling, and immune system disorders. It is a gentle and relaxing massage that supports the body's natural detoxification processes.",
         serviceSecDescriptions: [
           // {
           //   title: "",
@@ -191,6 +255,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        {
+          mins: "60 Mins -",
+          price: "60",
+        },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -212,6 +282,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        // {
+        //   mins: "",
+        //   price: "",
+        // },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -233,6 +309,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        // {
+        //   mins: "",
+        //   price: "",
+        // },
+      ],
     },
     {
       mainImage: "fireCupping.png",
@@ -259,6 +341,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        // {
+        //   mins: "",
+        //   price: "",
+        // },
+      ],
     },
     {
       mainImage: "glidingCupping.png",
@@ -285,6 +373,12 @@ export const services = {
           },
         ],
       },
+      servicesPricesList: [
+        // {
+        //   mins: "",
+        //   price: "",
+        // },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -306,6 +400,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        // {
+        //   mins: "",
+        //   price: "",
+        // },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -327,6 +427,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        // {
+        //   mins: "",
+        //   price: "",
+        // },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -348,6 +454,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        // {
+        //   mins: "",
+        //   price: "",
+        // },
+      ],
     },
     {
       mainImage: "hotStoneMassage.png",
@@ -374,6 +486,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        // {
+        //   mins: "",
+        //   price: "",
+        // },
+      ],
     },
     {
       mainImage: "warmRattan.png",
@@ -395,6 +513,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        // {
+        //   mins: "",
+        //   price: "",
+        // },
+      ],
     },
     {
       mainImage: "exfoliation.png",
@@ -416,6 +540,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        // {
+        //   mins: "",
+        //   price: "",
+        // },
+      ],
     },
     // {
     //   mainImage: "exfoliation.png",
@@ -437,6 +567,12 @@ export const services = {
     //       // },
     //     ],
     //   },
+    //  servicesPricesList: [
+    //    {
+    //     mins: "",
+    //     price: "",
+    //    },
+    //  ],
     // },
     // {
     //   mainImage: "footReflexology.png",
@@ -459,6 +595,12 @@ export const services = {
     //       },
     //     ],
     //   },
+    //  servicesPricesList: [
+    //    {
+    //     mins: "",
+    //     price: "",
+    //    },
+    //  ],
     // },
     // {
     //   mainImage: "exfoliation.png",
@@ -480,6 +622,12 @@ export const services = {
     //       // },
     //     ],
     //   },
+    //  servicesPricesList: [
+    //    {
+    //     mins: "",
+    //     price: "",
+    //    },
+    //  ],
     // },
     // {
     //   mainImage: "exfoliation.png",
@@ -501,6 +649,12 @@ export const services = {
     //       // },
     //     ],
     //   },
+    //  servicesPricesList: [
+    //    {
+    //     mins: "",
+    //     price: "",
+    //    },
+    //  ],
     // },
     {
       mainImage: "exfoliation.png",
@@ -522,6 +676,12 @@ export const services = {
           // },
         ],
       },
+      servicesPricesList: [
+        {
+          mins: "",
+          price: "",
+        },
+      ],
     },
 
     // {
@@ -559,6 +719,12 @@ export const services = {
     //       // },
     //     ],
     //   },
+    //  servicesPricesList: [
+    //    {
+    //     mins: "",
+    //     price: "",
+    //    },
+    //  ],
     // },
 
     // {
@@ -581,6 +747,12 @@ export const services = {
     //       // },
     //     ],
     //   },
+    //  servicesPricesList: [
+    //    {
+    //     mins: "",
+    //     price: "",
+    //    },
+    //  ],
     // },
   ],
 };

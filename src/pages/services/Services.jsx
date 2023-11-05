@@ -32,8 +32,6 @@ function Services() {
                 key={index}
                 id={item.serviceId}
                 mainTitle={item.serviceTitle}
-                durationText={item.serviceDurationText}
-                duration={item.serviceDuration}
                 priceText={item.servicePriceText}
                 price={item.servicePrice}
                 currency={item.serviceCurrency}
@@ -49,6 +47,7 @@ function Services() {
                 secDescriptions={
                   item.serviceDescriptions.serviceSecDescriptions
                 }
+                priceList={item.servicesPricesList}
               />
             );
           })}
