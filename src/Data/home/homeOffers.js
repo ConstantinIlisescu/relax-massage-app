@@ -18,5 +18,5 @@ export const homeOffers = {
   buttonMainText: "BOOK NOW",
   buttonSubtext: "DON'T MISS OUT!",
   offerInfo: "Offer valid ONLY for appointments made in November 2023",
-  offerEndTime: "Offer ends 30/10/2023",
+  offerEndTime: "Offer ends 30/11/2023",
 };
