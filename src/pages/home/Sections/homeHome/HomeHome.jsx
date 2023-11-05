@@ -1,14 +1,7 @@
 import React from "react";
 import "./HomeHome.css";
-import {
-  AiOutlineMail,
-  AiOutlinePhone,
-  AiOutlineWhatsApp,
-} from "react-icons/ai";
-import { BiMap, BiLogoFacebook, BiLogoInstagram } from "react-icons/bi";
 import Button from "../../../../components/button/Button";
 import { homeHome } from "../../../../Data/home/homeHome";
-import { contactInfo } from "../../../../Data/contactInfo";
 import { bookingButton } from "../../../../Data/bookingButton";
 
 function HomeHome() {

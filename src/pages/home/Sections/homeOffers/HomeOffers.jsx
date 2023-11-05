@@ -22,15 +22,21 @@ function HomeOffers() {
           </div>
           <div className="home-offers-section-group-offer-group">
             <h3>{homeOffers.offerTitle}</h3>
+            <p className="home-offers-section-group-offer-group-percentage">
+              {homeOffers.percentageOff}
+              <span>{homeOffers.percentageSign}</span>
+              {homeOffers.percentageText}
+            </p>
             <p className="home-offers-section-group-offer-group-price">
-              {homeOffers.only} <span>{homeOffers.currency}</span>
+              {homeOffers.only}
+              <span>{homeOffers.currency}</span>
               {homeOffers.priceAmount}
             </p>
             <p className="home-offers-section-group-offer-group-price-savings">
               {homeOffers.pricedAt}
               <span className="full-price">
                 <s>
-                  <span> {homeOffers.currency}</span>
+                  <span>{homeOffers.currency}</span>
                   {homeOffers.pricedAtAmount}
                 </s>
               </span>

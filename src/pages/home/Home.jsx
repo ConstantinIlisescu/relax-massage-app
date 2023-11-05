@@ -1,6 +1,6 @@
 import React from "react";
 import HomeHome from "./Sections/homeHome/HomeHome";
-import HomeAboutMe from "./Sections/homeAboutMe/HomeAboutMe";
+import MyMission from "./Sections/myMission/MyMission";
 import HomeServices from "./Sections/homeServices/HomeServices";
 import HomeOffers from "./Sections/homeOffers/HomeOffers";
 import HomeReviews from "./Sections/homeReviews/HomeReviews";
@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <HomeHome />
-      <HomeAboutMe />
+      <MyMission />
       <HomeServices />
       <HomeOffers />
       <HomeReviews />

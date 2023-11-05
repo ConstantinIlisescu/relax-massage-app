@@ -1,8 +1,8 @@
 import React from "react";
-import "./HomeAboutMe.css";
-import { homeAboutMe } from "../../../../Data/home/homeAboutMe";
+import "./MyMission.css";
+import { myMission } from "../../../../Data/home/myMission";
 
-function HomeAboutMe() {
+function MyMission() {
   return (
     <section
       id="home-about-me"
@@ -11,15 +11,15 @@ function HomeAboutMe() {
       <div className="section-container container">
         <div className="home-about-me-img">
           <img
-            src={require(`../../../../images/Home/${homeAboutMe.image}`)}
-            alt={homeAboutMe.imageDescription}
+            src={require(`../../../../images/Home/${myMission.image}`)}
+            alt={myMission.imageDescription}
             className="shadow"
           />
         </div>
         <div>
-          <h2 className="gradient-light-text ">{homeAboutMe.title}</h2>
+          <h2 className="gradient-light-text ">{myMission.title}</h2>
           <div>
-            <p className="home-about-me-paragraph">{homeAboutMe.paragraph}</p>
+            <p className="home-about-me-paragraph">{myMission.paragraph}</p>
           </div>
         </div>
       </div>
@@ -27,4 +27,4 @@ function HomeAboutMe() {
   );
 }
 
-export default HomeAboutMe;
+export default MyMission;

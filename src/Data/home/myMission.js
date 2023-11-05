@@ -1,4 +1,4 @@
-export const homeAboutMe = {
+export const myMission = {
   image: "about-me-3.JPG",
   imageDescription: "...",
   title: "MY MISSION",
