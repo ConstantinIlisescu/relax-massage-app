@@ -6,6 +6,7 @@ import {
   AiOutlineMail,
   AiFillYoutube,
 } from "react-icons/ai";
+import { BsCurrencyPound } from "react-icons/bs";
 import { BiMap, BiLogoFacebook, BiLogoInstagram } from "react-icons/bi";
 import { aboutMe } from "../../Data/aboutMe";
 import { contactInfo } from "../../Data/contactInfo";
@@ -125,6 +126,18 @@ function AboutMe() {
               </a>
               <a href={contactInfo.email} target="_blank" rel="noreferrer">
                 {contactInfo.emailDisplay}
+              </a>
+            </div>
+            <div
+              className="home-contacts-phone"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <a href={bookingButton.link} target="_blank" rel="noreferrer">
+                <BsCurrencyPound />
+              </a>
+              <a href={bookingButton.link} target="_blank" rel="noreferrer">
+                {contactInfo.paymentOptions}
               </a>
             </div>
           </div>

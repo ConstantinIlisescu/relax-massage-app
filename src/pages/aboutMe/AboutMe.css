@@ -34,8 +34,6 @@ contacts-button-container {
 }
 
 .about-me-page-container-about-me-section-img2-container {
-  display: flex;
-  justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
@@ -47,7 +45,8 @@ contacts-button-container {
 .home-contacts-phone,
 .home-contacts-address {
   display: flex;
-  justify-content: center;
+  text-align: left;
+  justify-content: left;
   color: var(--blue);
   font-size: 1.2rem;
 }
@@ -276,6 +275,8 @@ contacts-button-container {
 
   .about-me-page-container-about-me-section-img2-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     margin-top: 50px;
   }

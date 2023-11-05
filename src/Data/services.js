@@ -69,8 +69,8 @@ export const services = {
     {
       mainImage: "exfoliation.png",
       mainImageDescription: "...",
-      serviceTitle: "Relax Head Massage",
-      serviceId: "RelaxHeadMassage",
+      serviceTitle: "Indian Head Massage",
+      serviceId: "IndianHeadMassage",
       servicePriceText: "From",
       servicePrice: "30",
       serviceCurrency: "£",
@@ -235,19 +235,24 @@ export const services = {
       },
     },
     {
-      mainImage: "exfoliation.png",
+      mainImage: "fireCupping.png",
       mainImageDescription: "...",
       serviceTitle: "Fire Cupping",
-      serviceId: "FireCupping",
+      serviceId: "fireCupping",
       servicePriceText: "From",
       servicePrice: "40",
       serviceCurrency: "£",
       serviceDescriptions: {
-        image: "exfoliation.png",
+        image: "fireCupping.png",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "Fire cupping is believed to have several potential benefits. It is thought to increase blood circulation, promote the flow of qi (energy), and relieve muscle tension. The suction created by the cups may also help release toxins and stagnation from the body.",
         serviceSecDescriptions: [
+          {
+            title: "",
+            paragraph:
+              "Fire cupping is thought to increase blood circulation, promote the flow of qi (energy), and relieve muscle tension. The suction created by the cups may also help release toxins and stagnation from the body",
+          },
           // {
           //   title: "",
           //   paragraph: "",
@@ -256,23 +261,28 @@ export const services = {
       },
     },
     {
-      mainImage: "exfoliation.png",
+      mainImage: "glidingCupping.png",
       mainImageDescription: "...",
       serviceTitle: "Gliding Cupping Full Body Massage",
-      serviceId: "GlidingCuppingFullBodyMassage",
+      serviceId: "glidingCupping",
       servicePriceText: "From",
       servicePrice: "60",
       serviceCurrency: "£",
       serviceDescriptions: {
-        image: "exfoliation.png",
+        image: "glidingCupping.png",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "The suction created by the cups helps to release tension and stimulate energy flow, resulting in various health benefits such as pain relief, improved lymphatic drainage, and relaxation of muscles.",
         serviceSecDescriptions: [
-          // {
-          //   title: "",
-          //   paragraph: "",
-          // },
+          {
+            title: "",
+            paragraph:
+              "This massage is deep, it is firm and it will revive your achy and tired muscles. This intense treatment will focus on muscle and fascia release with the use of oils and silicone cups. This treatment is combined with hands on deeper tissue massage, making you feel the ripples of tension slowly leave the body. As the cups glide or left firmly held in place with suction, you will feel a sense of release and the body stretched and refreshed.",
+          },
+          {
+            title: "",
+            paragraph: "",
+          },
         ],
       },
     },
@@ -340,19 +350,24 @@ export const services = {
       },
     },
     {
-      mainImage: "exfoliation.png",
+      mainImage: "hotStoneMassage.png",
       mainImageDescription: "...",
       serviceTitle: "Hot Stone Back Massage",
-      serviceId: "HotStoneBackMassage",
+      serviceId: "hotStoneMassage",
       servicePriceText: "From",
       servicePrice: "35",
       serviceCurrency: "£",
       serviceDescriptions: {
-        image: "exfoliation.png",
+        image: "hotStoneMassage.png",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "Hot stone massage is a therapeutic technique where smooth, heated stones are placed on the body to relax muscles, improve circulation, and alleviate tension.",
         serviceSecDescriptions: [
+          {
+            title: "Benefits of Hot Stone Massage",
+            paragraph:
+              "Hot stone massage offers several benefits, including relaxation of muscles, improved blood circulation, reduced stress and anxiety, relief from chronic pain, enhanced flexibility, and a sense of overall well-being. Hot stone massage can also help in releasing muscle tension and knots, promoting deeper relaxation, improving sleep quality, detoxifying the body, and boosting the immune system. It can also enhance mental clarity, promote a sense of grounding and balance, and provide a luxurious and soothing experience.",
+          },
           // {
           //   title: "",
           //   paragraph: "",
@@ -361,18 +376,18 @@ export const services = {
       },
     },
     {
-      mainImage: "exfoliation.png",
+      mainImage: "warmRattan.png",
       mainImageDescription: "...",
       serviceTitle: "Warm Rattan Full Body Massage",
-      serviceId: "Warm Rattan Full Body Massage",
+      serviceId: "wormRattanMassage",
       servicePriceText: "From",
       servicePrice: "60",
       serviceCurrency: "£",
       serviceDescriptions: {
-        image: "exfoliation.png",
+        image: "warmRattan.png",
         imageDescription: "...",
         serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+          "Warm rattan massage is a therapeutic technique where smooth rattan sticks of varying sizes are heated and used to apply pressure, knead muscles, and promote relaxation. The warmth helps ease tension and increase circulation for a soothing and rejuvenating experience.",
         serviceSecDescriptions: [
           // {
           //   title: "",
@@ -402,94 +417,95 @@ export const services = {
         ],
       },
     },
+    // {
+    //   mainImage: "exfoliation.png",
+    //   mainImageDescription: "...",
+    //   serviceTitle: "Herbal Stamp Full Body Massage",
+    //   serviceId: "HerbalStampFullBodyMassage",
+    //   servicePriceText: "From",
+    //   servicePrice: "65",
+    //   serviceCurrency: "£",
+    //   serviceDescriptions: {
+    //     image: "exfoliation.png",
+    //     imageDescription: "...",
+    //     serviceMainDescription:
+    //       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+    //     serviceSecDescriptions: [
+    //       // {
+    //       //   title: "",
+    //       //   paragraph: "",
+    //       // },
+    //     ],
+    //   },
+    // },
+    // {
+    //   mainImage: "footReflexology.png",
+    //   mainImageDescription: "...",
+    //   serviceTitle: "Reflexology (Feet)",
+    //   serviceId: "ReflexologyFeet",
+    //   servicePriceText: "From",
+    //   servicePrice: "50",
+    //   serviceCurrency: "£",
+    //   serviceDescriptions: {
+    //     image: "exfoliation.png",
+    //     imageDescription: "...",
+    //     serviceMainDescription:
+    //       "Foot reflexology is a type of reflexology that focuses on applying pressure to specific points on the feet to improve overall health and well-being.",
+    //     serviceSecDescriptions: [
+    //       {
+    //         title: "Benefits of Foot Reflexology",
+    //         paragraph:
+    //           "Foot reflexology offers a multitude of benefits, including stress reduction, enhanced relaxation, improved circulation, strengthened immunity, pain relief, and an overall sense of well-being.",
+    //       },
+    //     ],
+    //   },
+    // },
+    // {
+    //   mainImage: "exfoliation.png",
+    //   mainImageDescription: "...",
+    //   serviceTitle: "Pregnancy Full Body",
+    //   serviceId: "PregnancyFullBody",
+    //   servicePriceText: "From",
+    //   servicePrice: "50",
+    //   serviceCurrency: "£",
+    //   serviceDescriptions: {
+    //     image: "exfoliation.png",
+    //     imageDescription: "...",
+    //     serviceMainDescription:
+    //       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+    //     serviceSecDescriptions: [
+    //       // {
+    //       //   title: "",
+    //       //   paragraph: "",
+    //       // },
+    //     ],
+    //   },
+    // },
+    // {
+    //   mainImage: "exfoliation.png",
+    //   mainImageDescription: "...",
+    //   serviceTitle: "Rejuvenating Body Exfoliation",
+    //   serviceId: "RejuvenatingBodyExfoliation",
+    //   servicePriceText: "From",
+    //   servicePrice: "60",
+    //   serviceCurrency: "£",
+    //   serviceDescriptions: {
+    //     image: "exfoliation.png",
+    //     imageDescription: "...",
+    //     serviceMainDescription:
+    //       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
+    //     serviceSecDescriptions: [
+    //       // {
+    //       //   title: "",
+    //       //   paragraph: "",
+    //       // },
+    //     ],
+    //   },
+    // },
     {
       mainImage: "exfoliation.png",
       mainImageDescription: "...",
-      serviceTitle: "Herbal Stamp Full Body Massage",
-      serviceId: "HerbalStampFullBodyMassage",
-      servicePriceText: "From",
-      servicePrice: "65",
-      serviceCurrency: "£",
-      serviceDescriptions: {
-        image: "exfoliation.png",
-        imageDescription: "...",
-        serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-        serviceSecDescriptions: [
-          // {
-          //   title: "",
-          //   paragraph: "",
-          // },
-        ],
-      },
-    },
-    {
-      mainImage: "exfoliation.png",
-      mainImageDescription: "...",
-      serviceTitle: "Reflexology (Feet)",
-      serviceId: "ReflexologyFeet",
-      servicePriceText: "From",
-      servicePrice: "50",
-      serviceCurrency: "£",
-      serviceDescriptions: {
-        image: "exfoliation.png",
-        imageDescription: "...",
-        serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-        serviceSecDescriptions: [
-          // {
-          //   title: "",
-          //   paragraph: "",
-          // },
-        ],
-      },
-    },
-    {
-      mainImage: "exfoliation.png",
-      mainImageDescription: "...",
-      serviceTitle: "Pregnancy Full Body",
-      serviceId: "PregnancyFullBody",
-      servicePriceText: "From",
-      servicePrice: "50",
-      serviceCurrency: "£",
-      serviceDescriptions: {
-        image: "exfoliation.png",
-        imageDescription: "...",
-        serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-        serviceSecDescriptions: [
-          // {
-          //   title: "",
-          //   paragraph: "",
-          // },
-        ],
-      },
-    },
-    {
-      mainImage: "exfoliation.png",
-      mainImageDescription: "...",
-      serviceTitle: "Rejuvenating Body Exfoliation",
-      serviceId: "RejuvenatingBodyExfoliation",
-      servicePriceText: "From",
-      servicePrice: "60",
-      serviceCurrency: "£",
-      serviceDescriptions: {
-        image: "exfoliation.png",
-        imageDescription: "...",
-        serviceMainDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-        serviceSecDescriptions: [
-          // {
-          //   title: "",
-          //   paragraph: "",
-          // },
-        ],
-      },
-    },
-    {
-      mainImage: "exfoliation.png",
-      mainImageDescription: "...",
-      serviceTitle: "Paraffin Wax Hands Treatment",
+      serviceTitle: "PARAFFIN Wax Hands Treatment",
       serviceId: "ParaffinWaxHandsTreatment",
       servicePriceText: "From",
       servicePrice: "10",
@@ -507,27 +523,7 @@ export const services = {
         ],
       },
     },
-    // {
-    //   mainImage: "",
-    //   mainImageDescription: "...",
-    //   serviceTitle: "",
-    //   serviceId: "",
-    //   servicePriceText: "",
-    //   servicePrice: "",
-    //   serviceCurrency: "£",
-    //   serviceDescriptions: {
-    //     image: "",
-    //     imageDescription: "...",
-    //     serviceMainDescription:
-    //       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
-    //     serviceSecDescriptions: [
-    //       // {
-    //       //   title: "",
-    //       //   paragraph: "",
-    //       // },
-    //     ],
-    //   },
-    // },
+
     // {
     //   mainImage: "reiki.png",
     //   mainImageDescription: "...",
@@ -564,127 +560,20 @@ export const services = {
     //     ],
     //   },
     // },
+
     // {
-    //   mainImage: "footReflexology.png",
+    //   mainImage: "",
     //   mainImageDescription: "...",
-    //   serviceTitle: "FOOT REFLEXOLOGY",
-    //   serviceId: "footReflexology",
-    //   servicePriceText: "From",
-    //   servicePrice: "60",
+    //   serviceTitle: "",
+    //   serviceId: "",
+    //   servicePriceText: "",
+    //   servicePrice: "",
     //   serviceCurrency: "£",
     //   serviceDescriptions: {
-    //     image: "footReflexology.png",
+    //     image: "",
     //     imageDescription: "...",
     //     serviceMainDescription:
-    //       "Foot reflexology is a type of reflexology that focuses on applying pressure to specific points on the feet to improve overall health and well-being.",
-    //     serviceSecDescriptions: [
-    //       {
-    //         title: "Benefits of Foot Reflexology",
-    //         paragraph:
-    //           "Foot reflexology offers a multitude of benefits, including stress reduction, enhanced relaxation, improved circulation, strengthened immunity, pain relief, and an overall sense of well-being.",
-    //       },
-    //       // {
-    //       //   title: "",
-    //       //   paragraph: "",
-    //       // },
-    //     ],
-    //   },
-    // },
-    // {
-    //   mainImage: "hotStoneMassage.png",
-    //   mainImageDescription: "...",
-    //   serviceTitle: "HOT STONE MASSAGE",
-    //   serviceId: "hotStoneMassage",
-    //   servicePriceText: "From",
-    //   servicePrice: "35",
-    //   serviceCurrency: "£",
-    //   serviceDescriptions: {
-    //     image: "hotStoneMassage.png",
-    //     imageDescription: "...",
-    //     serviceMainDescription:
-    //       "Hot stone massage is a therapeutic technique where smooth, heated stones are placed on the body to relax muscles, improve circulation, and alleviate tension.",
-    //     serviceSecDescriptions: [
-    //       {
-    //         title: "Benefits of Hot Stone Massage",
-    //         paragraph:
-    //           "Hot stone massage offers several benefits, including relaxation of muscles, improved blood circulation, reduced stress and anxiety, relief from chronic pain, enhanced flexibility, and a sense of overall well-being. Hot stone massage can also help in releasing muscle tension and knots, promoting deeper relaxation, improving sleep quality, detoxifying the body, and boosting the immune system. It can also enhance mental clarity, promote a sense of grounding and balance, and provide a luxurious and soothing experience.",
-    //       },
-    //       // {
-    //       //   title: "",
-    //       //   paragraph: "",
-    //       // },
-    //     ],
-    //   },
-    // },
-    // {
-    //   mainImage: "glidingCupping.png",
-    //   mainImageDescription: "...",
-    //   serviceTitle: "GLIDING CUPPING",
-    //   serviceId: "glidingCupping",
-    //   servicePriceText: "From",
-    //   servicePrice: "40",
-    //   serviceCurrency: "£",
-    //   serviceDescriptions: {
-    //     image: "glidingCupping.png",
-    //     imageDescription: "...",
-    //     serviceMainDescription:
-    //       "The suction created by the cups helps to release tension and stimulate energy flow, resulting in various health benefits such as pain relief, improved lymphatic drainage, and relaxation of muscles.",
-    //     serviceSecDescriptions: [
-    //       {
-    //         title: "",
-    //         paragraph:
-    //           "This massage is deep, it is firm and it will revive your achy and tired muscles. This intense treatment will focus on muscle and fascia release with the use of oils and silicone cups. This treatment is combined with hands on deeper tissue massage, making you feel the ripples of tension slowly leave the body. As the cups glide or left firmly held in place with suction, you will feel a sense of release and the body stretched and refreshed.",
-    //       },
-    //       {
-    //         title: "",
-    //         paragraph: "",
-    //       },
-    //       // {
-    //       //   title: "",
-    //       //   paragraph: "",
-    //       // },
-    //     ],
-    //   },
-    // },
-    // {
-    //   mainImage: "fireCupping.png",
-    //   mainImageDescription: "...",
-    //   serviceTitle: "FIRE CUPPING",
-    //   serviceId: "fireCupping",
-    //   servicePriceText: "From",
-    //   servicePrice: "45",
-    //   serviceCurrency: "£",
-    //   serviceDescriptions: {
-    //     image: "fireCupping.png",
-    //     imageDescription: "...",
-    //     serviceMainDescription:
-    //       "Fire cupping is believed to have several potential benefits. It is thought to increase blood circulation, promote the flow of qi (energy), and relieve muscle tension. The suction created by the cups may also help release toxins and stagnation from the body.",
-    //     serviceSecDescriptions: [
-    //       {
-    //         title: "",
-    //         paragraph:
-    //           "Fire cupping is thought to increase blood circulation, promote the flow of qi (energy), and relieve muscle tension. The suction created by the cups may also help release toxins and stagnation from the body",
-    //       },
-    //       // {
-    //       //   title: "",
-    //       //   paragraph: "",
-    //       // },
-    //     ],
-    //   },
-    // },
-    // {
-    //   mainImage: "warmRattan.png",
-    //   mainImageDescription: "...",
-    //   serviceTitle: "WARM RATTAN MASSAGE",
-    //   serviceId: "wormRattanMassage",
-    //   servicePriceText: "From",
-    //   servicePrice: "45",
-    //   serviceCurrency: "£",
-    //   serviceDescriptions: {
-    //     image: "warmRattan.png",
-    //     imageDescription: "...",
-    //     serviceMainDescription:
-    //       "Warm rattan massage is a therapeutic technique where smooth rattan sticks of varying sizes are heated and used to apply pressure, knead muscles, and promote relaxation. The warmth helps ease tension and increase circulation for a soothing and rejuvenating experience.",
+    //       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, ipsum molestiae.",
     //     serviceSecDescriptions: [
     //       // {
     //       //   title: "",

@@ -1,7 +1,7 @@
 export const homeReviews = {
   mainTitle: "CLIENT REVIEWS",
   buttonText: "LEAVE A REVIEW",
-  buttonLinkTo: "https://relaxmassagestudiocannock.setmore.com/reviews",
+  buttonLinkTo: "https://g.page/r/CaSSlFInM032EBM/review",
   reviews: [
     {
       reviewParagraph:
