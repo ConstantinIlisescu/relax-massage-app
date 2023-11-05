@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Lato:wght@300;400&family=Manrope:wght@300;400;500&family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@300;400;500&family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&family=Croissant+One&family=Lato:wght@300;400&family=Manrope:wght@300;400;500&family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap");
 @font-face {
   font-family: Mabel;
   src: url("./fonts/Mabel.otf");
@@ -59,13 +59,14 @@
   --TrajanPro-Regular: TrajanPro-Regular;
   --Viagram: Viagram;
   --RecoletaRegular: RecoletaRegular;
+  --Averia: "Averia Serif Libre", serif;
 
-  --main-title-font: var(--RecoletaRegular);
-  --secondary-title-font: var(--RecoletaRegular);
-  --paragraph-title-font: var(--RecoletaRegular);
-  --paragraph-font: var(--RecoletaRegular);
-  --price-font: var(--RecoletaRegular);
-  --button-font: var(--RecoletaRegular);
+  --main-title-font: var(--Averia);
+  --secondary-title-font: var(--Averia);
+  --paragraph-title-font: var(--Averia);
+  --paragraph-font: var(--Averia);
+  --price-font: var(--Averia);
+  --button-font: var(--Averia);
 
   --overlay-dark: rgba(40, 42, 42, 0.5);
   --gradient-dark-text: linear-gradient(90deg, var(--blue) 0%, var(--tale) 47%);

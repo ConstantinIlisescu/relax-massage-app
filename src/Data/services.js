@@ -683,7 +683,7 @@ export const services = {
       ],
     },
     {
-      mainImage: "reiki.png",
+      mainImage: "99991752-89a5-4133-b5a1-aee99546937b.JPG",
       mainImageDescription: "...",
       serviceTitle: "Reiki Healing",
       serviceId: "reikiHealing",
@@ -691,7 +691,7 @@ export const services = {
       servicePrice: "50",
       serviceCurrency: "£",
       serviceDescriptions: {
-        image: "reiki.png",
+        image: "eb898e44-3e3c-4cf1-b7b9-ae5d64808f85.JPG",
         imageDescription: "...",
         serviceMainDescription:
           "During this treatment, hands-on or hands-off approach is implemented to channel life force energy promoting relaxation, stress reduction, and overall well-being, helping to balance and restore the energy system. ",
