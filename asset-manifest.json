@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/relax-massage-app/static/css/main.396dbe11.css",
-    "main.js": "/relax-massage-app/static/js/main.47f14edf.js",
+    "main.css": "/relax-massage-app/static/css/main.297906f0.css",
+    "main.js": "/relax-massage-app/static/js/main.71d4f6ce.js",
     "static/media/about-services-three.png": "/relax-massage-app/static/media/about-services-three.a2dac219ed859a8805ec.png",
     "static/media/error-img.png": "/relax-massage-app/static/media/error-img.a2dac219ed859a8805ec.png",
     "static/media/exfoliation.png": "/relax-massage-app/static/media/exfoliation.29dcfae5a849844f1e42.png",
@@ -31,11 +31,13 @@
     "static/media/reiki.png": "/relax-massage-app/static/media/reiki.f5b273b413a237d5ef14.png",
     "static/media/PHOTO-2023-10-24-15-19-29.jpg": "/relax-massage-app/static/media/PHOTO-2023-10-24-15-19-29.ba54d70656214a45b81d.jpg",
     "static/media/PHOTO-2023-10-24-15-19-26.jpg": "/relax-massage-app/static/media/PHOTO-2023-10-24-15-19-26.bd2a7bdb7fab8d666509.jpg",
+    "static/media/PHOTO-2023-11-05-14-05-44.jpg": "/relax-massage-app/static/media/PHOTO-2023-11-05-14-05-44.980ccdbaff6feca81e16.jpg",
     "static/media/52c85b79-61c4-4a6a-8231-091146bf8990.JPG": "/relax-massage-app/static/media/52c85b79-61c4-4a6a-8231-091146bf8990.f7f85dd6747f61d8471c.JPG",
     "static/media/PHOTO-2023-10-24-15-13-15.jpg": "/relax-massage-app/static/media/PHOTO-2023-10-24-15-13-15.6319978c0fb2b93b8842.jpg",
     "static/media/massage-on-woman-arm.jpg": "/relax-massage-app/static/media/massage-on-woman-arm.ab5936dc19297e0b693b.jpg",
     "static/media/PHOTO-2023-10-24-15-19-32 2.jpg": "/relax-massage-app/static/media/PHOTO-2023-10-24-15-19-32 2.15d89ccd1c01985f5963.jpg",
     "static/media/about-me.jpg": "/relax-massage-app/static/media/about-me.eb4c5e5a33c603991d71.jpg",
+    "static/media/PHOTO-2023-11-05-14-05-46.jpg": "/relax-massage-app/static/media/PHOTO-2023-11-05-14-05-46.3fca793d81761a2b424b.jpg",
     "static/media/PHOTO-2023-10-24-15-19-32.jpg": "/relax-massage-app/static/media/PHOTO-2023-10-24-15-19-32.2adbc641658d07eb82bd.jpg",
     "static/media/PHOTO-2023-10-24-15-19-28 1.jpg": "/relax-massage-app/static/media/PHOTO-2023-10-24-15-19-28 1.f9f6226908e54ca336d1.jpg",
     "static/media/PeachDaisy.ttf": "/relax-massage-app/static/media/PeachDaisy.5a27d3723cb563beaa60.ttf",
@@ -68,11 +70,11 @@
     "static/media/OPTIMA.woff": "/relax-massage-app/static/media/OPTIMA.20932a305858c4e79b57.woff",
     "static/media/linaillab.png": "/relax-massage-app/static/media/linaillab.09abd0a7fd208ccf13a4.png",
     "index.html": "/relax-massage-app/index.html",
-    "main.396dbe11.css.map": "/relax-massage-app/static/css/main.396dbe11.css.map",
-    "main.47f14edf.js.map": "/relax-massage-app/static/js/main.47f14edf.js.map"
+    "main.297906f0.css.map": "/relax-massage-app/static/css/main.297906f0.css.map",
+    "main.71d4f6ce.js.map": "/relax-massage-app/static/js/main.71d4f6ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.396dbe11.css",
-    "static/js/main.47f14edf.js"
+    "static/css/main.297906f0.css",
+    "static/js/main.71d4f6ce.js"
   ]
 }
