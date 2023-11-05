@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/relax-massage-app/static/css/main.20403e4e.css",
+    "main.css": "/relax-massage-app/static/css/main.165ff9a4.css",
     "main.js": "/relax-massage-app/static/js/main.3e844074.js",
     "static/media/about-services-three.png": "/relax-massage-app/static/media/about-services-three.a2dac219ed859a8805ec.png",
     "static/media/error-img.png": "/relax-massage-app/static/media/error-img.a2dac219ed859a8805ec.png",
@@ -109,11 +109,11 @@
     "static/media/OPTIMA.woff": "/relax-massage-app/static/media/OPTIMA.20932a305858c4e79b57.woff",
     "static/media/linaillab.png": "/relax-massage-app/static/media/linaillab.09abd0a7fd208ccf13a4.png",
     "index.html": "/relax-massage-app/index.html",
-    "main.20403e4e.css.map": "/relax-massage-app/static/css/main.20403e4e.css.map",
+    "main.165ff9a4.css.map": "/relax-massage-app/static/css/main.165ff9a4.css.map",
     "main.3e844074.js.map": "/relax-massage-app/static/js/main.3e844074.js.map"
   },
   "entrypoints": [
-    "static/css/main.20403e4e.css",
+    "static/css/main.165ff9a4.css",
     "static/js/main.3e844074.js"
   ]
 }
