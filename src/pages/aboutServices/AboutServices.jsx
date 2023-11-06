@@ -80,20 +80,21 @@ function AboutServices() {
           <h3 className="gradient-dark-text">
             {aboutServices.sectionFour.title}
           </h3>
-          <h4>{aboutServices.sectionFour.title}</h4>
           {aboutServices.sectionFour.list.map((item, index) => {
             return (
               <div key={index}>
                 <div className="round-circle-blue-dark"></div>
-                <h4>{item.paragraph}</h4>
+                <p>{item.paragraph}</p>
               </div>
             );
           })}
 
           <div className="round-circle-blue-dark"></div>
-          <h4>{aboutServices.sectionFour.secondaryParagraph}</h4>
+          <p>{aboutServices.sectionFour.secondaryParagraph}</p>
           <div className="round-circle-blue-dark"></div>
-          <h4>{aboutServices.sectionFour.conclusionParagraph}</h4>
+          <p>{aboutServices.sectionFour.conclusionParagraph}</p>
+          <div className="round-circle-blue-dark"></div>
+          <p>{aboutServices.sectionFour.finalParagraph}</p>
         </div>
       </div>
     </section>

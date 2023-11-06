@@ -8,7 +8,7 @@ export const aboutMe = {
     {
       paragraph:
         "At my studio, I take a holistic approach to well-being. Each massage is carefully tailored to address your unique preferences and concerns, ensuring an unparalleled experience. My heated massage table, high quality skin products and serene ambiance create the perfect environment for relaxation.",
-      image: "PHOTO-2023-11-05-13-59-42.jpg",
+      image: "PHOTO-2023-11-05-21-56-09.jpg",
       imageDescription: "...",
     },
     {

@@ -10,27 +10,26 @@ export const homeAffiliate = {
       imageDescription: "...",
     },
     {
-      businessLink: "#",
-      businessName: "BJORNSTRXNG",
+      businessLink:
+        "https://instagram.com/beauties_permanent_makeup?igshid=MzMyNGUyNmU2YQ==",
+      businessName: "BEAUTIES PERMANENT MAKE UP",
       businessDescription:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit Commodi, mollitia?",
-      businessImage: "bjornstrxng.png",
+        "Qualified and Experienced Permanent Make up Artist.",
+      businessImage: "BeautyES.png",
       imageDescription: "...",
     },
     {
-      businessLink: "#",
-      businessName: "VISION",
-      businessDescription:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, mollitia?",
+      businessLink: "https://www.facebook.com/profile.php?id=100053487232257 ",
+      businessName: "K.K. VISION",
+      businessDescription: "Photographer and Videographer for any occasion.",
       businessImage: "vision.png",
       imageDescription: "...",
     },
     {
-      businessLink: "#",
-      businessName: "BeautyES",
-      businessDescription:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, mollitia?",
-      businessImage: "BeautyES.png",
+      businessLink: "https://www.bjornstrxng.com/ ",
+      businessName: "BJORNSTRXNG",
+      businessDescription: "Personal Trainer",
+      businessImage: "bjornstrxng.png",
       imageDescription: "...",
     },
     // {

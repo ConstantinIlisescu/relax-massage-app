@@ -27,23 +27,8 @@ function HomeOffers() {
               <span>{homeOffers.percentageSign}</span>
               {homeOffers.percentageText}
             </p>
-            <p className="home-offers-section-group-offer-group-price">
-              {homeOffers.only}
-              <span>{homeOffers.currency}</span>
-              {homeOffers.priceAmount}
-            </p>
             <p className="home-offers-section-group-offer-group-price-savings">
               {homeOffers.pricedAt}
-              <span className="full-price">
-                <s>
-                  <span>{homeOffers.currency}</span>
-                  {homeOffers.pricedAtAmount}
-                </s>
-              </span>
-              <span className="save">
-                {homeOffers.save} <span>{homeOffers.currency}</span>
-                {homeOffers.saveAmount}
-              </span>
             </p>
             <div className="home-offers-section-group-footer">
               <div className="btn-container">

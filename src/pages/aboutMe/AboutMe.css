@@ -177,6 +177,12 @@ contacts-button-container {
   justify-content: space-between;
   align-items: center;
 }
+.payment-section {
+  margin-top: 30px;
+  color: var(--tale);
+  font-family: var(--paragraph-font);
+  font-size: 1rem;
+}
 
 .member-of-lines div {
   background-color: var(--tale);

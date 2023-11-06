@@ -47,10 +47,7 @@ function ServiceItem({
             {priceText} <span>{currency}</span>
             {price}
           </p>
-          <span onClick={handleOpenOverlay} className="learn-more">
-            {learnMoreButtonText}
-            <IoOpenOutline />
-          </span>
+
           <Button
             buttonStyle=""
             linkTo={bookingButton.link}
@@ -59,6 +56,10 @@ function ServiceItem({
           >
             {bookNowButtonText}
           </Button>
+          <span onClick={handleOpenOverlay} className="learn-more">
+            {learnMoreButtonText}
+            <IoOpenOutline />
+          </span>
         </div>
       </div>
       <div

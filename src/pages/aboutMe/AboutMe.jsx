@@ -128,18 +128,6 @@ function AboutMe() {
                 {contactInfo.emailDisplay}
               </a>
             </div>
-            <div
-              className="home-contacts-phone"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <a href={bookingButton.link} target="_blank" rel="noreferrer">
-                <BsCurrencyPound />
-              </a>
-              <a href={bookingButton.link} target="_blank" rel="noreferrer">
-                {contactInfo.paymentOptions}
-              </a>
-            </div>
           </div>
           <div className="contact-info-icons">
             <div className="home-contacts-phone">
@@ -179,6 +167,9 @@ function AboutMe() {
               {contactInfo.mainBookAppointmentButton}
             </Button>
           </div>
+        </div>
+        <div className="payment-section">
+          <p>{contactInfo.paymentOptions}</p>
         </div>
       </div>
       <div className="member-of-lines">

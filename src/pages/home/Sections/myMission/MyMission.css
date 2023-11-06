@@ -19,14 +19,13 @@
   font-family: var(--main-title-font);
   display: block;
   font-size: 2.2rem;
-  letter-spacing: 0.5px;
   padding: 50px 0 20px 0;
 }
 
 .home-about-me p {
   margin-bottom: 40px;
   color: var(--grey);
-  font-family: var(--paragraph-title-font);
+  font-family: var(--paragraph-font);
   font-size: 1.2rem;
 }
 

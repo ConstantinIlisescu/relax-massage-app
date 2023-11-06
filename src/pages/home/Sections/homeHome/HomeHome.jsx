@@ -30,7 +30,7 @@ function HomeHome() {
                 })}
               </h1>
               <div className="home-description-title">
-                <h3>{homeHome.mainSubtitleParagraph}</h3>
+                <p>{homeHome.mainSubtitleParagraph}</p>
               </div>
               <div className="home-contacts-button">
                 <Button

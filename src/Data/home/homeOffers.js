@@ -6,15 +6,8 @@ export const homeOffers = {
   percentageOff: "10",
   percentageSign: "%",
   percentageText: "  OFF",
-
-  // only: "Only ",
-  // currency: "£",
-  // priceAmount: "40",
-  // pricedAt: "Priced at ",
-  // pricedAtAmount: "50",
-  // save: "Save",
-  // saveAmount: "10",
-
+  pricedAt:
+    "To get this special offer please follow Relax Massage Studio Cannock on Facebook and Instagram and mention that you have done so just before paying for your treatment.",
   buttonMainText: "BOOK NOW",
   buttonSubtext: "DON'T MISS OUT!",
   offerInfo: "Offer valid ONLY for appointments made in November 2023",

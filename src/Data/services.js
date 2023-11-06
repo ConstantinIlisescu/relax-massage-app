@@ -136,7 +136,7 @@ export const services = {
       servicePrice: "50",
       serviceCurrency: "£",
       serviceDescriptions: {
-        image: "bfeea4d1-eb64-4ed4-9ba1-a34d582a5f14.JPG",
+        image: "PHOTO-2023-11-05-21-43-23.jpg",
         imageDescription: "...",
         serviceMainDescription:
           "A half body massage with the choice of front or back focuses on either the front or back of the body, depending on the recipient's preference or specific needs. For a half body massage with the back option - the back, shoulders, neck, head, the arms and the back of the legs. This can help relieve tension, reduce muscle aches, and promote relaxation in the back of the body. For a half body massage with the front option will include the chest, abdomen, arms, and the front of  the legs. This can help improve circulation, release tension, and promote relaxation in the upper and lower body.   Both options provide a targeted and effective massage experience for those who want to focus on specific areas of the body without receiving a full body massage",
@@ -435,7 +435,7 @@ export const services = {
       servicePrice: "35",
       serviceCurrency: "£",
       serviceDescriptions: {
-        image: "2ee3f39a-aef9-4c5c-ab19-8f3065fc9ee8.JPG",
+        image: "PHOTO-2023-11-05-21-47-14.jpg",
         imageDescription: "...",
         serviceMainDescription:
           "A sports massage is a therapeutic technique specifically designed for athletes and individuals engaged in physical activities. It focuses on preventing and treating injuries, improving performance, and aiding in recovery. Combination of techniques is used such as deep tissue massage, stretching, and joint mobilisation to target specific muscles and areas of the body that are commonly affected by sports-related stress and tension. Sports massage helps to enhance flexibility, reduce muscle soreness, increase blood flow, and promote overall athletic performance and well-being. It is a valuable tool for athletes and active individuals looking to optimise their training and recovery.",
@@ -473,8 +473,7 @@ export const services = {
         serviceSecDescriptions: [
           {
             title: "",
-            paragraph:
-              "Fire cupping is thought to increase blood circulation, promote the flow of qi (energy), and relieve muscle tension. The suction created by the cups may also help release toxins and stagnation from the body",
+            paragraph: "",
           },
           // {
           //   title: "",

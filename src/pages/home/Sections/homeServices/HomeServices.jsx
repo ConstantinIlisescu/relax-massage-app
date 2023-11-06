@@ -41,19 +41,18 @@ function HomeServices() {
                     />
                   </div>
                 </div>
-                <div className="home-services-list-item">
-                  <span className="dotted-line"></span>
+                <div className="member-of-lines">
+                  <div className="member-of-lines-one"></div>
+                  <div className="member-of-lines-two"></div>
+                  <div className="member-of-lines-three"></div>
+                  <div className="member-of-lines-four"></div>
+                  <div className="member-of-lines-five"></div>
                 </div>
               </>
             );
           })}
         </div>
         <div className="home-services-button">
-          {/* <Button buttonStyle="btn--primary" isVisible={true}>
-            <HashLink to="relax-massage-app/services/#">
-              {homeServices.mainPageButtonText}
-            </HashLink>
-          </Button> */}
           <Button
             buttonStyle=""
             linkTo={bookingButton.link}
