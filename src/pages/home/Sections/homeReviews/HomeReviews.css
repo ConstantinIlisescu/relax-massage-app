@@ -19,7 +19,8 @@
 
 .home-reviews-section-container h2 {
   font-family: var(--main-title-font);
-  font-size: 2.2rem;
+  font-size: var(--title-font-size);
+  font-size: bold;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -29,7 +30,6 @@
   text-transform: uppercase;
   font-size: 1rem;
   color: var(--blue);
-  letter-spacing: 0.5px;
 }
 
 .home-reviews-section-container-subtitle .title-line {
@@ -41,18 +41,17 @@
 
 .home-reviews-section-container-carousel-item p {
   font-family: var(--paragraph-font);
-  font-size: 1rem;
+  font-size: var(--paragraph-font-size);
   color: var(--blue);
-  letter-spacing: 0.5px;
   padding: 1rem 0;
   text-align: center;
 }
 
 .home-reviews-section-container-carousel-item h3 {
   font-family: var(--secondary-title-font);
-  font-size: 1.2rem;
+  font-size: var(--sec-title-font-size);
+  font-weight: bold;
   color: var(--blue);
-  letter-spacing: 0.5px;
   margin-bottom: 60px;
   text-align: center;
 }

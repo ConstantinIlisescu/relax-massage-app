@@ -84,6 +84,7 @@ function AboutMe() {
       >
         <div className="working-hours-container">
           <h3 className="gradient-light-text">{schedule.title}</h3>
+          <p className="working-hours-by-appointment-only">{schedule.subTitle}</p>
           <div className="working-hours-container-schedule">
             {schedule.list.map((item, index) => (
               <div

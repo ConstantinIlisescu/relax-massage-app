@@ -52,7 +52,7 @@ contacts-button-container {
   text-align: left;
   justify-content: left;
   color: var(--blue);
-  font-size: 1.2rem;
+  font-size: var(--paragraph-font-size);
 }
 
 .home-contacts-phone svg,
@@ -76,7 +76,7 @@ contacts-button-container {
   width: 100%;
   margin-bottom: 50px;
   font-family: var(--secondary-title-font);
-  font-size: 2.8rem;
+  font-size: var(--title-font-size);
 }
 
 .working-hours-container-schedule {
@@ -88,7 +88,7 @@ contacts-button-container {
   display: flex;
   justify-content: space-between;
   font-family: var(--secondary-title-font);
-  font-size: 1.2rem;
+  font-size: var(--paragraph-font-size);
   margin-top: 5px;
 }
 
@@ -99,7 +99,7 @@ contacts-button-container {
   align-items: center;
   justify-content: center;
   font-family: var(--paragraph-font);
-  font-size: 1.2rem;
+  font-size: var(--paragraph-font-size);
   color: var(--tale);
 }
 
@@ -123,32 +123,36 @@ contacts-button-container {
 .about-me-page-container-about-me-section h2 {
   font-family: var(--main-title-font);
   display: block;
-  font-size: 2.8rem;
-  font-weight: bolder;
-  line-height: 3rem;
-  letter-spacing: 0.5px;
+  font-size: var(--title-font-size);
+  font-weight: bold;
 }
 
 .about-me-page-container-about-me-section p {
   font-family: var(--paragraph-font);
-  font-size: 1.2rem;
+  font-size: var(--paragraph-font-size);
   color: var(--tale);
-  letter-spacing: 0.5px;
-  line-height: 1.8rem;
   padding-top: 2rem;
   padding-bottom: 1rem;
+}
+
+.working-hours-by-appointment-only {
+  font-family: var(--paragraph-font);
+  font-size: var(--paragraph-font-size);
+  padding-bottom: 15px;
 }
 
 .about-me-page-container-contact-me-section h3 {
   width: 100%;
   margin-bottom: 50px;
   font-family: var(--secondary-title-font);
-  font-size: 2.8rem;
+  font-size: var(--title-font-size);
+  font-size: bold;
 }
 
 .about-me-page-container-where-to-find-me-section h3 {
   font-family: var(--secondary-title-font);
-  font-size: 2.8rem;
+  font-size: var(--title-font-size);
+  font-size: bold;
 }
 
 .about-me-page-container-where-to-find-me-section .home-contacts-address {

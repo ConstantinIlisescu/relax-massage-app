@@ -26,16 +26,22 @@
 
 .about-services-container-first-section h2 {
   font-family: var(--main-title-font);
-  font-size: 1.8rem;
+  font-size: var(--title-font-size);
   margin-bottom: 30px;
+  font-weight: bold;
   text-align: center;
+}
+
+.about-services-light-section-background.about-services-container-section-item.padding-bottom-about-services-bottom-section {
+  padding-bottom: 50px;
 }
 
 .about-services-container-first-section h3 {
   text-align: center;
   font-family: var(--main-title-font);
-  font-size: 2.2rem;
+  font-size: var(--sec-title-font-size);
   color: var(--lime);
+  font-weight: bold;
   margin-bottom: 30px;
 }
 
@@ -43,7 +49,7 @@
   margin-bottom: 40px;
   color: var(--grey);
   font-family: var(--paragraph-font);
-  font-size: 1.2rem;
+  font-size: var(--paragraph-font-size);
   text-align: center;
 }
 
@@ -89,13 +95,13 @@
 .about-services-container-section-item h3 {
   text-align: center;
   font-family: var(--main-title-font);
-  font-size: 1.8rem;
+  font-size: var(--sec-title-font-size);
   margin-bottom: 30px;
 }
 
 .about-services-container-section-item p {
   font-family: var(--paragraph-font);
-  font-size: 1.2rem;
+  font-size: var(--paragraph-font-size);
 }
 
 .round-circle-blue-dark {

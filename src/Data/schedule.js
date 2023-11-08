@@ -1,5 +1,6 @@
 export const schedule = {
   title: "WORKING HOURS",
+  subTitle:"By appointments only",
   list: [
     {
       day: "Monday",

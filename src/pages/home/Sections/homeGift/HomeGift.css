@@ -5,8 +5,9 @@
 
 .home-gift-section h2 {
   font-family: var(--main-title-font);
-  font-size: 2.2rem;
+  font-size: var(--title-font-size);
   text-align: center;
+  font-weight: bold;
 }
 
 .home-gift-section-image {

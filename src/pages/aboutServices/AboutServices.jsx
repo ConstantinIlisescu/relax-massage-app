@@ -75,7 +75,7 @@ function AboutServices() {
           </div>
         </div>
       </div>
-      <div className="about-services-light-section-background about-services-container-section-item">
+      <div className="about-services-light-section-background about-services-container-section-item padding-bottom-about-services-bottom-section">
         <div className="container about-services-container-section-item-list-long small-container">
           <h3 className="gradient-dark-text">
             {aboutServices.sectionFour.title}

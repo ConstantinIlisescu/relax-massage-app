@@ -12,7 +12,7 @@
 
 .home-services-text-section h2 {
   font-family: var(--main-title-font);
-  font-size: 1.8rem;
+  font-size: var(--title-font-size);
 }
 
 .home-services-subtitle {
@@ -77,18 +77,18 @@
 }
 
 .home-services-list-item h4 {
-  font-size: 1.5rem;
+  font-size: var(--sec-title-font-size);
   font-family: var(--paragraph-title-font);
   color: var(--tale);
-  font-weight: 600;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 .home-services-list-item p {
-  font-size: 1rem;
+  font-size: var(--paragraph-font-size);
   font-family: var(--paragraph-font);
   color: var(--tale);
-  font-weight: 400;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -127,24 +127,11 @@
     align-items: center;
   }
 
-  .home-services-text-section h1 {
-    font-size: 3.3rem;
-  }
-
   .home-services-subtitle {
     margin: 3rem 0;
   }
 
-  .home-services-subtitle h3 {
-    font-size: 1rem;
-  }
-
-  .home-services-list-item h4 {
-    font-size: 1.5rem;
-  }
-
   .home-services-list-item p {
-    font-size: 1.2rem;
     margin-right: 20px;
   }
 

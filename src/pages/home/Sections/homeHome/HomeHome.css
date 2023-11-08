@@ -5,7 +5,7 @@
 h1 span {
   font-family: var(--main-title-font);
   display: block;
-  font-size: 2.2rem;
+  font-size: var(--main-title-font-size);
   font-weight: bolder;
   text-align: center;
 }
@@ -35,7 +35,7 @@ h1 span {
 
 .home-description-title p {
   font-family: var(--paragraph-font);
-  font-size: 1.4rem;
+  font-size: var(--paragraph-font-size);
   color: var(--blue);
   text-align: center;
   margin-top: 50px;
@@ -52,7 +52,7 @@ h1 span {
 
 .home-description p {
   font-family: var(--paragraph-font);
-  font-size: 1.6rem;
+  font-size: var(--main-secondary-title-font-size);
   color: var(--blue);
   padding-top: 2rem;
   text-align: center;
@@ -76,7 +76,7 @@ h1 span {
   margin: 50px auto 20px auto;
   text-align: center;
   font-family: var(--paragraph-font);
-  font-size: 1.4rem;
+  font-size: var(--paragraph-font-size);
   font-weight: bold;
   color: var(--tale);
 }
@@ -111,10 +111,6 @@ h1 span {
 @media screen and (min-width: 700px) {
   .home-contacts {
     justify-content: center;
-  }
-
-  h1 span {
-    font-size: 2rem;
   }
 
   .home-main-image {
