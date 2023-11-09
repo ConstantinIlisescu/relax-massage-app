@@ -109,6 +109,7 @@ contacts-button-container {
 
 .member-off-img-section {
   display: flex;
+  align-items: center;
 }
 .member-off-img-section img {
   width: 100px;
@@ -155,6 +156,10 @@ contacts-button-container {
   font-size: bold;
 }
 
+.about-me-page-container-where-to-find-me-section iframe {
+  margin-bottom: 50px;
+}
+
 .about-me-page-container-where-to-find-me-section .home-contacts-address {
   max-width: 400px;
   margin: 40px auto;
@@ -194,28 +199,28 @@ contacts-button-container {
 
 .member-of-lines-one {
   width: 120px;
-  height: 3px;
-  border-radius: 15%;
+  height: 2px;
+  border-radius: 100%;
 }
 .member-of-lines-two {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   border-radius: 100%;
 }
 .member-of-lines-three {
-  width: 10px;
-  height: 10px;
+  width: 7px;
+  height: 7px;
   border-radius: 100%;
 }
 .member-of-lines-four {
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   border-radius: 100%;
 }
 .member-of-lines-five {
   width: 120px;
-  height: 3px;
-  border-radius: 15%;
+  height: 2px;
+  border-radius: 100%;
 }
 
 @media screen and (min-width: 700px) {

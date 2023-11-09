@@ -1,5 +1,9 @@
 .btn--primary {
-  background-color: var(--lime);
+  background: radial-gradient(
+    circle at 25% 0%,
+    var(--lime) 0%,
+    var(--blue) 100%
+  );
   color: var(--white);
   padding: 1rem;
   font-weight: 700;
@@ -11,7 +15,11 @@
 }
 
 .btn--primary:hover {
-  background-color: var(--dark-lime);
+  background: radial-gradient(
+    circle at 25% 0%,
+    var(--blue) 0%,
+    var(--lime) 100%
+  );
 }
 
 .btn--small--round:hover {
@@ -35,6 +43,7 @@
   cursor: pointer;
   padding: 0.5rem 1rem;
   color: var(--tale);
+  font-family: var(--button-font);
 }
 
 .btn--outline-dark:hover {

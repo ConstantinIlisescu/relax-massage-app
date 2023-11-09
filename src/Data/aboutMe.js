@@ -32,8 +32,7 @@ export const aboutMe = {
   memberSectionText: "Member of ",
   memberSectionList: [
     { memberSectionImage: "fht.png", memberSectionImageDescription: "..." },
-    { memberSectionImage: "fht.png", memberSectionImageDescription: "..." },
-    { memberSectionImage: "fht.png", memberSectionImageDescription: "..." },
+    { memberSectionImage: "chp.jpg", memberSectionImageDescription: "..." },
     //{ memberSectionImage: "", memberSectionImageDescription: "..." },
   ],
 };

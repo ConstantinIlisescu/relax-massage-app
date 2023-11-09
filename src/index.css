@@ -86,11 +86,11 @@
   );
 
   --main-title-font-size: 2.2rem;
-  --main-secondary-title-font-size: 1.6rem;
-  --main-third-title-font-size: 1.6rem;
-  --paragraph-font-size: 1.4rem;
-  --title-font-size: 2rem;
-  --sec-title-font-size: 1.6rem;
+  --main-secondary-title-font-size: 1.4rem;
+  --main-third-title-font-size: 1.4rem;
+  --paragraph-font-size: 1.2rem;
+  --title-font-size: 1.8rem;
+  --sec-title-font-size: 1.4rem;
 
   --gradient-bg-light: radial-gradient(
     circle at 25% 0%,
