@@ -13,15 +13,15 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/relax-massage-app" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="relax-massage-app" element={<Home />} />
-          <Route path="relax-massage-app/services" element={<Services />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
           <Route
-            path="relax-massage-app/about-services"
+            path="/about-services"
             element={<AboutServices />}
           />
-          <Route path="relax-massage-app/about" element={<AboutMe />} />
+          <Route path="/about" element={<AboutMe />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

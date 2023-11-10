@@ -3,6 +3,8 @@
   width: 100vw;
   margin-top: -120px;
   background-color: var(--white);
+  font-family: var(--paragraph-font);
+  text-transform: uppercase;
 }
 
 .navbar-links {
