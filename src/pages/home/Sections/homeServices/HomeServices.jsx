@@ -26,9 +26,9 @@ function HomeServices() {
         <div className="home-services-list">
           {homeServices.list.map((service, index) => {
             return (
-              <>
+              <div key={index}>
                 <div className="home-services-list-object">
-                  <div key={index} className="home-services-list-item">
+                  <div className="home-services-list-item">
                     <div className="text">
                       <h4 className="">{service.title}</h4>
                       <p>{service.description}</p>
@@ -48,7 +48,7 @@ function HomeServices() {
                   <div className="member-of-lines-four"></div>
                   <div className="member-of-lines-five"></div>
                 </div>
-              </>
+              </div>
             );
           })}
         </div>

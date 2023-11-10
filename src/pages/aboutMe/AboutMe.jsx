@@ -18,7 +18,6 @@ function AboutMe() {
   return (
     <section id="about-me" className="about-me-page-container">
       <div className="container">
-        {" "}
         <div className="about-me-page-container-about-me-section">
           <div className="about-me-page-container-about-me-section-img-container">
             <div>

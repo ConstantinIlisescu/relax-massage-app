@@ -10,6 +10,7 @@ const STYLES = [
   "btn--xl--round",
   "btn--small--back",
   "btn-small-round-up",
+  "btn--outline-dark-small",
 ];
 
 function Button({

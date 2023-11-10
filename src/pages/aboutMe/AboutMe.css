@@ -7,12 +7,12 @@
   margin: 15px;
 }
 
-contacts-button-container {
-  margin-top: 50px;
+.contacts-button-container {
+  margin: 30px 0;
 }
 
 .home-contacts-button.section-top {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .about-me-page-container img {
@@ -53,6 +53,7 @@ contacts-button-container {
   justify-content: left;
   color: var(--blue);
   font-size: var(--paragraph-font-size);
+  font-family: var(--paragraph-font);
 }
 
 .home-contacts-phone svg,
@@ -142,6 +143,12 @@ contacts-button-container {
   padding-bottom: 15px;
 }
 
+.about-me-page-container-contact-me-section-contacts {
+  margin: auto;
+  max-width: 235px;
+  gap: 20px;
+}
+
 .about-me-page-container-contact-me-section h3 {
   width: 100%;
   margin-bottom: 50px;
@@ -187,7 +194,6 @@ contacts-button-container {
   align-items: center;
 }
 .payment-section {
-  margin-top: 30px;
   color: var(--tale);
   font-family: var(--paragraph-font);
   font-size: 1rem;
@@ -245,6 +251,7 @@ contacts-button-container {
   }
 
   .about-me-page-container-contact-me-section-contacts {
+    max-width: 400px;
     display: flex;
     gap: 20px;
   }
@@ -297,7 +304,7 @@ contacts-button-container {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 50px;
+    margin: 50px 0;
   }
 
   .about-me-page-container-about-me-section-img2-container-reverse img {

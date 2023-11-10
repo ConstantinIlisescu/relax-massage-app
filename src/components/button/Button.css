@@ -41,12 +41,53 @@
   border: 1px solid var(--tale);
   border-radius: 50px;
   cursor: pointer;
-  padding: 0.5rem 1rem;
+  padding: 4px 4px 4px 18px;
   color: var(--tale);
   font-family: var(--button-font);
 }
 
-.btn--outline-dark:hover {
+.btn--outline-dark a {
+  line-height: 40px;
+  vertical-align: top;
+}
+
+.btn--outline-dark .round-arrow svg {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  vertical-align: top;
+  margin-left: 5px;
+  border: 1px solid;
+  border-radius: 100%;
+}
+
+.btn--outline-dark-small {
+  border: 1px solid var(--tale);
+  font-size: var(--button-small-font-size);
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 3px 3px 3px 12px;
+  color: var(--tale);
+  font-family: var(--button-font);
+}
+
+.btn--outline-dark-small a {
+  line-height: 19px;
+  vertical-align: top;
+}
+
+.btn--outline-dark-small .round-arrow svg {
+  width: 19px;
+  height: 19px;
+  padding: 1px;
+  vertical-align: top;
+  margin-left: 5px;
+  border: 1px solid;
+  border-radius: 100%;
+}
+
+.btn--outline-dark:hover,
+.btn--outline-dark-small:hover {
   background: var(--gradient-bg-dark);
   color: var(--white);
 }

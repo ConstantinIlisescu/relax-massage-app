@@ -76,6 +76,7 @@
 }
 
 .home-offers-section-group-offer-group {
+  font-family: var(--paragraph-font);
   width: 100%;
   max-width: 650px;
   margin: 0 auto;

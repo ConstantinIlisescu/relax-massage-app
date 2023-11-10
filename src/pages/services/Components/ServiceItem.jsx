@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./ServiceItem.css";
 import Button from "../../../components/button/Button";
-import { IoOpenOutline } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 import { bookingButton } from "../../../Data/bookingButton";
 
 function ServiceItem({
@@ -56,9 +56,17 @@ function ServiceItem({
           >
             {bookNowButtonText}
           </Button>
-          <span onClick={handleOpenOverlay} className="learn-more">
-            {learnMoreButtonText}
-            <IoOpenOutline />
+          <span className="learn-more">
+            <Button
+              buttonStyle="btn--outline-dark-small"
+              onClick={handleOpenOverlay}
+              isVisible={true}
+            >
+              {learnMoreButtonText}
+              <span className="round-arrow">
+                <IoIosArrowForward />
+              </span>
+            </Button>
           </span>
         </div>
       </div>

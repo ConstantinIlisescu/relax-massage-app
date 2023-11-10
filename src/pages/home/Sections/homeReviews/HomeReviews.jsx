@@ -3,6 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import Button from "../../../../components/button/Button";
 import "./HomeReviews.css";
 import { homeReviews } from "../../../../Data/home/homeReviews";
+import { IoIosArrowForward } from "react-icons/io";
 
 function HomeReviews() {
   return (
@@ -37,6 +38,9 @@ function HomeReviews() {
             toTarget="_blank"
           >
             {homeReviews.buttonText}
+            <span className="round-arrow">
+              <IoIosArrowForward />
+            </span>
           </Button>
         </span>
       </div>

@@ -91,6 +91,7 @@
   --paragraph-font-size: 1.2rem;
   --title-font-size: 1.8rem;
   --sec-title-font-size: 1.4rem;
+  --button-small-font-size: 0.7rem;
 
   --gradient-bg-light: radial-gradient(
     circle at 25% 0%,

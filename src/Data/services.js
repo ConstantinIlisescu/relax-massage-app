@@ -1,6 +1,6 @@
 export const services = {
   servicesPageMainTitle: "TREATMENT MENU",
-  servicesPageLearnMoreButtonText: "Learn More",
+  servicesPageLearnMoreButtonText: "READ MORE",
   servicesPageButtonText: "BOOK NOW",
   items: [
     {
