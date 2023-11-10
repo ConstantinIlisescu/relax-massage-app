@@ -5,7 +5,7 @@ import { services } from "../../Data/services";
 
 function Services() {
   return (
-    <>
+    <div>
       <div className="services-moving-background">
         <div class="blob-c">
           <div class="shape-blob"></div>
@@ -22,7 +22,7 @@ function Services() {
           <div class="shape-blob eleven"></div>
           <div class="shape-blob twelve"></div>
         </div>
-        <div className="services-service-item-container">
+        <div id="services" className="services-service-item-container">
           <h2 className="services-service-item-container-main-title">
             {services.servicesPageMainTitle}
           </h2>
@@ -30,7 +30,6 @@ function Services() {
             return (
               <ServiceItem
                 key={index}
-                id={item.serviceId}
                 mainTitle={item.serviceTitle}
                 priceText={item.servicePriceText}
                 price={item.servicePrice}
@@ -53,7 +52,7 @@ function Services() {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

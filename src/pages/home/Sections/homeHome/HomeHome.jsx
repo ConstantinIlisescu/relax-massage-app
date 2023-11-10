@@ -2,7 +2,6 @@ import React from "react";
 import "./HomeHome.css";
 import Button from "../../../../components/button/Button";
 import { homeHome } from "../../../../Data/home/homeHome";
-import { bookingButton } from "../../../../Data/bookingButton";
 
 function HomeHome() {
   return (
@@ -35,8 +34,7 @@ function HomeHome() {
               <div className="home-contacts-button">
                 <Button
                   buttonStyle=""
-                  linkTo={bookingButton.link}
-                  toTarget="_blank"
+                  linkTo="/services#services"
                   isVisible={true}
                 >
                   {homeHome.mainBookAppointmentButton}
