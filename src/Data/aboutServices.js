@@ -4,7 +4,7 @@ export const aboutServices = {
     subtitle: "IT'S ABOUT YOUR WELLBEING",
     paragraph:
       "There are many benefits to receiving a massage, including improved circulation, increased relaxation, and a boost to the immune system. Massage can also help to improve sleep, reduce anxiety and depression, and increase flexibility and range of motion. When you are looking to relax and unwind a massage can be a powerful tool for overall well-being",
-    image: "PHOTO-2023-11-05-23-55-14.jpg",
+    image: "PHOTO-2023-11-05-23-55-12.jpg",
     imageDescription: "...",
   },
   sectionTwo: [

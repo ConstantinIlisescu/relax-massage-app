@@ -73,7 +73,7 @@ button {
 
 .clip-path-polygon-top {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%, 0 10%);
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%, 0 10%);
+  clip-path: polygon(100% 0, 100% 0, 140% 90%, 0 100%, 0 10%);
 }
 
 .container {

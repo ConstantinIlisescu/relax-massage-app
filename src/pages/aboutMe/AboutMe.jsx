@@ -188,6 +188,7 @@ function AboutMe() {
             <BiMap />
           </a>
           <a href={contactInfo.address} target="_blank" rel="noreferrer">
+            {contactInfo.addressName} <br />
             {contactInfo.addressDisplay} <br />
             {contactInfo.addressDisplayPostcode}
           </a>
