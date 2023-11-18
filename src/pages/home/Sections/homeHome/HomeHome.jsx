@@ -2,6 +2,7 @@ import React from "react";
 import "./HomeHome.css";
 import Button from "../../../../components/button/Button";
 import { homeHome } from "../../../../Data/home/homeHome";
+import { HashLink } from "react-router-hash-link";
 
 function HomeHome() {
   return (
@@ -32,12 +33,10 @@ function HomeHome() {
                 <p>{homeHome.mainSubtitleParagraph}</p>
               </div>
               <div className="home-contacts-button">
-                <Button
-                  buttonStyle=""
-                  linkTo="/services#services"
-                  isVisible={true}
-                >
-                  {homeHome.mainBookAppointmentButton}
+                <Button buttonStyle="" linkTo="/services#" isVisible={true}>
+                  <HashLink to="/services#" className="">
+                    {homeHome.mainBookAppointmentButton}
+                  </HashLink>
                 </Button>
               </div>
             </div>

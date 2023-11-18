@@ -1,36 +1,24 @@
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import Button from "../../components/button/Button";
-import { BiMenuAltRight, BiCaretDown, BiCaretUp } from "react-icons/bi";
+import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
 import "./Navbar.css";
 import { navBar } from "../../Data/navBar";
 import { bookingButton } from "../../Data/bookingButton";
-import { services } from "../../Data/services";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [isActive, setIsActive] = useState(false);
-  const [toggleServiceMenu, setToggleServiceMenu] = useState(false);
   const TRUE = true;
 
   function handleClickCloseMenu() {
     setToggleMenu(false);
-    setToggleServiceMenu(false);
   }
 
   function handleClickOpenMenu() {
     setToggleMenu(true);
     setIsActive(true);
-  }
-
-  function handleServiceMenu() {
-    setToggleServiceMenu((prev) => !prev);
-  }
-
-  function handleClickCloseServiceMenu() {
-    setToggleServiceMenu(false);
-    setToggleMenu(false);
   }
 
   const Menu = () => (
@@ -45,30 +33,6 @@ function Navbar() {
           {navBar.servicesList}
         </HashLink>
       </li>
-      {/* <li className="item">
-        <HashLink className="item-services" onClick={handleServiceMenu}>
-          <span>{navBar.servicesList}</span>
-          <span>{toggleServiceMenu ? <BiCaretUp /> : <BiCaretDown />}</span>
-        </HashLink>
-        {toggleServiceMenu && (
-          <ul className="item-services-menu scale-up-ver-top">
-            <div>
-              {services.items.map((service, index) => {
-                return (
-                  <HashLink
-                    id={index}
-                    className="service-item"
-                    onClick={handleClickCloseServiceMenu}
-                    to="/services#"
-                  >
-                    {service.serviceTitle}
-                  </HashLink>
-                );
-              })}
-            </div>
-          </ul>
-        )}
-      </li> */}
       <li className="item" onClick={handleClickCloseMenu}>
         <HashLink to="/about-services#" className="">
           {navBar.aboutMyServices}
@@ -102,11 +66,7 @@ function Navbar() {
     <>
       <nav className="navbar slide-bottom z-index-2">
         <div className="navbar-links container">
-          <HashLink
-            className=""
-            to="/#home"
-            onClick={handleClickCloseMenu}
-          >
+          <HashLink className="" to="/#home" onClick={handleClickCloseMenu}>
             <img
               className="navbar-links-logo"
               src={require(`../../images/${navBar.logo}`)}

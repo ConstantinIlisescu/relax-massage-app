@@ -9,7 +9,7 @@ function NoPage() {
     <section id="error-page">
       <div>
         <h2 className="gradient-dark-text">
-          Oops! We can't seem to find the page that you are looking for
+          Oops! We can't find the page that you are looking for
         </h2>
         <p>
           Please use the top menu to navigate to an existing page and hope to

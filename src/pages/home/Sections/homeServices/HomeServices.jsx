@@ -1,7 +1,5 @@
 import React from "react";
-import { HashLink } from "react-router-hash-link";
 import "./HomeServices.css";
-import { AiOutlineArrowRight } from "react-icons/ai";
 import Button from "../../../../components/button/Button";
 import { services } from "../../../../Data/services";
 import { homeServices } from "../../../../Data/home/homeServices";
